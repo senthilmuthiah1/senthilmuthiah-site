@@ -2,7 +2,7 @@
 backend:
   name: github
   repo: senthilmuthiah1/senthilmuthiah-site
-  branch: main
+  branch: master
   base_url: https://senthilmuthiah.com              # login helper lives on your own site
   auth_endpoint: api/auth
 
