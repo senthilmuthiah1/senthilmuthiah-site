@@ -1,0 +1,56 @@
+---
+import '../styles/global.css';
+import { SITE } from '../site.config.js';
+
+const { title = SITE.title, description = SITE.description, image } = Astro.props;
+const path = Astro.url.pathname;
+const canonical = new URL(path, Astro.site);
+const isBlog = path.startsWith('/blog') || path.startsWith('/tags');
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate" type="application/rss+xml" title={`${SITE.name} — Blog`} href="/rss.xml" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">{SITE.name}</a>
+      <nav class="nav" aria-label="Main">
+        <a href="/#about">About</a>
+        <a href="/#services">Services</a>
+        <a href="/recommendations/" aria-current={path.startsWith('/recommendations') ? 'page' : undefined}>Recommendations</a>
+        <a href="/blog/" aria-current={isBlog ? 'page' : undefined}>Blog</a>
+        <a class="nav-cta" href="/#contact">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <slot />
+  </main>
+  <slot name="footer">
+    <footer class="contact">
+      <div class="wrap" style="padding-block: 40px;">
+        <div class="footer-line" style="margin-top: 0; border-top: 0; padding-top: 0;">
+          <span>© {new Date().getFullYear()} {SITE.name} · {SITE.location}</span>
+          <span><a href="/blog/">Blog</a> · <a href="/rss.xml">RSS</a> · <a href={SITE.linkedin}>LinkedIn</a> · <a href={SITE.youtube}>YouTube</a></span>
+        </div>
+      </div>
+    </footer>
+  </slot>
+</body>
+</html>

@@ -1,0 +1,172 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '../site.config.js';
+import { getPublishedPosts, formatDate } from '../lib/posts.js';
+import { testimonials } from '../data/testimonials.js';
+const featured = testimonials.filter((t) => t.featured);
+
+const latest = (await getPublishedPosts()).slice(0, 2);
+
+const systems = [
+  { code: 'EMR', name: 'Electronic medical records', text: 'Patient encounters, HPI, ROS and exam templates, medications and e-prescribing.' },
+  { code: 'PMS', name: 'Practice management', text: 'Scheduling, registration, charges and front-office workflow.' },
+  { code: 'LIS', name: 'Laboratory systems', text: 'Lab orders and results, with HL7 interfaces to labs such as Quest and LabCorp.' },
+  { code: 'RCM', name: 'Billing & revenue cycle', text: 'Charges, claims, payments, eligibility and clearinghouse EDI.' },
+];
+
+const career = [
+  { when: '2013 – now', role: 'Independent consultant and product developer', where: 'EMR, PMS, LIS and RCM projects; building eClaimPilot' },
+  { when: '2010 – 2013', role: 'Senior Business Analyst / Product Owner', where: 'e-Cosmos Solutions, Bengaluru — EDI 5010, Meaningful Use Stage 1, a full practice management system' },
+  { when: '2005 – 2010', role: 'Senior Programmer to Chief Technical Officer', where: 'Koni Ameri Tech Services, Chennai — MedAZ Billing Tool, HL7 lab interfaces, CCHIT and Surescripts certification' },
+  { when: '1996 – 2004', role: 'Programmer and faculty', where: 'Software development and teaching before moving into US healthcare' },
+];
+
+const services = [
+  { name: 'X12 EDI training', text: 'Practical training on healthcare EDI transactions for your team, to support the work they are doing now.' },
+  { name: 'Add billing to your EMR', text: 'Already have an EMR? I help your team design and build an integrated billing module, both functionally and technically.' },
+  { name: 'EDI support for your in-house team', text: 'I work alongside your developers to enable the EDI transactions you need: 837, 835, 270/271, 276/277 and 278.' },
+  { name: 'EDI REST API source code', text: 'Spring Boot REST APIs that convert JSON to X12 and back: 270 eligibility, 837P claims, 837P and 835 parsing. Delivered as source code.', link: { href: 'https://emrpms.blogspot.com/2020/04/edi-restful-web-service-api.html', label: 'See the API examples' } },
+  { name: 'Billing automation for RCM companies', text: 'Software that takes routine billing and follow-up work off your team, designed with five years of experience as an RCM manager.' },
+  { name: 'Build an EMR, PMS or billing system', text: 'Subject-matter expert from first design to go-live: database design (MySQL or SQL Server), UI ideas, Spring Boot APIs, reporting and dashboards.' },
+];
+---
+<BaseLayout>
+  <div class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <p class="kicker">Healthcare software developer · {SITE.location}</p>
+        <h1 id="hero-title" class="display">Healthcare software, built carefully and explained openly.</h1>
+        <p class="lede">I'm a Java developer and consultant building EMR, PMS, LIS and revenue cycle systems for US healthcare.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#contact">Work with me</a>
+          <a class="btn btn-text" href="/blog/">Read the blog</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        {SITE.photo
+          ? <img src={SITE.photo} alt={`Portrait of ${SITE.name}`} width="720" height="900" />
+          : <span>Your photo</span>}
+      </div>
+    </section>
+
+    <section aria-label="Key facts">
+      <div class="facts">
+        <div class="fact"><strong>{SITE.years}+</strong><span>years in US healthcare IT</span></div>
+        <div class="fact"><strong>EMR, PMS, LIS</strong><span>and billing / RCM</span></div>
+        <div class="fact"><strong>eClaimPilot</strong><span>my RCM platform</span></div>
+        <div class="fact"><strong>Since 1996</strong><span>writing software</span></div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="systems-title">
+      <div class="section-head">
+        <h2 id="systems-title" class="h2">The systems I build</h2>
+      </div>
+      <div class="systems">
+        {systems.map((s) => (
+          <div class="system">
+            <div class="system-code">{s.code}</div>
+            <h3>{s.name}</h3>
+            <p>{s.text}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section id="about" class="section about" aria-labelledby="about-title" style="padding-top: 0;">
+      <div class="about-bio">
+        <h2 id="about-title" class="h2">About me</h2>
+        <p>I started writing software in 1996 and moved into US healthcare in 2005. Since then I've worked on both sides of the product: gathering requirements with billing teams and clinicians, and writing the Java code that runs it. I also spent five years as an RCM manager, so I know the billing work from the inside.</p>
+        <p>I've built practice management and billing systems, EMR modules, HL7 lab interfaces and EDI transactions, and helped products through CCHIT, Meaningful Use and Surescripts certification. I write about all of it on my blog.</p>
+        <p>I was also recognised by the ZK framework team as a community contributor.</p>
+      </div>
+      <div class="about-career">
+        <h3>Career</h3>
+        <ol class="timeline">
+          {career.map((c) => (
+            <li>
+              <span class="when">{c.when}</span>
+              <span class="what"><strong>{c.role}</strong><span>{c.where}</span></span>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  </div>
+
+  <section id="services" class="band" aria-labelledby="services-title">
+    <div class="wrap section services">
+      <div class="services-intro">
+        <h2 id="services-title" class="h2">How I can help</h2>
+        <p>I work with healthcare software companies, RCM billing companies and in-house development teams, on the functional side and the technical side.</p>
+        <p>You can also use eClaimPilot, my own RCM platform.</p>
+        <div class="actions" style="padding-top: 8px;"><a class="btn btn-primary" href={`mailto:${SITE.email}?subject=${encodeURIComponent('Project enquiry')}`}>Discuss your project</a></div>
+      </div>
+      <ul class="services-list">
+        {services.map((s) => (
+          <li><h3>{s.name}</h3><p>{s.text}</p>{s.link && <a class="service-link" href={s.link.href}>{s.link.label}</a>}</li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  {featured.length > 0 && (
+    <section class="wrap section" aria-labelledby="feedback-title">
+      <div class="section-head">
+        <h2 id="feedback-title" class="h2">What clients say</h2>
+        <a href="/recommendations/" style="font-weight: 700; color: var(--accent);">Read all {testimonials.length} recommendations</a>
+      </div>
+      <div class="quotes">
+        {featured.map((t) => (
+          <figure class="quote">
+            <blockquote>“{t.quote}”</blockquote>
+            <figcaption>
+              <strong>{t.name}</strong>
+              <span>{t.role}</span>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="wrap section" aria-labelledby="blog-title">
+    <div class="section-head">
+      <h2 id="blog-title" class="h2">From the blog</h2>
+      <a href="/blog/" style="font-weight: 700; color: var(--accent);">All posts</a>
+    </div>
+    <div class="cards">
+      {latest.map((post) => (
+        <a class="card" href={`/blog/${post.id}/`}>
+          <div class="card-media">
+            {post.data.cover ? <img src={post.data.cover} alt="" loading="lazy" /> : <span>{post.data.tags[0] ?? 'Blog'}</span>}
+          </div>
+          <div class="card-meta">{formatDate(post.data.date)}</div>
+          <div class="card-title">{post.data.title}</div>
+        </a>
+      ))}
+      <a class="card" href={SITE.youtube}>
+        <div class="card-media dark">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M10 8.5v7l6-3.5z"></path></svg>
+        </div>
+        <div class="card-meta">YouTube</div>
+        <div class="card-title">Video walkthroughs on healthcare software</div>
+      </a>
+    </div>
+  </section>
+
+  <footer id="contact" slot="footer" class="contact">
+    <div class="wrap">
+      <h2 class="display">Let's talk about your healthcare software.</h2>
+      <div class="actions">
+        <a class="btn btn-light" href={`mailto:${SITE.email}`}>{SITE.email}</a>
+        <a class="btn btn-outline" href={SITE.linkedin}>LinkedIn</a>
+        <a class="btn btn-outline" href={SITE.youtube}>YouTube</a>
+      </div>
+      <div class="footer-line">
+        <span>© {new Date().getFullYear()} {SITE.name} · {SITE.location}</span>
+        <span><a href="/blog/">Blog</a> · <a href={SITE.oldBlog}>Blog archive</a> · <a href="/rss.xml">RSS</a></span>
+      </div>
+    </div>
+  </footer>
+</BaseLayout>
