@@ -9,7 +9,7 @@ export async function onRequestGet({ request, env }) {
   const params = new URLSearchParams({
     client_id: env.GITHUB_CLIENT_ID,
     redirect_uri: `${url.origin}/api/callback`,
-    scope: 'repo,user',
+    scope: 'repo user',
     state,
   });
   return new Response(null, {
