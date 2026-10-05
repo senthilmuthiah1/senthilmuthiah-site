@@ -13,7 +13,7 @@ New posts will live here, next to the rest of my work.
 
 ## What I'll write about
 
-* **EMR** — clinical records, charting and documentations
+* **EMR** — clinical records, charting and documentationsssssss
 * **PMS** — scheduling, registration and front-office workflow
 * **LIS** — lab orders, results and reporting
 * **Billing and RCM** — claims, payments, eligibility and EDI
