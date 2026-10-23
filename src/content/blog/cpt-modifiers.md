@@ -127,6 +127,8 @@ A code can have **more than one modifier**. The claim form has room for up to **
 - **Left and right mixed up.** The claim says left knee; the notes say right knee. Denied.
 - **Modifiers that conflict.** RT and LT on the same line, or 26 and TC together.
 
+> **How software helps:** missing or conflicting modifiers are exactly the kind of mistake software can catch before a claim is sent, through **claim scrubbing**. [eClaimPilot](https://eclaimpilot.com/features) checks claims before submission, so fewer come back denied.
+
 ## The one thing to remember
 
 **A modifier adds a detail, not a new service.** Use one only when it's true, and when the doctor's notes clearly show why.
@@ -149,6 +151,6 @@ A code can have **more than one modifier**. The claim form has room for up to **
 
 - **Previous:** [ICD-10, CPT and HCPCS](/blog/icd-10-cpt-hcpcs-codes/)
 - **Start of the series:** [US Health Insurance Basics](/blog/health-insurance-basics/)
-- Coming next: prior authorization and referrals
+- **Next:** [Prior Authorization, Referrals and Pre-Certification](/blog/prior-authorization-and-referrals/)
 
 *Modifier rules are one of the biggest sources of denials — and one of the best places for billing software to help. Need claim checks built into your system, or training for your team? [Get in touch](/#contact).*

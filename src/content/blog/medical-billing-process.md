@@ -104,6 +104,8 @@ Sometimes the insurance company says **no**. This is called a **denial**. Common
 
 The billing staff find out why, fix the problem, and send a **corrected claim** — or, if they believe the insurer is wrong, they **appeal**. That's the dotted line at the bottom of the diagram, going back to Step 3.
 
+> **How software helps:** every step in this diagram — eligibility checks, claims, payment posting and denial follow-up — can be handled in one billing system instead of separate spreadsheets and websites. My own product, [eClaimPilot](https://eclaimpilot.com/features), is built around exactly this workflow.
+
 ## The one thing to remember
 
 **Most billing problems start at Step 1.** A wrong insurance card or expired coverage, caught at the front desk, takes two minutes to fix. Caught weeks later as a denial, it can take hours of phone calls — or the money is never collected at all.

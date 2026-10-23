@@ -130,6 +130,8 @@ Calls to insurance companies follow a pattern. Here's a simple example:
 
 If the insurance is **not active**, tell the patient before the visit. They can bring new insurance details, reschedule, or agree to pay themselves (**self-pay**).
 
+> **How software helps:** instead of checking patients one by one, billing software can check eligibility for a whole day's appointments in one go, the evening before. [eClaimPilot](https://eclaimpilot.com/features) includes batch eligibility checks for this.
+
 ## The one thing to remember
 
 **Check before the visit, every visit.** Most unpaid claims can be traced back to a question nobody asked at the front desk.
