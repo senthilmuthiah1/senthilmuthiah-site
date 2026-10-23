@@ -6,7 +6,7 @@ tags: [Billing, RCM, EDI]
 draft: false
 ---
 
-*First published on my old blog in March 2013. Rewritten for beginners — no healthcare background needed. New to insurance words? Start with [US Health Insurance Basics](/blog/health-insurance-basics/).*
+*First published on my old blog in March 2013. Rewritten for beginners — no healthcare background needed. New to insurance words? Start with [US Health Insurance Basics](/blog/health-insurance-basics/) and [A Patient's Visit, Step by Step](/blog/patient-visit-step-by-step/).*
 
 ## The simple idea
 
@@ -129,6 +129,6 @@ That's why good billing software checks the insurance automatically, before the 
 
 - [CMS-1500 vs UB-04](/blog/cms-1500-vs-ub-04/) — the two claim forms explained
 - [Types of US health insurance](/blog/types-of-health-insurance/) — HMO, PPO, Medicare, Medicaid and more
-- **Previous:** [US Health Insurance Basics](/blog/health-insurance-basics/)
+- **Previous:** [A Patient's Visit, Step by Step](/blog/patient-visit-step-by-step/)
 
 *New to US healthcare and want to learn medical billing or EDI properly? Or building billing into your own software? [Get in touch](/#contact) — I offer beginner-friendly training and consulting.*

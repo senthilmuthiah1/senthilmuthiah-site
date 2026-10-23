@@ -10,7 +10,7 @@ draft: false
 
 If you're new to US healthcare — maybe you're joining a billing company, or building software for one — the first thing to understand isn't billing. It's **insurance**. Almost every billing step depends on what the patient's insurance will pay, and what the patient must pay themselves.
 
-This post covers the basic words. Once you know them, the [medical billing process](/blog/medical-billing-process/) will make much more sense.
+This post covers the basic words. Once you know them, the [patient visit](/blog/patient-visit-step-by-step/) and the [medical billing process](/blog/medical-billing-process/) will make much more sense.
 
 ## What is health insurance?
 
@@ -96,7 +96,8 @@ The card may also show the plan type (HMO, PPO and so on), the effective date, a
 
 ## Next in this series
 
-- **Next:** [What Is the Medical Billing Process?](/blog/medical-billing-process/) — the six steps from check-in to payment
+- **Next:** [A Patient's Visit, Step by Step](/blog/patient-visit-step-by-step/) — from booking to payment
+- Then: [What Is the Medical Billing Process?](/blog/medical-billing-process/) — the six billing steps
 - Then: [CMS-1500 vs UB-04](/blog/cms-1500-vs-ub-04/) — the two claim forms
 - Then: [Types of US health insurance](/blog/types-of-health-insurance/) — HMO, PPO, Medicare, Medicaid and more
 

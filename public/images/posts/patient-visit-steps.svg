@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 456" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">A patient visit, step by step</title>
+<desc id="d">Eight steps: book the appointment, check in, exam room, see the doctor, orders, chart notes, check out, and claim and payment. Each step shows who does it: front desk, medical assistant, doctor or billing team.</desc>
+<rect width="720" height="456" fill="#FFFFFF"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9AA8B6"/></marker></defs>
+<line x1="162" y1="100.0" x2="186" y2="100.0" stroke="#9AA8B6" stroke-width="2" marker-end="url(#a)"/>
+<line x1="342" y1="100.0" x2="366" y2="100.0" stroke="#9AA8B6" stroke-width="2" marker-end="url(#a)"/>
+<line x1="522" y1="100.0" x2="546" y2="100.0" stroke="#9AA8B6" stroke-width="2" marker-end="url(#a)"/>
+<line x1="625.0" y1="182" x2="625.0" y2="246" stroke="#9AA8B6" stroke-width="2" marker-end="url(#a)"/>
+<line x1="548" y1="330.0" x2="524" y2="330.0" stroke="#9AA8B6" stroke-width="2" marker-end="url(#a)"/>
+<line x1="368" y1="330.0" x2="344" y2="330.0" stroke="#9AA8B6" stroke-width="2" marker-end="url(#a)"/>
+<line x1="188" y1="330.0" x2="164" y2="330.0" stroke="#9AA8B6" stroke-width="2" marker-end="url(#a)"/>
+<rect x="10" y="20" width="150" height="160" rx="12" fill="#F5F7FA" stroke="#1F5FBF" stroke-width="1.5"/>
+<circle cx="32" cy="44" r="13" fill="#1F5FBF"/><text x="32" y="49" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">1</text>
+<text x="22" y="84" font-size="15" font-weight="700" fill="#12202E">Book a visit</text>
+<text x="22" y="106" font-size="12.5" fill="#4A5B6B">Name, phone, reason</text>
+<text x="22" y="124" font-size="12.5" fill="#4A5B6B">for the visit</text>
+<rect x="22" y="150" width="126" height="20" rx="10" fill="#1F5FBF"/>
+<text x="85.0" y="164" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Front desk</text>
+<rect x="190" y="20" width="150" height="160" rx="12" fill="#F5F7FA" stroke="#1F5FBF" stroke-width="1.5"/>
+<circle cx="212" cy="44" r="13" fill="#1F5FBF"/><text x="212" y="49" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">2</text>
+<text x="202" y="84" font-size="15" font-weight="700" fill="#12202E">Check in</text>
+<text x="202" y="106" font-size="12.5" fill="#4A5B6B">Insurance card,</text>
+<text x="202" y="124" font-size="12.5" fill="#4A5B6B">eligibility check,</text>
+<text x="202" y="142" font-size="12.5" fill="#4A5B6B">copay</text>
+<rect x="202" y="150" width="126" height="20" rx="10" fill="#1F5FBF"/>
+<text x="265.0" y="164" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Front desk</text>
+<rect x="370" y="20" width="150" height="160" rx="12" fill="#F5F7FA" stroke="#2E7D4F" stroke-width="1.5"/>
+<circle cx="392" cy="44" r="13" fill="#2E7D4F"/><text x="392" y="49" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">3</text>
+<text x="382" y="84" font-size="15" font-weight="700" fill="#12202E">Exam room</text>
+<text x="382" y="106" font-size="12.5" fill="#4A5B6B">Vitals, allergies,</text>
+<text x="382" y="124" font-size="12.5" fill="#4A5B6B">current medicines</text>
+<rect x="382" y="150" width="126" height="20" rx="10" fill="#2E7D4F"/>
+<text x="445.0" y="164" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Medical assistant</text>
+<rect x="550" y="20" width="150" height="160" rx="12" fill="#F5F7FA" stroke="#5B47A8" stroke-width="1.5"/>
+<circle cx="572" cy="44" r="13" fill="#5B47A8"/><text x="572" y="49" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">4</text>
+<text x="562" y="84" font-size="15" font-weight="700" fill="#12202E">See the doctor</text>
+<text x="562" y="106" font-size="12.5" fill="#4A5B6B">History, examination,</text>
+<text x="562" y="124" font-size="12.5" fill="#4A5B6B">diagnosis</text>
+<rect x="562" y="150" width="126" height="20" rx="10" fill="#5B47A8"/>
+<text x="625.0" y="164" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Doctor</text>
+<rect x="550" y="250" width="150" height="160" rx="12" fill="#F5F7FA" stroke="#5B47A8" stroke-width="1.5"/>
+<circle cx="572" cy="274" r="13" fill="#5B47A8"/><text x="572" y="279" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">5</text>
+<text x="562" y="314" font-size="15" font-weight="700" fill="#12202E">Orders</text>
+<text x="562" y="336" font-size="12.5" fill="#4A5B6B">Lab tests, X-rays,</text>
+<text x="562" y="354" font-size="12.5" fill="#4A5B6B">prescriptions</text>
+<rect x="562" y="380" width="126" height="20" rx="10" fill="#5B47A8"/>
+<text x="625.0" y="394" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Doctor</text>
+<rect x="370" y="250" width="150" height="160" rx="12" fill="#F5F7FA" stroke="#5B47A8" stroke-width="1.5"/>
+<circle cx="392" cy="274" r="13" fill="#5B47A8"/><text x="392" y="279" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">6</text>
+<text x="382" y="314" font-size="15" font-weight="700" fill="#12202E">Chart notes</text>
+<text x="382" y="336" font-size="12.5" fill="#4A5B6B">Visit recorded; codes</text>
+<text x="382" y="354" font-size="12.5" fill="#4A5B6B">chosen</text>
+<rect x="382" y="380" width="126" height="20" rx="10" fill="#5B47A8"/>
+<text x="445.0" y="394" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Doctor</text>
+<rect x="190" y="250" width="150" height="160" rx="12" fill="#F5F7FA" stroke="#1F5FBF" stroke-width="1.5"/>
+<circle cx="212" cy="274" r="13" fill="#1F5FBF"/><text x="212" y="279" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">7</text>
+<text x="202" y="314" font-size="15" font-weight="700" fill="#12202E">Check out</text>
+<text x="202" y="336" font-size="12.5" fill="#4A5B6B">Collect payment, book</text>
+<text x="202" y="354" font-size="12.5" fill="#4A5B6B">follow-up</text>
+<rect x="202" y="380" width="126" height="20" rx="10" fill="#1F5FBF"/>
+<text x="265.0" y="394" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Front desk</text>
+<rect x="10" y="250" width="150" height="160" rx="12" fill="#F5F7FA" stroke="#B4462E" stroke-width="1.5"/>
+<circle cx="32" cy="274" r="13" fill="#B4462E"/><text x="32" y="279" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">8</text>
+<text x="22" y="314" font-size="15" font-weight="700" fill="#12202E">Claim &amp; payment</text>
+<text x="22" y="336" font-size="12.5" fill="#4A5B6B">Claim sent, payment</text>
+<text x="22" y="354" font-size="12.5" fill="#4A5B6B">posted</text>
+<rect x="22" y="380" width="126" height="20" rx="10" fill="#B4462E"/>
+<text x="85.0" y="394" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Billing team</text>
+<text x="360.0" y="432" text-anchor="middle" font-size="12.5" fill="#4A5B6B">Steps 1, 2 and 7 use the practice management system (PMS); steps 3–6 the electronic health record (EHR).</text>
+</svg>
