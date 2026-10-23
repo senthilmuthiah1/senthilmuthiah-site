@@ -3,7 +3,7 @@ title: "What Is the Medical Billing Process?"
 date: 2026-10-23
 summary: "The six steps of US medical billing — from the eligibility check to denial management — with the forms and EDI transactions used at each step."
 tags: [Billing, RCM, EDI]
-draft: true
+draft: false
 ---
 
 *First published on my old blog in March 2013, and updated for how billing works today.*
