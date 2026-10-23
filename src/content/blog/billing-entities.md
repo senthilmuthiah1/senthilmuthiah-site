@@ -4,6 +4,19 @@ date: 2026-10-23T16:00:00
 summary: "Rendering provider, referring provider, facility, billing provider — four simple examples that show who is who on a claim, explained for complete beginners."
 tags: [Billing, RCM, EDI]
 draft: false
+faq:
+  - q: "What is a rendering provider?"
+    a: "The rendering provider is the doctor, or other provider such as a lab, who actually performed the service for the patient."
+  - q: "What is a referring provider?"
+    a: "The referring provider is the doctor who sent the patient to another provider, for example a family doctor sending a patient to a specialist. For lab tests, the doctor who ordered the test is also called the ordering provider."
+  - q: "What is a billing provider?"
+    a: "The billing provider is the person or company that receives the payment. It can be the doctor, or the group or company the doctor works for."
+  - q: "Can the rendering provider and the billing provider be different?"
+    a: "Yes. When a doctor works for a group or company, the doctor is the rendering provider and the group or company is the billing provider."
+  - q: "What is a service facility?"
+    a: "The service facility, also called the location or place of service, is where the care was provided, such as a clinic, lab or hospital."
+  - q: "Is a provider always a person?"
+    a: "No. Labs, hospitals, imaging centers and other organizations can also be providers on a claim."
 ---
 
 *First published on my old blog in March 2013. Rewritten for beginners — no healthcare background needed.*
@@ -17,7 +30,7 @@ Every medical claim answers a few simple questions:
 - **Where** did it happen?
 - **Who** should be paid?
 
-In billing, each of these "who" and "where" answers has a name. Together, they're called the **billing entities** (an *entity* just means a person or organisation). Getting them right matters: if the wrong doctor or the wrong clinic is on the claim, the insurance company can refuse to pay.
+In billing, each of these "who" and "where" answers has a name. Together, they're called the **billing entities** (an *entity* just means a person or organization). Getting them right matters: if the wrong doctor or the wrong clinic is on the claim, the insurance company can refuse to pay.
 
 ## The six things on every claim
 

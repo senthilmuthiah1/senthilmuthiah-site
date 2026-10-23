@@ -4,6 +4,19 @@ date: 2026-10-22
 summary: "Why US healthcare uses two different claim forms, who uses which one, and how to tell them apart — explained for complete beginners."
 tags: [Billing, RCM, EDI]
 draft: false
+faq:
+  - q: "What is the CMS-1500 form used for?"
+    a: "The CMS-1500 is the standard claim form for doctors and other healthcare professionals, such as therapists and independent labs, to bill for their own services."
+  - q: "What is the UB-04 form used for?"
+    a: "The UB-04 is the claim form for hospitals and other facilities, such as nursing homes, home health agencies and dialysis centers, to bill for their rooms, staff, equipment and supplies."
+  - q: "Can one hospital stay produce two claims?"
+    a: "Yes. The hospital bills its own costs on a UB-04, and each doctor who treated the patient, such as the surgeon, bills their own work separately on a CMS-1500."
+  - q: "Are paper claim forms still used?"
+    a: "Most claims today are sent electronically. The paper forms are still useful for learning, because each box matches part of the electronic claim, and a few offices and insurers still use paper."
+  - q: "What is the electronic version of the CMS-1500?"
+    a: "The electronic version of the CMS-1500 is the 837P file. The electronic version of the UB-04 is the 837I file."
+  - q: "Which form does a dentist use?"
+    a: "Dentists use neither. They use the ADA dental claim form, and its electronic version is the 837D file."
 ---
 
 *First published on my old blog in March 2013. Rewritten for beginners — no healthcare background needed.*
@@ -65,7 +78,7 @@ The UB-04 is used by **facilities** (also called *institutions*), for example:
 - hospices
 - dialysis centers
 
-It bills for **the facility's costs** — the room, nursing care, operating theatre time, equipment, medicines and supplies.
+It bills for **the facility's costs** — the room, nursing care, operating room time, equipment, medicines and supplies.
 
 A few facts worth knowing:
 

@@ -4,6 +4,19 @@ date: 2026-10-23T18:00:00
 summary: "What medical codes are, why billing can't work without them, and the difference between ICD-10, CPT and HCPCS — with simple examples."
 tags: [Billing, RCM, Coding]
 draft: false
+faq:
+  - q: "What is the difference between ICD-10 and CPT codes?"
+    a: "ICD-10 codes describe what was wrong with the patient, the diagnosis. CPT codes describe what the doctor did, the procedure or service."
+  - q: "What are HCPCS codes used for?"
+    a: "HCPCS codes cover things that are not a doctor's service, such as ambulance rides, medical equipment like crutches and wheelchairs, and injected medicines."
+  - q: "How many ICD-10 codes are there?"
+    a: "There are more than 70,000 ICD-10 diagnosis codes. Coders look them up in software or code books rather than memorizing them."
+  - q: "What is medical necessity?"
+    a: "Medical necessity is the rule that every service on a claim must be justified by a diagnosis. For example, an ankle X-ray makes sense for a sprained ankle, but not for a sore throat."
+  - q: "How often do medical codes change?"
+    a: "ICD-10 diagnosis codes are updated every year on 1 October, and CPT codes every year on 1 January. Using a deleted code can get a claim rejected."
+  - q: "Who owns CPT codes?"
+    a: "CPT codes are owned and updated by the American Medical Association (AMA). HCPCS Level II codes are run by CMS, the agency behind Medicare."
 ---
 
 *Part of my beginner series on US medical billing. No healthcare background needed.*
@@ -41,7 +54,7 @@ A claim needs two kinds of codes:
 > **J02.9**
 > **J** = breathing system · **J02** = sore throat · **.9** = cause not specified
 
-There are more than **70,000** ICD-10 codes, so nobody memorises them. Coders look them up in a code book or, more often, in software.
+There are more than **70,000** ICD-10 codes, so nobody memorizes them. Coders look them up in a code book or, more often, in software.
 
 > **Technical name:** the full name is **ICD-10-CM** (*International Classification of Diseases, 10th revision, Clinical Modification*). The US switched to it from the older ICD-9 on **1 October 2015**. The list is updated every year on 1 October.
 

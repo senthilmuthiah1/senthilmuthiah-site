@@ -4,6 +4,19 @@ date: 2026-10-23T14:00:00
 summary: "What it means to 'verify insurance', why it's the most important step in billing, and the eight questions to ask — explained for complete beginners."
 tags: [Billing, RCM, Insurance]
 draft: false
+faq:
+  - q: "What is insurance verification?"
+    a: "Insurance verification is checking a patient's insurance before the visit, to confirm it is active and to find out what the insurer will pay and what the patient will owe."
+  - q: "When should insurance be verified?"
+    a: "A day or two before a scheduled visit, again at check-in, and at every visit, because patients change jobs and plans and often forget to tell the office."
+  - q: "What questions should I ask when verifying insurance?"
+    a: "Is the insurance active? What type of plan is it? Is our doctor in-network? What is the copay? How much deductible is left? What is the coinsurance? Does the service need prior authorization? Does the patient have other insurance?"
+  - q: "What is the difference between eligibility and benefits?"
+    a: "Eligibility means whether the patient is covered on the date of service. Benefits describe what the plan pays for and what the patient pays, such as the copay, deductible and coinsurance."
+  - q: "What should I do if the insurance is not active?"
+    a: "Tell the patient before the visit. They can give new insurance details, reschedule, or agree to pay for the visit themselves as self-pay."
+  - q: "Why should I note the call reference number?"
+    a: "If the insurer later refuses to pay, the reference number, the date and the representative's name prove what you were told on the call."
 ---
 
 *Part of my beginner series on US medical billing. No healthcare background needed.*

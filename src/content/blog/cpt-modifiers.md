@@ -4,6 +4,19 @@ date: 2026-10-23T20:00:00
 summary: "What modifiers are, why a two-character add-on can decide whether a claim is paid, and the ten modifiers every beginner should know — with simple examples."
 tags: [Billing, RCM, Coding]
 draft: false
+faq:
+  - q: "What is a modifier in medical billing?"
+    a: "A modifier is a two-character add-on to a procedure code that adds a detail, such as which side of the body was treated or whether the service was done by video."
+  - q: "What does modifier 25 mean?"
+    a: "Modifier 25 shows that an office visit was a separate, significant service from a procedure done on the same day, so both can be paid."
+  - q: "What is the difference between modifier 26 and TC?"
+    a: "Modifier 26 bills only the doctor's part of a test, such as reading an X-ray. TC bills only the technical part, the equipment and staff. If one provider does both, no modifier is used."
+  - q: "Can a procedure code have more than one modifier?"
+    a: "Yes. The claim form has room for up to four modifiers on each service line, for example 73600-RT-26."
+  - q: "What do RT and LT mean?"
+    a: "RT means the right side of the body and LT means the left side. Modifier 50 means both sides in the same session."
+  - q: "Can using the wrong modifier cause problems?"
+    a: "Yes. A missing modifier can lead to a denial, and using modifiers such as 25 or 59 when they are not justified can lead to audits and repayments."
 ---
 
 *Part of my beginner series on US medical billing. No healthcare background needed.*

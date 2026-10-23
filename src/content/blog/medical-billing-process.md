@@ -4,6 +4,19 @@ date: 2026-10-21
 summary: "A plain-English guide to how a US doctor's office gets paid by insurance — six simple steps, explained for complete beginners."
 tags: [Billing, RCM, EDI]
 draft: false
+faq:
+  - q: "What is medical billing in simple words?"
+    a: "Medical billing is everything a doctor's office does to send a bill, called a claim, to the patient's insurance company and get paid for the care the patient received."
+  - q: "What are the main steps of medical billing?"
+    a: "Checking the insurance, recording what was done as codes, sending the claim, the insurance company's decision, recording the payment, and fixing any problems such as denials."
+  - q: "How long does it take for a claim to be paid?"
+    a: "Electronic claims are often paid in two to four weeks. Paper claims, or claims with mistakes, can take much longer."
+  - q: "What is the difference between medical billing and medical coding?"
+    a: "Coding turns the visit into standard codes for the diagnosis and the services. Billing uses those codes to create the claim, send it, and follow it until it is paid."
+  - q: "Why are claims denied?"
+    a: "Common reasons are inactive insurance, missing or wrong patient details, coding errors, missing prior authorization, and claims sent after the insurer's filing deadline."
+  - q: "Can I learn medical billing without a healthcare background?"
+    a: "Yes. Many people start with no healthcare experience. Begin with the basics of US health insurance and the billing process, then learn codes, claim forms and payments step by step."
 ---
 
 *First published on my old blog in March 2013. Rewritten for beginners — no healthcare background needed. New to insurance words? Start with [US Health Insurance Basics](/blog/health-insurance-basics/) and [A Patient's Visit, Step by Step](/blog/patient-visit-step-by-step/).*

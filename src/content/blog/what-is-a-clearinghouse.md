@@ -4,6 +4,23 @@ date: 2026-10-23T23:30:00
 summary: "A complete beginner's guide to medical billing clearinghouses — what they are, why every clinic uses one, how a claim travels through them, what they cost, and how to choose one."
 tags: [Billing, RCM, EDI, Clearinghouse]
 draft: false
+faq:
+  - q: "Is the clearinghouse part of the insurance company?"
+    a: "No. It's a separate company, working between clinics and insurers."
+  - q: "Does the clearinghouse decide whether the claim is paid?"
+    a: "No. Only the insurance company decides. The clearinghouse checks the *format* and *completeness* of the claim, not whether the treatment should be paid."
+  - q: "Does the money go through the clearinghouse?"
+    a: "No. The insurer pays the clinic's bank directly. The clearinghouse only carries the payment *details*."
+  - q: "Why can't clinics just email claims?"
+    a: "Claims contain private health information, which US law (**HIPAA**) requires to be protected. Claims must be sent in a standard format over secure connections. Clearinghouses are themselves covered by HIPAA and must keep the data safe."
+  - q: "Can I send a paper claim to a clearinghouse?"
+    a: "No \u2014 only electronic claims. But the clearinghouse can turn an electronic claim into paper for an insurer that only accepts paper."
+  - q: "If the clearinghouse accepts my claim, will it be paid?"
+    a: "Not necessarily. \"Accepted\" only means the claim passed the checks and was delivered. The insurer can still reject it at its front door, or deny it later."
+  - q: "How much does a clearinghouse cost?"
+    a: "Clearinghouses usually charge a setup fee, a monthly fee per provider or a small fee per claim, and extra for services such as paper claims or patient statements. Many billing software companies include the clearinghouse in their price."
+  - q: "What is a payer ID?"
+    a: "A payer ID is a short code that tells the clearinghouse which insurance company, and sometimes which plan, a claim should be delivered to."
 ---
 
 *First published on my old blog in April 2013. Rewritten and greatly expanded for beginners — no healthcare background needed.*
@@ -180,26 +197,6 @@ The clearinghouse industry has changed a lot through mergers. You'll still see o
 | Gateway EDI | **TriZetto Provider Solutions** |
 
 Other well-known clearinghouses include **Availity**, **Office Ally** and **Claim.MD**. This isn't a recommendation — just names a beginner will meet. Each has different strengths, payer lists and prices.
-
-## Questions beginners often ask
-
-**Is the clearinghouse part of the insurance company?**
-No. It's a separate company, working between clinics and insurers.
-
-**Does the clearinghouse decide whether the claim is paid?**
-No. Only the insurance company decides. The clearinghouse checks the *format* and *completeness* of the claim, not whether the treatment should be paid.
-
-**Does the money go through the clearinghouse?**
-No. The insurer pays the clinic's bank directly. The clearinghouse only carries the payment *details*.
-
-**Why can't clinics just email claims?**
-Claims contain private health information, which US law (**HIPAA**) requires to be protected. Claims must be sent in a standard format over secure connections. Clearinghouses are themselves covered by HIPAA and must keep the data safe.
-
-**Can I send a paper claim to a clearinghouse?**
-No — only electronic claims. But the clearinghouse can turn an electronic claim into paper for an insurer that only accepts paper.
-
-**If the clearinghouse accepts my claim, will it be paid?**
-Not necessarily. "Accepted" only means the claim passed the checks and was delivered. The insurer can still reject it at its front door, or deny it later.
 
 ## Common mistakes
 

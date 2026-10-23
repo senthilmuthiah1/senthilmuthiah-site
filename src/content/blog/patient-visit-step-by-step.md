@@ -4,6 +4,17 @@ date: 2026-10-20T12:00:00
 summary: "Follow one patient from booking an appointment to the doctor getting paid — who does what, which software is used, and where the billing information comes from."
 tags: [Billing, EMR, PMS]
 draft: false
+faq:
+  - q: "When does medical billing start?"
+    a: "Billing starts with the first phone call. The patient's name, date of birth and insurance details collected when the appointment is booked all end up on the claim, so mistakes made early cause problems later."
+  - q: "What is the difference between a PMS and an EHR?"
+    a: "A practice management system (PMS) runs the business side: appointments, patient details, insurance, claims and payments. An electronic health record (EHR) holds the medical side: history, vitals, notes, test results and prescriptions."
+  - q: "Who chooses the codes for a visit?"
+    a: "In small clinics the doctor usually picks the diagnosis and procedure codes in the EHR, and the billing team checks them. In larger practices and hospitals, trained medical coders assign the codes from the doctor's notes."
+  - q: "Why is the copay collected at check-in?"
+    a: "Collecting the copay before the visit is easier and more reliable than sending a bill later. Patients are also used to paying it at the front desk."
+  - q: "What happens if the patient has no insurance?"
+    a: "The patient is treated as self-pay. They usually pay for the visit before leaving, or the office sends them a statement afterwards."
 ---
 
 *Part of my beginner series on US medical billing. No healthcare background needed.*

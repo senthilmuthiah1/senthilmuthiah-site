@@ -4,6 +4,19 @@ date: 2026-10-23T22:00:00
 summary: "Why some treatments need the insurance company's approval first, how the approval is requested, and how a referral is different — explained for complete beginners."
 tags: [Billing, RCM, Insurance]
 draft: false
+faq:
+  - q: "What is prior authorization?"
+    a: "Prior authorization is the insurance company's approval, given before a service is provided, for expensive or specialized care such as MRI scans, planned surgery or certain medicines."
+  - q: "What is the difference between prior authorization and a referral?"
+    a: "Prior authorization comes from the insurance company and approves a specific treatment or test. A referral comes from the patient's main doctor and allows a visit to a specialist, mainly in HMO plans."
+  - q: "Do emergencies need prior authorization?"
+    a: "No. Emergency care is given straight away. The hospital may need to inform the insurance company within a day or two afterwards."
+  - q: "How long does prior authorization take?"
+    a: "Simple requests can be approved in minutes, others take days. Since 2026, many plans, including Medicare Advantage, Medicaid and ACA marketplace plans, must answer standard requests within 7 days and urgent ones within 72 hours."
+  - q: "What happens if prior authorization is denied?"
+    a: "The office can appeal with more information, the doctor can ask for a peer-to-peer review, a different treatment can be tried, or the patient can agree in writing to pay."
+  - q: "Where does the authorization number go on the claim?"
+    a: "On the CMS-1500 it goes in box 23. Without it, the insurer may deny the claim even though the service was approved."
 ---
 
 *Part of my beginner series on US medical billing. No healthcare background needed.*
@@ -12,7 +25,7 @@ draft: false
 
 For most everyday care — a regular doctor's visit, a simple blood test — the doctor just does it and sends the bill.
 
-But for some **expensive** or **specialised** care, the insurance company wants to say **"yes" first**. If the doctor goes ahead without that "yes", the insurance company may refuse to pay — even if the treatment was needed.
+But for some **expensive** or **specialized** care, the insurance company wants to say **"yes" first**. If the doctor goes ahead without that "yes", the insurance company may refuse to pay — even if the treatment was needed.
 
 Think of a company travel policy. You can buy a coffee on a work trip and claim it back. But for a flight or a hotel, you need your manager's approval **before** you book. If you book first and ask later, you may pay it yourself.
 
@@ -127,7 +140,7 @@ Sometimes a patient needs **both**: a referral to see the specialist, and a prio
 
 ## The one thing to remember
 
-**Ask first, then treat.** For expensive or specialised care, get the insurance company's approval — and the number — before the service, and make sure the number reaches the claim.
+**Ask first, then treat.** For expensive or specialized care, get the insurance company's approval — and the number — before the service, and make sure the number reaches the claim.
 
 ## Words you'll hear
 

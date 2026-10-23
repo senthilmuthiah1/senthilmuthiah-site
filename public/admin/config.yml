@@ -29,9 +29,18 @@ collections:
     preview_path: "blog/{{slug}}"
     fields:
       - { name: title, label: Title, widget: string }
-      - { name: date, label: Publish date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { name: date, label: Publish date and time, widget: datetime, format: "YYYY-MM-DDTHH:mm:ss", date_format: "YYYY-MM-DD", time_format: "HH:mm" }
       - { name: summary, label: Short summary (shown in lists and search results), widget: text, required: false }
       - { name: tags, label: Tags, widget: list, default: [], hint: "e.g. EMR, PMS, LIS, Billing, EDI, Java" }
       - { name: cover, label: Cover image, widget: image, required: false }
       - { name: draft, label: Draft (hide from site), widget: boolean, default: true }
+      - name: faq
+        label: FAQ (shown at the bottom of the post, and to Google)
+        label_singular: Question
+        widget: list
+        required: false
+        summary: "{{fields.q}}"
+        fields:
+          - { name: q, label: Question, widget: string }
+          - { name: a, label: Answer, widget: text }
       - { name: body, label: Post, widget: markdown }

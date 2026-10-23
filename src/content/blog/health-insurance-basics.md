@@ -4,6 +4,19 @@ date: 2026-10-20
 summary: "Premium, deductible, copay, coinsurance, in-network — and how to read an insurance card. The words you need before you start learning medical billing."
 tags: [Billing, RCM, Insurance]
 draft: false
+faq:
+  - q: "What is the difference between a copay and coinsurance?"
+    a: "A copay is a fixed amount the patient pays for a visit, such as $25. Coinsurance is a percentage of the cost, such as 20%, that the patient pays after the deductible has been used up."
+  - q: "What is a deductible in health insurance?"
+    a: "The deductible is the amount the patient pays each year before the insurance company starts sharing the cost. For example, with a $1,000 deductible, the patient pays the first $1,000 of covered bills in that year."
+  - q: "What does in-network mean?"
+    a: "In-network means the doctor or hospital has a contract with the patient's insurance company and accepts its agreed prices. The patient usually pays much less when they see an in-network provider."
+  - q: "Does the premium matter for medical billing?"
+    a: "Not directly. The premium is the monthly fee the patient or employer pays to keep the insurance active. Billing staff focus on the deductible, copay and coinsurance, because those decide what the patient owes for a visit."
+  - q: "Is an insurance card proof that the patient is covered?"
+    a: "No. A patient can still carry an old card after their insurance has ended. The office should always check eligibility electronically or with the insurance company before the visit."
+  - q: "What is the difference between a subscriber and a dependent?"
+    a: "The subscriber is the person who holds the insurance policy, often through their job. A dependent is a family member, such as a spouse or child, who is covered under the subscriber's policy."
 ---
 
 *Part of my beginner series on US medical billing. No healthcare background needed.*

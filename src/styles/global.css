@@ -227,3 +227,11 @@ h1, h2, h3 { margin: 0; }
 .byline a { color: var(--ink); font-weight: 700; text-decoration: none; }
 .byline a:hover { color: var(--accent); }
 .byline-photo { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; }
+.faq { max-width: 42rem; margin: 8px auto 0; }
+.faq h2 { font-family: var(--serif); font-weight: 400; font-size: 32px; line-height: 1.2; margin: 0 0 16px; }
+.faq details { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; margin-bottom: 10px; }
+.faq summary { cursor: pointer; padding: 16px 20px; font-weight: 700; font-size: 17px; list-style: none; position: relative; padding-right: 48px; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: '+'; position: absolute; right: 20px; top: 50%; transform: translateY(-50%); font-size: 22px; color: var(--accent); font-weight: 400; }
+.faq details[open] summary::after { content: '−'; }
+.faq details p { margin: 0; padding: 0 20px 18px; color: var(--muted); font-size: 17px; line-height: 1.7; }

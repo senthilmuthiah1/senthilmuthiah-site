@@ -4,6 +4,19 @@ date: 2026-10-23
 summary: "A beginner's map of US health insurance — private plans, government programs and injury insurance — and why each one changes how a claim is billed."
 tags: [Billing, RCM, Insurance]
 draft: false
+faq:
+  - q: "What is the difference between an HMO and a PPO?"
+    a: "An HMO usually requires a main doctor and referrals to see specialists, and covers only in-network care. A PPO doesn't require referrals and also covers out-of-network care, at a higher cost to the patient."
+  - q: "What are the four parts of Medicare?"
+    a: "Part A covers hospital care, Part B covers doctor visits and outpatient care, Part C is Medicare Advantage run by private insurers, and Part D covers prescription medicines."
+  - q: "What is the difference between Medicare and Medicaid?"
+    a: "Medicare is federal insurance mainly for people aged 65 and over. Medicaid helps people with low income and is run by each state, so its rules differ from state to state."
+  - q: "Who should be billed for a Medicare Advantage patient?"
+    a: "Bill the private Medicare Advantage plan, not original Medicare. The patient may carry both cards, but the plan's card is the one to bill."
+  - q: "Who pays for a work injury?"
+    a: "The employer's workers' compensation insurance pays for injuries that happen at work, not the patient's regular health insurance."
+  - q: "What is commercial insurance?"
+    a: "Commercial insurance is health insurance sold by private companies. Most people in the US get it through their employer."
 ---
 
 *Part of my beginner series on US medical billing. No healthcare background needed.*

@@ -4,6 +4,19 @@ date: 2026-10-23T23:00:00
 summary: "Every doctor and clinic in the US has a set of ID numbers. What the NPI, Tax ID, taxonomy code and CLIA number are, and where they go on a claim — explained for complete beginners."
 tags: [Billing, RCM, Providers]
 draft: false
+faq:
+  - q: "What is an NPI number?"
+    a: "An NPI, or National Provider Identifier, is a unique 10-digit number given free by the US government to every healthcare provider who sends claims. It stays the same for life."
+  - q: "What is the difference between a Type 1 and Type 2 NPI?"
+    a: "A Type 1 NPI is for an individual person, such as a doctor or therapist. A Type 2 NPI is for an organization, such as a clinic, group, hospital or lab."
+  - q: "How can I look up a provider's NPI?"
+    a: "Anyone can search the free public NPI Registry website run by CMS, by the provider's name, location or NPI."
+  - q: "What is a Tax ID in medical billing?"
+    a: "The Tax ID, or TIN, identifies the business that receives the payment. Clinics and groups use an EIN, a 9-digit business tax number."
+  - q: "What is a taxonomy code?"
+    a: "A taxonomy code is a 10-character code for a provider's specialty, such as 207Q00000X for family medicine. Many insurers require it on the claim."
+  - q: "Does an NPI mean the insurer will pay the doctor?"
+    a: "No. The doctor must also be enrolled, or credentialed, with each insurance company. Claims can be denied until enrollment is complete."
 ---
 
 *Part of my beginner series on US medical billing. No healthcare background needed.*

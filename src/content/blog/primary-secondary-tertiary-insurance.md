@@ -4,6 +4,19 @@ date: 2026-10-23T12:00:00
 summary: "When a patient has two or three insurance plans, only one can pay first. A beginner's guide to the rules that decide the order — and how the second claim is sent."
 tags: [Billing, RCM, Insurance]
 draft: false
+faq:
+  - q: "What does primary insurance mean?"
+    a: "When a patient has more than one insurance plan, the primary insurance is the one billed first. The secondary is billed next for what is left, and the tertiary third."
+  - q: "What is the birthday rule?"
+    a: "For a child covered by both parents' plans, the plan of the parent whose birthday comes earlier in the calendar year is primary. Only the month and day count, not the year."
+  - q: "Can the patient choose which insurance pays first?"
+    a: "No. The order is set by coordination of benefits rules, not by the patient's preference."
+  - q: "Is Medicare primary or secondary?"
+    a: "It depends. For a retired patient, Medicare is usually primary. If the patient or their spouse is still working for an employer with 20 or more employees, the job-based plan is usually primary and Medicare is secondary."
+  - q: "Why is Medicaid always billed last?"
+    a: "Medicaid is the payer of last resort. If a patient has any other insurance, that insurance must pay first."
+  - q: "What does the secondary insurance need to process a claim?"
+    a: "It needs the details of what the primary insurer was billed, allowed and paid, and why the rest was not paid. On paper this is a copy of the EOB; electronically it is included in the 837 claim file."
 ---
 
 *Part of my beginner series on US medical billing. No healthcare background needed.*

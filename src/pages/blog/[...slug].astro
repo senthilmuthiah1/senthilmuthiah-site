@@ -13,8 +13,32 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 const words = (post.body ?? '').replace(/<!--[\s\S]*?-->/g, '').split(/\s+/).filter(Boolean).length;
 const minutes = Math.max(1, Math.round(words / 200));
+const pageUrl = new URL(`/blog/${post.id}/`, Astro.site).href;
+const imageUrl = new URL(post.data.cover ?? SITE.photo, Astro.site).href;
+const articleLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: post.data.title,
+  description: post.data.summary ?? SITE.description,
+  datePublished: post.data.date.toISOString(),
+  dateModified: post.data.date.toISOString(),
+  image: imageUrl,
+  url: pageUrl,
+  mainEntityOfPage: pageUrl,
+  keywords: post.data.tags.join(', '),
+  inLanguage: 'en-US',
+  author: { '@type': 'Person', name: SITE.name, url: new URL('/', Astro.site).href, sameAs: [SITE.linkedin, SITE.youtube, SITE.oldBlog] },
+  publisher: { '@type': 'Person', name: SITE.name, url: new URL('/', Astro.site).href },
+};
+const faqLd = post.data.faq.length ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: post.data.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+} : null;
 ---
-<BaseLayout title={`${post.data.title} — ${SITE.name}`} description={post.data.summary ?? SITE.description} image={post.data.cover}>
+<BaseLayout title={`${post.data.title} — ${SITE.name}`} description={post.data.summary ?? SITE.description} image={post.data.cover ?? SITE.photo} ogType="article">
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(articleLd)} />
+  {faqLd && <script slot="head" type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
   <article class="wrap">
     <header class="post-head">
       <a href="/blog/" style="font-weight: 700; color: var(--accent);">Blog</a>
@@ -36,6 +60,17 @@ const minutes = Math.max(1, Math.round(words / 200));
     <div class="prose">
       <Content />
     </div>
+    {post.data.faq.length > 0 && (
+      <section class="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">Frequently asked questions</h2>
+        {post.data.faq.map((f) => (
+          <details>
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </section>
+    )}
     <aside class="author-box" aria-label="About the author">
       {SITE.photo && <img class="author-photo" src={SITE.photo} alt={SITE.name} width="96" height="96" loading="lazy" />}
       <div>

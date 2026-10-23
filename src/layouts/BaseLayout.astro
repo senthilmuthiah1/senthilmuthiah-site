@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import { SITE } from '../site.config.js';
 
-const { title = SITE.title, description = SITE.description, image } = Astro.props;
+const { title = SITE.title, description = SITE.description, image, ogType = 'website' } = Astro.props;
 const path = Astro.url.pathname;
 const canonical = new URL(path, Astro.site);
 const isBlog = path.startsWith('/blog') || path.startsWith('/tags');
@@ -20,10 +20,16 @@ const isBlog = path.startsWith('/blog') || path.startsWith('/tags');
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonical} />
+  <meta property="og:type" content={ogType} />
+  <meta property="og:site_name" content={SITE.name} />
+  <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
   {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet" />
+  <slot name="head" />
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
