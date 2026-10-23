@@ -120,7 +120,7 @@ This is the part beginners mix up most. A claim can fail at **three** different 
 
 **The key rule:** a **rejected** claim never got into the insurer's system — as far as the insurer is concerned, it was never received. So it must be fixed and sent again **quickly**, because every insurer has a **filing deadline**. A rejected claim that sits in a pile can quietly run out of time.
 
-A **denied** claim *was* received and processed. That's a different job, and it gets its own post later in this series.
+A **denied** claim *was* received and processed. That's a different job — see [Rejected vs Denied Claims](/blog/rejection-vs-denial/) for the full story.
 
 ## What else does a clearinghouse do?
 
@@ -235,6 +235,6 @@ Other well-known clearinghouses include **Availity**, **Office Ally** and **Clai
 
 - **Previous:** [NPI, Tax ID and Other Provider Numbers](/blog/npi-tax-id-provider-numbers/)
 - **Start of the series:** [US Health Insurance Basics](/blog/health-insurance-basics/)
-- Coming next: corrected claims — how to fix a claim that's already been sent
+- **Next:** [Rejected vs Denied Claims: What's the Difference?](/blog/rejection-vs-denial/)
 
 *Connecting billing software to clearinghouses — and making sense of every reply that comes back — is a big part of my work. Need help with yours, or training for your team? [Get in touch](/#contact).*

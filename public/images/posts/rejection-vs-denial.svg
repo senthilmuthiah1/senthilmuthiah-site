@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 604" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Where rejections and denials happen</title>
+<desc id="d">A claim passes through three stages. Stage 1, the clearinghouse check, and stage 2, the insurance company's front door, can reject a claim: it is sent back and never processed. Stage 3, the insurance company's review, checks the member, network and price, benefits and medical necessity. The result is paid, partly paid, or denied. A denial means the claim was processed and the insurer decided not to pay.</desc>
+<rect width="720" height="604" fill="#FFFFFF"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4A5B6B"/></marker><marker id="o" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#B8860B"/></marker><marker id="r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#B4462E"/></marker></defs>
+<rect x="10" y="14" width="400" height="52" rx="12" fill="#12202E" stroke="#12202E" stroke-width="1.5"/>
+<text x="28" y="42" font-size="15" font-weight="700" fill="#FFFFFF">Claim sent by the clinic</text>
+<line x1="210.0" y1="68" x2="210.0" y2="88" stroke="#4A5B6B" stroke-width="2" marker-end="url(#a)"/>
+<rect x="10" y="92" width="400" height="86" rx="12" fill="#F3F0FA" stroke="#5B47A8" stroke-width="1.5"/>
+<text x="28" y="120" font-size="12" font-weight="700" fill="#5B47A8">STAGE 1 · CLEARINGHOUSE CHECK</text>
+<text x="28" y="141" font-size="13.5" font-weight="400" fill="#12202E">Is the file readable? Is every required</text>
+<text x="28" y="162" font-size="13.5" font-weight="400" fill="#12202E">field filled in and in the right format?</text>
+<line x1="210.0" y1="180" x2="210.0" y2="200" stroke="#4A5B6B" stroke-width="2" marker-end="url(#a)"/>
+<rect x="10" y="204" width="400" height="86" rx="12" fill="#F3F0FA" stroke="#5B47A8" stroke-width="1.5"/>
+<text x="28" y="232" font-size="12" font-weight="700" fill="#5B47A8">STAGE 2 · INSURER&#x27;S FRONT DOOR</text>
+<text x="28" y="253" font-size="13.5" font-weight="400" fill="#12202E">Do we know this member and this provider?</text>
+<text x="28" y="274" font-size="13.5" font-weight="400" fill="#12202E">Are the codes valid?</text>
+<line x1="210.0" y1="292" x2="210.0" y2="312" stroke="#4A5B6B" stroke-width="2" marker-end="url(#a)"/>
+<rect x="10" y="316" width="400" height="176" rx="12" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
+<text x="28" y="344" font-size="12" font-weight="700" fill="#1F5FBF">STAGE 3 · INSURER&#x27;S REVIEW (ADJUDICATION)</text>
+<text x="28" y="365" font-size="13.5" font-weight="400" fill="#12202E">• Duplicate? Sent within the deadline?</text>
+<text x="28" y="386" font-size="13.5" font-weight="400" fill="#12202E">• Is the member covered on that date?</text>
+<text x="28" y="407" font-size="13.5" font-weight="400" fill="#12202E">• In-network? What is the agreed price?</text>
+<text x="28" y="428" font-size="13.5" font-weight="400" fill="#12202E">• Is the service covered? Approval needed?</text>
+<text x="28" y="449" font-size="13.5" font-weight="400" fill="#12202E">• Is it medically necessary?</text>
+<text x="28" y="470" font-size="13.5" font-weight="400" fill="#12202E">• What does the patient owe?</text>
+<line x1="210.0" y1="494" x2="210.0" y2="514" stroke="#4A5B6B" stroke-width="2" marker-end="url(#a)"/>
+<rect x="10" y="518" width="128" height="44" rx="10" fill="#EEF7F1" stroke="#2E7D4F" stroke-width="1.5"/>
+<text x="74.0" y="546" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2E7D4F">Paid</text>
+<rect x="146" y="518" width="128" height="44" rx="10" fill="#EEF7F1" stroke="#2E7D4F" stroke-width="1.5"/>
+<text x="210.0" y="546" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2E7D4F">Partly paid</text>
+<rect x="282" y="518" width="128" height="44" rx="10" fill="#FBF0EC" stroke="#B4462E" stroke-width="1.5"/>
+<text x="346.0" y="546" text-anchor="middle" font-size="14.5" font-weight="700" fill="#B4462E">Denied</text>
+<text x="10" y="590" font-size="12.5" fill="#4A5B6B">Every result here is explained on the EOB / 835.</text>
+<rect x="460" y="120" width="250" height="140" rx="12" fill="#FFF8E6" stroke="#B8860B" stroke-width="1.5"/>
+<text x="478" y="148" font-size="13" font-weight="700" fill="#8A6508">REJECTION</text>
+<text x="478" y="169" font-size="13.5" font-weight="700" fill="#12202E">Sent back — never processed</text>
+<text x="478" y="190" font-size="13" font-weight="400" fill="#12202E">• No EOB, no payment</text>
+<text x="478" y="211" font-size="13" font-weight="400" fill="#12202E">• Fix it and send it again</text>
+<text x="478" y="232" font-size="13" font-weight="400" fill="#12202E">• The filing deadline keeps running</text>
+<path d="M412 135 H454" stroke="#B8860B" stroke-width="2" fill="none" marker-end="url(#o)"/>
+<path d="M412 247 H454" stroke="#B8860B" stroke-width="2" fill="none" marker-end="url(#o)"/>
+<rect x="460" y="400" width="250" height="162" rx="12" fill="#FBF0EC" stroke="#B4462E" stroke-width="1.5"/>
+<text x="478" y="428" font-size="13" font-weight="700" fill="#B4462E">DENIAL</text>
+<text x="478" y="449" font-size="13.5" font-weight="700" fill="#12202E">Processed — and not paid</text>
+<text x="478" y="470" font-size="13" font-weight="400" fill="#12202E">• Reason on the EOB / 835</text>
+<text x="478" y="491" font-size="13" font-weight="400" fill="#12202E">• Correct the claim, or</text>
+<text x="478" y="512" font-size="13" font-weight="400" fill="#12202E">• Appeal the decision, or</text>
+<text x="478" y="533" font-size="13" font-weight="400" fill="#12202E">• Bill the next payer / patient</text>
+<path d="M412 540 H454" stroke="#B4462E" stroke-width="2" fill="none" marker-end="url(#r)"/>
+</svg>
