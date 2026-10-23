@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">HIPAA for billing staff: what is protected, and everyday do and don't rules</title>
+<desc id="d">Left: protected health information includes a health detail linked to anything that identifies a person, such as name, address, dates, phone, email, Social Security number, member ID, account number, and diagnosis or procedure codes. Right: do verify callers, use only what you need, lock your screen, use secure systems, and report problems at once. Don't email or message patient details on personal apps, share passwords, leave papers out, or look up records you don't need.</desc>
+<rect width="720" height="420" fill="#FFFFFF"/>
+<rect x="10" y="10" width="300" height="400" rx="14" fill="#F3F0FA" stroke="#5B47A8" stroke-width="1.5"/>
+<text x="30" y="42" font-size="16" font-weight="700" fill="#5B47A8">This is protected (PHI)</text>
+<text x="30" y="64" font-size="12.5" fill="#4A5B6B">Health information + anything that</text>
+<text x="30" y="81" font-size="12.5" fill="#4A5B6B">identifies the person</text>
+<rect x="30" y="95" width="260" height="26" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="44" y="113" font-size="13" fill="#12202E">Name</text>
+<rect x="30" y="127" width="260" height="26" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="44" y="145" font-size="13" fill="#12202E">Address, city, ZIP code</text>
+<rect x="30" y="159" width="260" height="26" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="44" y="177" font-size="13" fill="#12202E">Dates — birth, visit, admission</text>
+<rect x="30" y="191" width="260" height="26" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="44" y="209" font-size="13" fill="#12202E">Phone and email</text>
+<rect x="30" y="223" width="260" height="26" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="44" y="241" font-size="13" fill="#12202E">Social Security number</text>
+<rect x="30" y="255" width="260" height="26" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="44" y="273" font-size="13" fill="#12202E">Member ID and account number</text>
+<rect x="30" y="287" width="260" height="26" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="44" y="305" font-size="13" fill="#12202E">Medical record number</text>
+<rect x="30" y="319" width="260" height="26" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="44" y="337" font-size="13" fill="#12202E">Diagnosis and procedure codes</text>
+<rect x="30" y="351" width="260" height="26" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="44" y="369" font-size="13" fill="#12202E">Photos and scans</text>
+<rect x="320" y="10" width="390" height="194" rx="14" fill="#EEF7F1" stroke="#2E7D4F" stroke-width="1.5"/>
+<text x="340" y="40" font-size="16" font-weight="700" fill="#2E7D4F">Do</text>
+<circle cx="350" cy="63" r="9" fill="#2E7D4F"/>
+<text x="350" y="67" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">✓</text>
+<text x="368" y="68" font-size="13" fill="#12202E">Check who is calling before sharing</text>
+<circle cx="350" cy="91" r="9" fill="#2E7D4F"/>
+<text x="350" y="95" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">✓</text>
+<text x="368" y="96" font-size="13" fill="#12202E">Use only the details you need</text>
+<circle cx="350" cy="119" r="9" fill="#2E7D4F"/>
+<text x="350" y="123" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">✓</text>
+<text x="368" y="124" font-size="13" fill="#12202E">Lock your screen when you step away</text>
+<circle cx="350" cy="147" r="9" fill="#2E7D4F"/>
+<text x="350" y="151" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">✓</text>
+<text x="368" y="152" font-size="13" fill="#12202E">Use the approved, secure systems</text>
+<circle cx="350" cy="175" r="9" fill="#2E7D4F"/>
+<text x="350" y="179" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">✓</text>
+<text x="368" y="180" font-size="13" fill="#12202E">Report a mistake or loss at once</text>
+<rect x="320" y="216" width="390" height="194" rx="14" fill="#FBF0EC" stroke="#B4462E" stroke-width="1.5"/>
+<text x="340" y="246" font-size="16" font-weight="700" fill="#B4462E">Don&#x27;t</text>
+<circle cx="350" cy="269" r="9" fill="#B4462E"/>
+<text x="350" y="273" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">×</text>
+<text x="368" y="274" font-size="13" fill="#12202E">Send patient details by personal email or chat</text>
+<circle cx="350" cy="297" r="9" fill="#B4462E"/>
+<text x="350" y="301" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">×</text>
+<text x="368" y="302" font-size="13" fill="#12202E">Share your password or login</text>
+<circle cx="350" cy="325" r="9" fill="#B4462E"/>
+<text x="350" y="329" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">×</text>
+<text x="368" y="330" font-size="13" fill="#12202E">Leave papers on desks or printers</text>
+<circle cx="350" cy="353" r="9" fill="#B4462E"/>
+<text x="350" y="357" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">×</text>
+<text x="368" y="358" font-size="13" fill="#12202E">Look up records you don&#x27;t need</text>
+<circle cx="350" cy="381" r="9" fill="#B4462E"/>
+<text x="350" y="385" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">×</text>
+<text x="368" y="386" font-size="13" fill="#12202E">Save patient files on personal devices</text>
+</svg>

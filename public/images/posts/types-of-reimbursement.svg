@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Ways providers are paid, from per service to per person</title>
+<desc id="d">A scale of payment models. At one end, fee-for-service pays for each service. Then bundled or case rates pay one price for a whole episode, such as a hospital stay by DRG. Then per diem pays per day. Then capitation pays a fixed amount per patient per month. Value-based payments can be added on top of any of these, rewarding quality and lower cost.</desc>
+<rect width="720" height="330" fill="#FFFFFF"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4A5B6B"/></marker></defs>
+<line x1="20" y1="40" x2="700" y2="40" stroke="#4A5B6B" stroke-width="2.4" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="20" y="26" font-size="12.5" font-weight="700" fill="#1F5FBF">Paid per SERVICE</text>
+<text x="700" y="26" text-anchor="end" font-size="12.5" font-weight="700" fill="#5B47A8">Paid per PERSON</text>
+<rect x="10" y="62" width="165" height="170" rx="12" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
+<text x="24" y="90" font-size="14.5" font-weight="700" fill="#1F5FBF">Fee-for-service</text>
+<text x="24" y="114" font-size="13" fill="#12202E">A price for each</text>
+<text x="24" y="132" font-size="13" fill="#12202E">service done</text>
+<text x="24" y="176" font-size="11" font-weight="700" fill="#4A5B6B" letter-spacing="1">USED FOR</text>
+<text x="24" y="196" font-size="12.5" fill="#12202E">Office visits,</text>
+<text x="24" y="214" font-size="12.5" fill="#12202E">most doctor claims</text>
+<rect x="188" y="62" width="165" height="170" rx="12" fill="#EEF7F1" stroke="#2E7D4F" stroke-width="1.5"/>
+<text x="202" y="90" font-size="14.5" font-weight="700" fill="#2E7D4F">Bundled / case rate</text>
+<text x="202" y="114" font-size="13" fill="#12202E">One price for a</text>
+<text x="202" y="132" font-size="13" fill="#12202E">whole episode</text>
+<text x="202" y="176" font-size="11" font-weight="700" fill="#4A5B6B" letter-spacing="1">USED FOR</text>
+<text x="202" y="196" font-size="12.5" fill="#12202E">Hospital stays (DRG),</text>
+<text x="202" y="214" font-size="12.5" fill="#12202E">surgery packages</text>
+<rect x="366" y="62" width="165" height="170" rx="12" fill="#FFF8E6" stroke="#B8860B" stroke-width="1.5"/>
+<text x="380" y="90" font-size="14.5" font-weight="700" fill="#B8860B">Per diem</text>
+<text x="380" y="114" font-size="13" fill="#12202E">A fixed price</text>
+<text x="380" y="132" font-size="13" fill="#12202E">per day</text>
+<text x="380" y="176" font-size="11" font-weight="700" fill="#4A5B6B" letter-spacing="1">USED FOR</text>
+<text x="380" y="196" font-size="12.5" fill="#12202E">Nursing homes,</text>
+<text x="380" y="214" font-size="12.5" fill="#12202E">some hospital stays</text>
+<rect x="544" y="62" width="165" height="170" rx="12" fill="#F3F0FA" stroke="#5B47A8" stroke-width="1.5"/>
+<text x="558" y="90" font-size="14.5" font-weight="700" fill="#5B47A8">Capitation</text>
+<text x="558" y="114" font-size="13" fill="#12202E">A fixed amount per</text>
+<text x="558" y="132" font-size="13" fill="#12202E">patient per month</text>
+<text x="558" y="176" font-size="11" font-weight="700" fill="#4A5B6B" letter-spacing="1">USED FOR</text>
+<text x="558" y="196" font-size="12.5" fill="#12202E">HMO primary</text>
+<text x="558" y="214" font-size="12.5" fill="#12202E">care doctors</text>
+<rect x="10" y="248" width="700" height="66" rx="12" fill="#FBF0EC" stroke="#B4462E" stroke-width="1.5"/>
+<text x="28" y="274" font-size="14.5" font-weight="700" fill="#B4462E">+ Value-based payment</text>
+<text x="28" y="296" font-size="13" fill="#12202E">Added on top of any model: bonuses (or penalties) for quality, patient outcomes and lower costs.</text>
+</svg>

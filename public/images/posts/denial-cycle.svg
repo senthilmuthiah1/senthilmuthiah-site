@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 372" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">The denial management cycle</title>
+<desc id="d">Five steps in a loop: find the denial, sort it by cause, fix it by correcting, appealing or billing someone else, track the result, and prevent it by fixing the root cause, which leads to fewer denials to find.</desc>
+<rect width="720" height="372" fill="#FFFFFF"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9AA8B6"/></marker></defs>
+<line x1="443.3" y1="71.2" x2="475.2" y2="127.1" stroke="#9AA8B6" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="520.8" y1="186.8" x2="528.0" y2="258.3" stroke="#9AA8B6" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="392.9" y1="301.2" x2="331.1" y2="301.2" stroke="#9AA8B6" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="193.8" y1="261.9" x2="201.0" y2="190.4" stroke="#9AA8B6" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="241.2" y1="128.8" x2="273.1" y2="72.9" stroke="#9AA8B6" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="272.0" y="12.5" width="176" height="80" rx="14" fill="#FFFFFF" stroke="#1F5FBF" stroke-width="2"/>
+<text x="360.0" y="40.5" text-anchor="middle" font-size="15" font-weight="700" fill="#1F5FBF">1 · Find</text>
+<text x="360.0" y="60.5" text-anchor="middle" font-size="12.5" fill="#12202E">Read every EOB, ERA</text>
+<text x="360.0" y="77.5" text-anchor="middle" font-size="12.5" fill="#12202E">and 277CA daily</text>
+<rect x="474.1" y="107.5" width="176" height="80" rx="14" fill="#FFFFFF" stroke="#5B47A8" stroke-width="2"/>
+<text x="562.1" y="135.5" text-anchor="middle" font-size="15" font-weight="700" fill="#5B47A8">2 · Sort</text>
+<text x="562.1" y="155.5" text-anchor="middle" font-size="12.5" fill="#12202E">Group by cause:</text>
+<text x="562.1" y="172.5" text-anchor="middle" font-size="12.5" fill="#12202E">front desk, coding…</text>
+<rect x="396.9" y="261.2" width="176" height="80" rx="14" fill="#FFFFFF" stroke="#B8860B" stroke-width="2"/>
+<text x="484.9" y="289.2" text-anchor="middle" font-size="15" font-weight="700" fill="#B8860B">3 · Fix</text>
+<text x="484.9" y="309.2" text-anchor="middle" font-size="12.5" fill="#12202E">Correct, appeal,</text>
+<text x="484.9" y="326.2" text-anchor="middle" font-size="12.5" fill="#12202E">or bill someone else</text>
+<rect x="147.1" y="261.2" width="176" height="80" rx="14" fill="#FFFFFF" stroke="#2E7D4F" stroke-width="2"/>
+<text x="235.1" y="289.2" text-anchor="middle" font-size="15" font-weight="700" fill="#2E7D4F">4 · Track</text>
+<text x="235.1" y="309.2" text-anchor="middle" font-size="12.5" fill="#12202E">Did it get paid?</text>
+<text x="235.1" y="326.2" text-anchor="middle" font-size="12.5" fill="#12202E">Follow up by date</text>
+<rect x="69.9" y="107.5" width="176" height="80" rx="14" fill="#FFFFFF" stroke="#B4462E" stroke-width="2"/>
+<text x="157.9" y="135.5" text-anchor="middle" font-size="15" font-weight="700" fill="#B4462E">5 · Prevent</text>
+<text x="157.9" y="155.5" text-anchor="middle" font-size="12.5" fill="#12202E">Fix the root cause</text>
+<text x="157.9" y="172.5" text-anchor="middle" font-size="12.5" fill="#12202E">so it doesn&#x27;t repeat</text>
+<text x="360" y="196" text-anchor="middle" font-size="14" font-weight="700" fill="#4A5B6B">Denial management</text>
+</svg>

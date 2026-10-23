@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Insurance A/R by age</title>
+<desc id="d">A sample clinic's unpaid insurance claims grouped by age: 0 to 30 days 42,000 dollars, 31 to 60 days 18,500, 61 to 90 days 9,200, 91 to 120 days 5,100, and over 120 days 6,800. The older the claim, the harder it is to collect.</desc>
+<rect width="720" height="330" fill="#FFFFFF"/>
+<line x1="60" y1="270" x2="700" y2="270" stroke="#DCE2E9" stroke-width="1.5"/>
+<rect x="80" y="55.33333333333334" width="100" height="214.66666666666666" rx="6" fill="#2E7D4F"/>
+<text x="130.0" y="47.33333333333334" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">$42,000</text>
+<text x="130.0" y="290" text-anchor="middle" font-size="13" fill="#12202E">0–30 days</text>
+<rect x="210" y="175.44444444444446" width="100" height="94.55555555555556" rx="6" fill="#7BA05B"/>
+<text x="260.0" y="167.44444444444446" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">$18,500</text>
+<text x="260.0" y="290" text-anchor="middle" font-size="13" fill="#12202E">31–60</text>
+<rect x="340" y="222.97777777777776" width="100" height="47.022222222222226" rx="6" fill="#B8860B"/>
+<text x="390.0" y="214.97777777777776" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">$9,200</text>
+<text x="390.0" y="290" text-anchor="middle" font-size="13" fill="#12202E">61–90</text>
+<rect x="470" y="243.93333333333334" width="100" height="26.066666666666666" rx="6" fill="#C9662E"/>
+<text x="520.0" y="235.93333333333334" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">$5,100</text>
+<text x="520.0" y="290" text-anchor="middle" font-size="13" fill="#12202E">91–120</text>
+<rect x="600" y="235.24444444444444" width="100" height="34.75555555555555" rx="6" fill="#B4462E"/>
+<text x="650.0" y="227.24444444444444" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">$6,800</text>
+<text x="650.0" y="290" text-anchor="middle" font-size="13" fill="#12202E">120+</text>
+<text x="80" y="320" font-size="12.5" fill="#4A5B6B">Sample clinic · dummy figures · the older the claim, the harder it is to collect</text>
+<text x="80" y="22" font-size="12.5" font-weight="700" fill="#4A5B6B" letter-spacing="1">UNPAID INSURANCE CLAIMS, BY AGE</text>
+</svg>
