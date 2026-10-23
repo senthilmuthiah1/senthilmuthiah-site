@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 404" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">How a modifier changes a code</title>
+<desc id="d">Four examples. 73600 ankle X-ray plus RT means the right ankle. 73600 plus 26 means only the doctor's reading of the X-ray. 99213 office visit plus 25 means a separate visit on the same day as a procedure. 99213 plus 95 means the visit was done by video.</desc>
+<rect width="720" height="404" fill="#FFFFFF"/>
+<text x="110" y="36" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1F5FBF" letter-spacing="1">CODE</text>
+<text x="305" y="36" text-anchor="middle" font-size="12.5" font-weight="700" fill="#B4462E" letter-spacing="1">MODIFIER</text>
+<text x="565" y="36" text-anchor="middle" font-size="12.5" font-weight="700" fill="#2E7D4F" letter-spacing="1">NEW MEANING</text>
+<rect x="10" y="64" width="200" height="70" rx="12" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
+<text x="110" y="96" text-anchor="middle" font-size="24" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">73600</text>
+<text x="110" y="118" text-anchor="middle" font-size="13" fill="#4A5B6B">Ankle X-ray</text>
+<text x="225" y="107" text-anchor="middle" font-size="26" font-weight="700" fill="#9AA8B6">+</text>
+<rect x="240" y="64" width="130" height="70" rx="12" fill="#FBF0EC" stroke="#B4462E" stroke-width="1.5"/>
+<text x="305" y="96" text-anchor="middle" font-size="24" font-weight="700" fill="#B4462E" font-family="Consolas, 'Courier New', monospace">RT</text>
+<text x="305" y="118" text-anchor="middle" font-size="12.5" fill="#4A5B6B">Right side</text>
+<text x="390" y="107" text-anchor="middle" font-size="26" font-weight="700" fill="#9AA8B6">=</text>
+<rect x="410" y="64" width="300" height="70" rx="12" fill="#EEF7F1" stroke="#2E7D4F" stroke-width="1.5"/>
+<text x="428" y="96" font-size="18" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">73600-RT</text>
+<text x="428" y="118" font-size="13" fill="#12202E">X-ray of the right ankle</text>
+<rect x="10" y="148" width="200" height="70" rx="12" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
+<text x="110" y="180" text-anchor="middle" font-size="24" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">73600</text>
+<text x="110" y="202" text-anchor="middle" font-size="13" fill="#4A5B6B">Ankle X-ray</text>
+<text x="225" y="191" text-anchor="middle" font-size="26" font-weight="700" fill="#9AA8B6">+</text>
+<rect x="240" y="148" width="130" height="70" rx="12" fill="#FBF0EC" stroke="#B4462E" stroke-width="1.5"/>
+<text x="305" y="180" text-anchor="middle" font-size="24" font-weight="700" fill="#B4462E" font-family="Consolas, 'Courier New', monospace">26</text>
+<text x="305" y="202" text-anchor="middle" font-size="12.5" fill="#4A5B6B">Reading only</text>
+<text x="390" y="191" text-anchor="middle" font-size="26" font-weight="700" fill="#9AA8B6">=</text>
+<rect x="410" y="148" width="300" height="70" rx="12" fill="#EEF7F1" stroke="#2E7D4F" stroke-width="1.5"/>
+<text x="428" y="180" font-size="18" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">73600-26</text>
+<text x="428" y="202" font-size="13" fill="#12202E">Radiologist bills for reading the X-ray</text>
+<rect x="10" y="232" width="200" height="70" rx="12" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
+<text x="110" y="264" text-anchor="middle" font-size="24" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">99213</text>
+<text x="110" y="286" text-anchor="middle" font-size="13" fill="#4A5B6B">Office visit</text>
+<text x="225" y="275" text-anchor="middle" font-size="26" font-weight="700" fill="#9AA8B6">+</text>
+<rect x="240" y="232" width="130" height="70" rx="12" fill="#FBF0EC" stroke="#B4462E" stroke-width="1.5"/>
+<text x="305" y="264" text-anchor="middle" font-size="24" font-weight="700" fill="#B4462E" font-family="Consolas, 'Courier New', monospace">25</text>
+<text x="305" y="286" text-anchor="middle" font-size="12.5" fill="#4A5B6B">Separate service</text>
+<text x="390" y="275" text-anchor="middle" font-size="26" font-weight="700" fill="#9AA8B6">=</text>
+<rect x="410" y="232" width="300" height="70" rx="12" fill="#EEF7F1" stroke="#2E7D4F" stroke-width="1.5"/>
+<text x="428" y="264" font-size="18" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">99213-25</text>
+<text x="428" y="286" font-size="13" fill="#12202E">Visit billed on the same day as a procedure</text>
+<rect x="10" y="316" width="200" height="70" rx="12" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
+<text x="110" y="348" text-anchor="middle" font-size="24" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">99213</text>
+<text x="110" y="370" text-anchor="middle" font-size="13" fill="#4A5B6B">Office visit</text>
+<text x="225" y="359" text-anchor="middle" font-size="26" font-weight="700" fill="#9AA8B6">+</text>
+<rect x="240" y="316" width="130" height="70" rx="12" fill="#FBF0EC" stroke="#B4462E" stroke-width="1.5"/>
+<text x="305" y="348" text-anchor="middle" font-size="24" font-weight="700" fill="#B4462E" font-family="Consolas, 'Courier New', monospace">95</text>
+<text x="305" y="370" text-anchor="middle" font-size="12.5" fill="#4A5B6B">By video</text>
+<text x="390" y="359" text-anchor="middle" font-size="26" font-weight="700" fill="#9AA8B6">=</text>
+<rect x="410" y="316" width="300" height="70" rx="12" fill="#EEF7F1" stroke="#2E7D4F" stroke-width="1.5"/>
+<text x="428" y="348" font-size="18" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">99213-95</text>
+<text x="428" y="370" font-size="13" fill="#12202E">The same visit, done by telehealth</text>
+</svg>

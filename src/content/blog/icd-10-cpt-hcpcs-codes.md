@@ -145,6 +145,6 @@ When a patient is **admitted to a hospital** and has surgery, the hospital's cla
 
 - **Previous:** [Billing Entities: Who's Who on a Claim](/blog/billing-entities/)
 - **Start of the series:** [US Health Insurance Basics](/blog/health-insurance-basics/)
-- Coming next: CPT modifiers — small codes that change the meaning of a procedure
+- **Next:** [CPT Modifiers Explained](/blog/cpt-modifiers/) — small add-ons that change the meaning of a code
 
 *Building code checks into your billing software, or training new coders and billers? [Get in touch](/#contact) — I offer beginner-friendly training and consulting.*
