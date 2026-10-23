@@ -114,7 +114,7 @@ You don't need to memorize these codes. Just know that every denial comes with a
 
 **What to do** depends on the reason:
 
-- **Correct the claim and send a corrected version** — if the denial was caused by a mistake, like a wrong code or modifier. (That's the next post.)
+- **Correct the claim and send a corrected version** — if the denial was caused by a mistake, like a wrong code or modifier. (See [Corrected Claims](/blog/corrected-claims/).)
 - **Appeal** — if the insurer got it wrong. Send a letter with the doctor's notes and ask it to look again.
 - **Bill someone else** — the right primary insurer, a secondary insurer, or the patient, if the plan allows.
 - **Write it off** — sometimes, after everything is tried, the amount can't be collected.
@@ -194,6 +194,6 @@ Only line 2 needs work. Line 1 is finished.
 
 - **Previous:** [What Is a Clearinghouse?](/blog/what-is-a-clearinghouse/)
 - **Start of the series:** [US Health Insurance Basics](/blog/health-insurance-basics/)
-- Coming next: corrected claims — how to fix a claim that's already been processed
+- **Next:** [Corrected Claims: How to Fix a Processed Claim](/blog/corrected-claims/)
 
 *Turning rejection and denial reports into clear work lists is one of the most valuable things a billing system can do. Need help with yours, or training for your team? [Get in touch](/#contact).*

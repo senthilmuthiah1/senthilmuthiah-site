@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 462" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Which fix does a claim need?</title>
+<desc id="d">A decision chart. If the claim was rejected, fix it and send it again as a new claim, code 1. If it was processed but had a mistake, send a replacement claim, code 7, with the original claim number. If it should never have been sent to that insurer, void it with code 8, then send a new claim to the right insurer. If the claim was correct but the insurer decided wrongly, file an appeal.</desc>
+<rect width="720" height="462" fill="#FFFFFF"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4A5B6B"/></marker></defs>
+<rect x="210" y="12" width="300" height="56" rx="14" fill="#12202E"/>
+<text x="360" y="37" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">What happened to the claim?</text>
+<text x="360" y="56" text-anchor="middle" font-size="12" fill="#FFFFFF" opacity="0.85">Check the acknowledgement or EOB first</text>
+<path d="M360 70 V92 H92.5 V112" stroke="#4A5B6B" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+<rect x="10" y="116" width="165" height="70" rx="12" fill="#FFF8E6" stroke="#B8860B" stroke-width="1.5"/>
+<text x="92.5" y="144" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">Rejected</text>
+<text x="92.5" y="164" text-anchor="middle" font-size="12.5" fill="#4A5B6B">never processed</text>
+<line x1="92.5" y1="188" x2="92.5" y2="210" stroke="#B8860B" stroke-width="2" marker-end="url(#a)"/>
+<rect x="10" y="214" width="165" height="74" rx="12" fill="#B8860B"/>
+<text x="92.5" y="244" text-anchor="middle" font-size="13" fill="#FFFFFF">Fix it, send again</text>
+<text x="92.5" y="266" text-anchor="middle" font-size="13.5" font-weight="700" fill="#FFFFFF">as a NEW claim</text>
+<rect x="10" y="300" width="165" height="150" rx="12" fill="#F5F7FA" stroke="#DCE2E9"/>
+<text x="92.5" y="324" text-anchor="middle" font-size="11.5" font-weight="700" fill="#4A5B6B" letter-spacing="1">CLAIM CODE</text>
+<text x="92.5" y="370" text-anchor="middle" font-size="40" font-weight="700" fill="#B8860B" font-family="Consolas, 'Courier New', monospace">1</text>
+<text x="92.5" y="400" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">Original</text>
+<text x="92.5" y="424" text-anchor="middle" font-size="11.5" fill="#4A5B6B">No claim number needed</text>
+<path d="M360 70 V92 H270.5 V112" stroke="#4A5B6B" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+<rect x="188" y="116" width="165" height="70" rx="12" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
+<text x="270.5" y="144" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">Processed,</text>
+<text x="270.5" y="164" text-anchor="middle" font-size="12.5" fill="#4A5B6B">but we made a mistake</text>
+<line x1="270.5" y1="188" x2="270.5" y2="210" stroke="#1F5FBF" stroke-width="2" marker-end="url(#a)"/>
+<rect x="188" y="214" width="165" height="74" rx="12" fill="#1F5FBF"/>
+<text x="270.5" y="244" text-anchor="middle" font-size="13" fill="#FFFFFF">Send a</text>
+<text x="270.5" y="266" text-anchor="middle" font-size="13.5" font-weight="700" fill="#FFFFFF">REPLACEMENT claim</text>
+<rect x="188" y="300" width="165" height="150" rx="12" fill="#F5F7FA" stroke="#DCE2E9"/>
+<text x="270.5" y="324" text-anchor="middle" font-size="11.5" font-weight="700" fill="#4A5B6B" letter-spacing="1">CLAIM CODE</text>
+<text x="270.5" y="370" text-anchor="middle" font-size="40" font-weight="700" fill="#1F5FBF" font-family="Consolas, 'Courier New', monospace">7</text>
+<text x="270.5" y="400" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">Replacement</text>
+<text x="270.5" y="424" text-anchor="middle" font-size="11.5" fill="#4A5B6B">Add the insurer&#x27;s claim no.</text>
+<path d="M360 70 V92 H448.5 V112" stroke="#4A5B6B" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+<rect x="366" y="116" width="165" height="70" rx="12" fill="#F3F0FA" stroke="#5B47A8" stroke-width="1.5"/>
+<text x="448.5" y="144" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">Should never have</text>
+<text x="448.5" y="164" text-anchor="middle" font-size="12.5" fill="#4A5B6B">gone to this insurer</text>
+<line x1="448.5" y1="188" x2="448.5" y2="210" stroke="#5B47A8" stroke-width="2" marker-end="url(#a)"/>
+<rect x="366" y="214" width="165" height="74" rx="12" fill="#5B47A8"/>
+<text x="448.5" y="244" text-anchor="middle" font-size="13" fill="#FFFFFF">VOID it, then bill</text>
+<text x="448.5" y="266" text-anchor="middle" font-size="13.5" font-weight="700" fill="#FFFFFF">the RIGHT insurer</text>
+<rect x="366" y="300" width="165" height="150" rx="12" fill="#F5F7FA" stroke="#DCE2E9"/>
+<text x="448.5" y="324" text-anchor="middle" font-size="11.5" font-weight="700" fill="#4A5B6B" letter-spacing="1">CLAIM CODE</text>
+<text x="448.5" y="370" text-anchor="middle" font-size="40" font-weight="700" fill="#5B47A8" font-family="Consolas, 'Courier New', monospace">8</text>
+<text x="448.5" y="400" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">Void / cancel</text>
+<text x="448.5" y="424" text-anchor="middle" font-size="11.5" fill="#4A5B6B">Add the insurer&#x27;s claim no.</text>
+<path d="M360 70 V92 H626.5 V112" stroke="#4A5B6B" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+<rect x="544" y="116" width="165" height="70" rx="12" fill="#FBF0EC" stroke="#B4462E" stroke-width="1.5"/>
+<text x="626.5" y="144" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">Claim was right,</text>
+<text x="626.5" y="164" text-anchor="middle" font-size="12.5" fill="#4A5B6B">insurer decided wrongly</text>
+<line x1="626.5" y1="188" x2="626.5" y2="210" stroke="#B4462E" stroke-width="2" marker-end="url(#a)"/>
+<rect x="544" y="214" width="165" height="74" rx="12" fill="#B4462E"/>
+<text x="626.5" y="244" text-anchor="middle" font-size="13" fill="#FFFFFF">File an</text>
+<text x="626.5" y="266" text-anchor="middle" font-size="13.5" font-weight="700" fill="#FFFFFF">APPEAL</text>
+<rect x="544" y="300" width="165" height="150" rx="12" fill="#F5F7FA" stroke="#DCE2E9"/>
+<text x="626.5" y="324" text-anchor="middle" font-size="11.5" font-weight="700" fill="#4A5B6B" letter-spacing="1">CLAIM CODE</text>
+<text x="626.5" y="370" text-anchor="middle" font-size="40" font-weight="700" fill="#B4462E" font-family="Consolas, 'Courier New', monospace">—</text>
+<text x="626.5" y="400" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">Not a new claim</text>
+<text x="626.5" y="424" text-anchor="middle" font-size="11.5" fill="#4A5B6B">Send notes and a letter</text>
+</svg>
