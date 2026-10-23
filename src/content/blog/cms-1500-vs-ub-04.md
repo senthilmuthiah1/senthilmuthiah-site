@@ -1,6 +1,6 @@
 ---
 title: "CMS-1500 vs UB-04: The Two Medical Claim Forms Explained"
-date: 2026-10-23
+date: 2026-10-22
 summary: "Why US healthcare uses two different claim forms, who uses which one, and how to tell them apart — explained for complete beginners."
 tags: [Billing, RCM, EDI]
 draft: false
@@ -106,6 +106,6 @@ Test yourself — which form?
 ## Next in this series
 
 - [What Is the Medical Billing Process?](/blog/medical-billing-process/) — the six steps (previous post)
-- [Patient insurance](http://emrpms.blogspot.com/2013/03/medical-billingpatient-insurance.html) — how insurance details are stored
+- **Next:** [Types of US health insurance](/blog/types-of-health-insurance/) — HMO, PPO, Medicare, Medicaid and more
 
 *Want to learn medical billing and EDI properly, from the basics? Or building claims into your own software? [Get in touch](/#contact) — I offer beginner-friendly training and consulting.*

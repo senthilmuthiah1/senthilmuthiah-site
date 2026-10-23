@@ -1,12 +1,12 @@
 ---
 title: "What Is the Medical Billing Process?"
-date: 2026-10-23
+date: 2026-10-21
 summary: "A plain-English guide to how a US doctor's office gets paid by insurance — six simple steps, explained for complete beginners."
 tags: [Billing, RCM, EDI]
 draft: false
 ---
 
-*First published on my old blog in March 2013. Rewritten for beginners — no healthcare background needed.*
+*First published on my old blog in March 2013. Rewritten for beginners — no healthcare background needed. New to insurance words? Start with [US Health Insurance Basics](/blog/health-insurance-basics/).*
 
 ## The simple idea
 
@@ -128,6 +128,7 @@ That's why good billing software checks the insurance automatically, before the 
 ## Next in this series
 
 - [CMS-1500 vs UB-04](/blog/cms-1500-vs-ub-04/) — the two claim forms explained
-- [Patient insurance](http://emrpms.blogspot.com/2013/03/medical-billingpatient-insurance.html) — how insurance details are stored
+- [Types of US health insurance](/blog/types-of-health-insurance/) — HMO, PPO, Medicare, Medicaid and more
+- **Previous:** [US Health Insurance Basics](/blog/health-insurance-basics/)
 
 *New to US healthcare and want to learn medical billing or EDI properly? Or building billing into your own software? [Get in touch](/#contact) — I offer beginner-friendly training and consulting.*

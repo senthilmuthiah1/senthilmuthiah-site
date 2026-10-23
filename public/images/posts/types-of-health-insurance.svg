@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Types of US health insurance</title>
+  <desc id="d">Three groups. Private insurance: employer plans such as HMO, PPO and EPO, and plans bought on the ACA marketplace. Government insurance: Medicare parts A, B, C and D; Medicaid and CHIP; TRICARE and VA for military. Injury-related insurance: workers' compensation and auto or no-fault insurance.</desc>
+  <rect width="720" height="400" fill="#FFFFFF"/>
+
+  <rect x="250" y="12" width="220" height="44" rx="22" fill="#12202E"/>
+  <text x="360" y="40" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">US health insurance</text>
+
+  <g stroke="#9AA8B6" stroke-width="1.5" fill="none">
+    <path d="M360 56 V74 H123 V92"/>
+    <path d="M360 74 H597 V92"/>
+    <path d="M360 74 V92"/>
+  </g>
+
+  <!-- private -->
+  <rect x="10" y="92" width="226" height="296" rx="14" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
+  <text x="123" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#1F5FBF">Private</text>
+  <text x="123" y="142" text-anchor="middle" font-size="12.5" fill="#4A5B6B">"commercial" insurance</text>
+  <rect x="26" y="158" width="194" height="128" rx="10" fill="#FFFFFF" stroke="#DCE2E9"/>
+  <text x="40" y="182" font-size="14" font-weight="700" fill="#12202E">Through an employer</text>
+  <text x="40" y="206" font-size="13" fill="#12202E">• HMO</text>
+  <text x="40" y="228" font-size="13" fill="#12202E">• PPO</text>
+  <text x="40" y="250" font-size="13" fill="#12202E">• EPO</text>
+  <text x="40" y="272" font-size="13" fill="#12202E">• Indemnity (rare now)</text>
+  <rect x="26" y="298" width="194" height="74" rx="10" fill="#FFFFFF" stroke="#DCE2E9"/>
+  <text x="40" y="322" font-size="14" font-weight="700" fill="#12202E">Bought yourself</text>
+  <text x="40" y="346" font-size="13" fill="#12202E">• ACA marketplace plans</text>
+
+  <!-- government -->
+  <rect x="247" y="92" width="226" height="296" rx="14" fill="#EEF7F1" stroke="#2E7D4F" stroke-width="1.5"/>
+  <text x="360" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#2E7D4F">Government</text>
+  <text x="360" y="142" text-anchor="middle" font-size="12.5" fill="#4A5B6B">federal and state programs</text>
+  <rect x="263" y="158" width="194" height="128" rx="10" fill="#FFFFFF" stroke="#DCE2E9"/>
+  <text x="277" y="182" font-size="14" font-weight="700" fill="#12202E">Medicare (65+)</text>
+  <text x="277" y="206" font-size="13" fill="#12202E">• Part A — hospital</text>
+  <text x="277" y="228" font-size="13" fill="#12202E">• Part B — doctors</text>
+  <text x="277" y="250" font-size="13" fill="#12202E">• Part C — private plans</text>
+  <text x="277" y="272" font-size="13" fill="#12202E">• Part D — medicines</text>
+  <rect x="263" y="298" width="194" height="74" rx="10" fill="#FFFFFF" stroke="#DCE2E9"/>
+  <text x="277" y="322" font-size="13" fill="#12202E"><tspan font-weight="700">Medicaid &amp; CHIP</tspan> (low income)</text>
+  <text x="277" y="346" font-size="13" fill="#12202E"><tspan font-weight="700">TRICARE &amp; VA</tspan> (military)</text>
+
+  <!-- injury -->
+  <rect x="484" y="92" width="226" height="296" rx="14" fill="#FBF0EC" stroke="#B4462E" stroke-width="1.5"/>
+  <text x="597" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#B4462E">Injury-related</text>
+  <text x="597" y="142" text-anchor="middle" font-size="12.5" fill="#4A5B6B">pays for one specific injury</text>
+  <rect x="500" y="158" width="194" height="100" rx="10" fill="#FFFFFF" stroke="#DCE2E9"/>
+  <text x="514" y="182" font-size="14" font-weight="700" fill="#12202E">Workers' comp</text>
+  <text x="514" y="206" font-size="13" fill="#12202E">Injured at work —</text>
+  <text x="514" y="226" font-size="13" fill="#12202E">employer's insurance pays</text>
+  <rect x="500" y="270" width="194" height="102" rx="10" fill="#FFFFFF" stroke="#DCE2E9"/>
+  <text x="514" y="294" font-size="14" font-weight="700" fill="#12202E">Auto / no-fault</text>
+  <text x="514" y="318" font-size="13" fill="#12202E">Injured in a car accident —</text>
+  <text x="514" y="338" font-size="13" fill="#12202E">car insurance pays</text>
+</svg>
