@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 564" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Sample insurance verification sheet</title>
+<desc id="d">A filled-in verification sheet for a made-up patient, Anna Smith, with BlueHealth PPO. It lists eight questions and their answers: insurance active, PPO plan, doctor in-network, 25 dollar copay, 400 dollars of deductible left, 20 percent coinsurance, no approval needed, and a second insurance on file.</desc>
+<rect width="720" height="564" fill="#FFFFFF"/>
+<rect x="10" y="10" width="700" height="544" rx="14" fill="#F5F7FA" stroke="#DCE2E9" stroke-width="1.5"/>
+<text x="32" y="46" font-size="19" font-weight="700" fill="#12202E">Insurance verification</text>
+<text x="688" y="46" text-anchor="end" font-size="12" fill="#4A5B6B">Sample · dummy data</text>
+<text x="32" y="74" font-size="13" fill="#4A5B6B">Patient</text><text x="90" y="74" font-size="13" font-weight="700" fill="#12202E">Anna Smith</text>
+<text x="210" y="74" font-size="13" fill="#4A5B6B">Insurer</text><text x="262" y="74" font-size="13" font-weight="700" fill="#12202E">BlueHealth</text>
+<text x="370" y="74" font-size="13" fill="#4A5B6B">Member ID</text><text x="442" y="74" font-size="13" font-weight="700" fill="#12202E">BHX482913557</text>
+<text x="32" y="98" font-size="13" fill="#4A5B6B">Visit</text><text x="90" y="98" font-size="13" font-weight="700" fill="#12202E">14 Oct 2026, Dr. Lee</text>
+<text x="370" y="98" font-size="13" fill="#4A5B6B">Checked</text><text x="442" y="98" font-size="13" font-weight="700" fill="#12202E">13 Oct 2026, online</text>
+<rect x="24" y="120" width="672" height="38" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<circle cx="46" cy="139" r="10" fill="#2E7D4F"/>
+<path d="M41 139 l3.5 3.5 l6.5 -7" stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="144" font-size="14" fill="#12202E">Is the insurance active today?</text>
+<text x="680" y="144" text-anchor="end" font-size="14" font-weight="700" fill="#12202E">Yes — active since 01/01/2026</text>
+<rect x="24" y="164" width="672" height="38" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<circle cx="46" cy="183" r="10" fill="#2E7D4F"/>
+<path d="M41 183 l3.5 3.5 l6.5 -7" stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="188" font-size="14" fill="#12202E">What type of plan?</text>
+<text x="680" y="188" text-anchor="end" font-size="14" font-weight="700" fill="#12202E">PPO</text>
+<rect x="24" y="208" width="672" height="38" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<circle cx="46" cy="227" r="10" fill="#2E7D4F"/>
+<path d="M41 227 l3.5 3.5 l6.5 -7" stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="232" font-size="14" fill="#12202E">Is Dr. Lee in-network?</text>
+<text x="680" y="232" text-anchor="end" font-size="14" font-weight="700" fill="#12202E">Yes</text>
+<rect x="24" y="252" width="672" height="38" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<circle cx="46" cy="271" r="10" fill="#2E7D4F"/>
+<path d="M41 271 l3.5 3.5 l6.5 -7" stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="276" font-size="14" fill="#12202E">Copay for this visit?</text>
+<text x="680" y="276" text-anchor="end" font-size="14" font-weight="700" fill="#12202E">$25 (doctor visit)</text>
+<rect x="24" y="296" width="672" height="38" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<circle cx="46" cy="315" r="10" fill="#B8860B"/>
+<text x="46" y="320" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">!</text>
+<text x="66" y="320" font-size="14" fill="#12202E">Deductible — how much is left?</text>
+<text x="680" y="320" text-anchor="end" font-size="14" font-weight="700" fill="#12202E">$1,000 a year · $400 left</text>
+<rect x="24" y="340" width="672" height="38" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<circle cx="46" cy="359" r="10" fill="#2E7D4F"/>
+<path d="M41 359 l3.5 3.5 l6.5 -7" stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="364" font-size="14" fill="#12202E">Coinsurance after deductible?</text>
+<text x="680" y="364" text-anchor="end" font-size="14" font-weight="700" fill="#12202E">Patient pays 20%</text>
+<rect x="24" y="384" width="672" height="38" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<circle cx="46" cy="403" r="10" fill="#2E7D4F"/>
+<path d="M41 403 l3.5 3.5 l6.5 -7" stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="408" font-size="14" fill="#12202E">Need approval in advance?</text>
+<text x="680" y="408" text-anchor="end" font-size="14" font-weight="700" fill="#12202E">Not for office visits</text>
+<rect x="24" y="428" width="672" height="38" rx="8" fill="#FFFFFF" stroke="#DCE2E9"/>
+<circle cx="46" cy="447" r="10" fill="#B8860B"/>
+<text x="46" y="452" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">!</text>
+<text x="66" y="452" font-size="14" fill="#12202E">Any other insurance on file?</text>
+<text x="680" y="452" text-anchor="end" font-size="14" font-weight="700" fill="#12202E">Yes — StarCare (secondary)</text>
+<rect x="24" y="480" width="672" height="48" rx="8" fill="#EEF3FB" stroke="#1F5FBF"/>
+<text x="40" y="500" font-size="12" font-weight="700" fill="#1F5FBF" letter-spacing="1">WHAT TO TELL ANNA</text>
+<text x="40" y="519" font-size="13.5" fill="#12202E">"Your copay today is $25. We'll bill BlueHealth first, then StarCare."</text>
+</svg>

@@ -123,6 +123,6 @@ The secondary insurer needs this to work out its own payment. For a tertiary ins
 
 - **Previous:** [Types of US Health Insurance](/blog/types-of-health-insurance/)
 - **Start of the series:** [US Health Insurance Basics](/blog/health-insurance-basics/)
-- Coming next: insurance verification — what to ask the insurance company
+- **Next:** [Insurance Verification](/blog/insurance-verification/) — the checklist every front desk needs
 
 *Automating secondary and tertiary claims is one of the trickiest parts of billing software — and one I've worked on for years. Need help with it, or training for your team? [Get in touch](/#contact).*
