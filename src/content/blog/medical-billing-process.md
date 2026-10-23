@@ -127,7 +127,7 @@ That's why good billing software checks the insurance automatically, before the 
 
 ## Next in this series
 
-- [Different formats of medical forms](http://emrpms.blogspot.com/2013/03/different-format-of-medical-forms.html) — the CMS-1500 and UB-04 claim forms
+- [CMS-1500 vs UB-04](/blog/cms-1500-vs-ub-04/) — the two claim forms explained
 - [Patient insurance](http://emrpms.blogspot.com/2013/03/medical-billingpatient-insurance.html) — how insurance details are stored
 
 *New to US healthcare and want to learn medical billing or EDI properly? Or building billing into your own software? [Get in touch](/#contact) — I offer beginner-friendly training and consulting.*
