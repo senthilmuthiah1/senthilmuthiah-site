@@ -214,3 +214,5 @@ h1, h2, h3 { margin: 0; }
 .quote-columns .quote { break-inside: avoid; margin-bottom: 24px; }
 .quote-columns .quote blockquote { font-size: 18px; }
 .quote-year { font-size: 14px; }
+
+.post-archive { max-width: 42rem; margin: 40px auto 32px; }

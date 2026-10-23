@@ -154,6 +154,6 @@ Each entity has its own place on the claim form, and each needs the provider's *
 
 - **Previous:** [Insurance Verification](/blog/insurance-verification/)
 - **Start of the series:** [US Health Insurance Basics](/blog/health-insurance-basics/)
-- Coming next: diagnosis and procedure codes — ICD-10, CPT and HCPCS
+- **Next:** [ICD-10, CPT and HCPCS](/blog/icd-10-cpt-hcpcs-codes/) — medical codes explained
 
 *Setting up providers, locations and billing entities correctly is one of the first things I look at in any billing system. Need help with yours, or training for your team? [Get in touch](/#contact).*

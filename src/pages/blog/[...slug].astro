@@ -27,6 +27,9 @@ const { Content } = await render(post);
     <div class="prose">
       <Content />
     </div>
+    <aside class="archive-note post-archive">
+      <p><strong>Keep learning:</strong> 15+ years of my earlier articles on medical billing, X12 EDI, EMR and Java are on my original blog, <a href={SITE.oldBlog}>emrpms.blogspot.com</a>. Watch my videos on <a href={SITE.youtube}>YouTube</a>, and connect with me on <a href={SITE.linkedin}>LinkedIn</a>.</p>
+    </aside>
     <footer class="post-foot">
       <a href="/blog/">All posts</a>
       <a href={`mailto:${SITE.email}?subject=${encodeURIComponent(post.data.title)}`}>Questions? Email me</a>
