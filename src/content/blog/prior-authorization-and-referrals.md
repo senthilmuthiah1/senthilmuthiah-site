@@ -147,6 +147,6 @@ Sometimes a patient needs **both**: a referral to see the specialist, and a prio
 
 - **Previous:** [CPT Modifiers Explained](/blog/cpt-modifiers/)
 - **Start of the series:** [US Health Insurance Basics](/blog/health-insurance-basics/)
-- Coming next: NPI, Tax ID and other provider numbers
+- **Next:** [NPI, Tax ID and Other Provider Numbers](/blog/npi-tax-id-provider-numbers/)
 
 *Training a front-desk or authorization team, or tracking authorizations in your software? [Get in touch](/#contact) — I offer beginner-friendly training and consulting.*

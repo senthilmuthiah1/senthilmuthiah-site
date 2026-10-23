@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Provider ID numbers for a doctor and a clinic</title>
+<desc id="d">Two ID cards with dummy numbers. Dr. Emily Lee, a person: type 1 NPI 1234567893, taxonomy 207Q00000X for family medicine, and a state medical license. Lee Family Clinic LLC, a company: type 2 NPI 1999999992, tax ID 12-3456789, and a CLIA number 05D1234567 for its in-office lab.</desc>
+<rect width="720" height="330" fill="#FFFFFF"/>
+<rect x="10" y="14" width="340" height="300" rx="16" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
+<rect x="10" y="14" width="340" height="64" rx="16" fill="#1F5FBF"/><rect x="10" y="60" width="340" height="18" fill="#1F5FBF"/>
+<circle cx="46" cy="38" r="9" fill="#FFFFFF"/><path d="M30 64 a16 13 0 0 1 32 0z" fill="#FFFFFF"/>
+<text x="76" y="42" font-size="17" font-weight="700" fill="#FFFFFF">Dr. Emily Lee</text>
+<text x="76" y="63" font-size="12.5" fill="#FFFFFF" opacity="0.9">a person</text>
+<rect x="26" y="100" width="308" height="60" rx="10" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="40" y="122" font-size="11.5" font-weight="700" fill="#1F5FBF" letter-spacing="0.8">NPI — TYPE 1 (INDIVIDUAL)</text>
+<text x="40" y="145" font-size="17" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">1234567893</text>
+<text x="320" y="145" text-anchor="end" font-size="12" fill="#4A5B6B">for life</text>
+<rect x="26" y="170" width="308" height="60" rx="10" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="40" y="192" font-size="11.5" font-weight="700" fill="#1F5FBF" letter-spacing="0.8">TAXONOMY (SPECIALTY)</text>
+<text x="40" y="215" font-size="17" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">207Q00000X</text>
+<text x="320" y="215" text-anchor="end" font-size="12" fill="#4A5B6B">Family medicine</text>
+<rect x="26" y="240" width="308" height="60" rx="10" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="40" y="262" font-size="11.5" font-weight="700" fill="#1F5FBF" letter-spacing="0.8">STATE MEDICAL LICENSE</text>
+<text x="40" y="285" font-size="17" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">MD-00451</text>
+<text x="320" y="285" text-anchor="end" font-size="12" fill="#4A5B6B">to practice</text>
+<rect x="370" y="14" width="340" height="300" rx="16" fill="#EEF7F1" stroke="#2E7D4F" stroke-width="1.5"/>
+<rect x="370" y="14" width="340" height="64" rx="16" fill="#2E7D4F"/><rect x="370" y="60" width="340" height="18" fill="#2E7D4F"/>
+<rect x="392" y="28" width="28" height="36" rx="2" fill="#FFFFFF"/><rect x="398" y="34" width="5" height="5" fill="#2E7D4F"/><rect x="409" y="34" width="5" height="5" fill="#2E7D4F"/><rect x="398" y="44" width="5" height="5" fill="#2E7D4F"/><rect x="409" y="44" width="5" height="5" fill="#2E7D4F"/><rect x="403" y="54" width="6" height="10" fill="#2E7D4F"/>
+<text x="436" y="42" font-size="17" font-weight="700" fill="#FFFFFF">Lee Family Clinic LLC</text>
+<text x="436" y="63" font-size="12.5" fill="#FFFFFF" opacity="0.9">a company</text>
+<rect x="386" y="100" width="308" height="60" rx="10" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="400" y="122" font-size="11.5" font-weight="700" fill="#2E7D4F" letter-spacing="0.8">NPI — TYPE 2 (ORGANIZATION)</text>
+<text x="400" y="145" font-size="17" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">1999999992</text>
+<text x="680" y="145" text-anchor="end" font-size="12" fill="#4A5B6B">the business</text>
+<rect x="386" y="170" width="308" height="60" rx="10" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="400" y="192" font-size="11.5" font-weight="700" fill="#2E7D4F" letter-spacing="0.8">TAX ID (EIN)</text>
+<text x="400" y="215" font-size="17" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">12-3456789</text>
+<text x="680" y="215" text-anchor="end" font-size="12" fill="#4A5B6B">for payments</text>
+<rect x="386" y="240" width="308" height="60" rx="10" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="400" y="262" font-size="11.5" font-weight="700" fill="#2E7D4F" letter-spacing="0.8">CLIA NUMBER</text>
+<text x="400" y="285" font-size="17" font-weight="700" fill="#12202E" font-family="Consolas, 'Courier New', monospace">05D1234567</text>
+<text x="680" y="285" text-anchor="end" font-size="12" fill="#4A5B6B">in-office lab</text>
+</svg>
