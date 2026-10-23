@@ -27,8 +27,17 @@ const { Content } = await render(post);
     <div class="prose">
       <Content />
     </div>
-    <aside class="archive-note post-archive">
-      <p><strong>Keep learning:</strong> 15+ years of my earlier articles on medical billing, X12 EDI, EMR and Java are on my original blog, <a href={SITE.oldBlog}>emrpms.blogspot.com</a>. Watch my videos on <a href={SITE.youtube}>YouTube</a>, and connect with me on <a href={SITE.linkedin}>LinkedIn</a>.</p>
+    <aside class="author-box" aria-label="About the author">
+      {SITE.photo && <img class="author-photo" src={SITE.photo} alt={SITE.name} width="96" height="96" loading="lazy" />}
+      <div>
+        <p class="author-name">{SITE.name}</p>
+        <p class="author-bio">{SITE.years}+ years building EMR, PMS and billing systems for US healthcare. I write about medical billing, X12 EDI and EMR in plain English.</p>
+        <p class="author-links">
+          <a href={SITE.oldBlog}>My older blog</a>
+          <a href={SITE.youtube}>YouTube</a>
+          <a href={SITE.linkedin}>LinkedIn</a>
+        </p>
+      </div>
     </aside>
     <footer class="post-foot">
       <a href="/blog/">All posts</a>
