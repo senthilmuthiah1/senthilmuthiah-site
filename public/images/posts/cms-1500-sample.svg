@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 630" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Sample CMS-1500 claim form with dummy data</title><desc id="d">A simplified CMS-1500 professional claim for a made-up patient, Anna Smith, seen by Dr. Emily Lee for a sore throat. Shows the main numbered boxes: insurance, patient and insured details, diagnosis, two service lines and the billing provider.</desc>
+<rect width="720" height="630" fill="#FFFFFF"/>
+<rect x="0" y="0" width="720" height="46" fill="#C0392B"/>
+<text x="16" y="30" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">HEALTH INSURANCE CLAIM FORM</text>
+<text x="704" y="20" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="end">CMS-1500 (02-12)</text>
+<text x="704" y="37" font-size="11" font-weight="400" fill="#FFFFFF" text-anchor="end">Simplified sample · dummy data</text>
+<text x="10" y="68" font-size="11" font-weight="700" fill="#C0392B" text-anchor="start">PATIENT AND INSURED INFORMATION</text>
+<rect x="10" y="76" width="430" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="15" y="88" font-size="9" font-weight="700" fill="#C0392B">1. INSURANCE TYPE</text>
+<text x="17" y="105" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">[ ] Medicare  [ ] Medicaid  [X] Group health plan</text>
+<rect x="440" y="76" width="270" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="445" y="88" font-size="9" font-weight="700" fill="#C0392B">1a. INSURED&#x27;S ID NUMBER</text>
+<text x="447" y="105" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">BHX482913557</text>
+<rect x="10" y="120" width="290" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="15" y="132" font-size="9" font-weight="700" fill="#C0392B">2. PATIENT&#x27;S NAME (Last, First)</text>
+<text x="17" y="149" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">SMITH, ANNA</text>
+<rect x="300" y="120" width="140" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="305" y="132" font-size="9" font-weight="700" fill="#C0392B">3. BIRTH DATE · SEX</text>
+<text x="307" y="149" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">03 12 1990  F</text>
+<rect x="440" y="120" width="270" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="445" y="132" font-size="9" font-weight="700" fill="#C0392B">4. INSURED&#x27;S NAME (Last, First)</text>
+<text x="447" y="149" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">SMITH, ANNA</text>
+<rect x="10" y="164" width="290" height="60" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="15" y="176" font-size="9" font-weight="700" fill="#C0392B">5. PATIENT&#x27;S ADDRESS</text>
+<text x="17" y="193" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">12 MAPLE ST</text>
+<text x="17" y="209" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">SPRINGFIELD ST 00000</text>
+<rect x="300" y="164" width="140" height="60" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="305" y="176" font-size="9" font-weight="700" fill="#C0392B">6. RELATION TO INSURED</text>
+<text x="307" y="193" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">[X] Self</text>
+<rect x="440" y="164" width="270" height="60" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="445" y="176" font-size="9" font-weight="700" fill="#C0392B">7. INSURED&#x27;S ADDRESS</text>
+<text x="447" y="193" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">SAME</text>
+<rect x="10" y="224" width="430" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="15" y="236" font-size="9" font-weight="700" fill="#C0392B">10. IS CONDITION RELATED TO: employment · auto accident · other</text>
+<text x="17" y="253" font-size="13" fill="#12202E">No · No · No</text>
+<rect x="440" y="224" width="270" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="445" y="236" font-size="9" font-weight="700" fill="#C0392B">11. INSURED&#x27;S GROUP NUMBER</text>
+<text x="447" y="253" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">004512</text>
+<rect x="10" y="268" width="430" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="15" y="280" font-size="9" font-weight="700" fill="#C0392B">12. PATIENT&#x27;S SIGNATURE (release of information)</text>
+<text x="17" y="297" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">SIGNATURE ON FILE</text>
+<rect x="440" y="268" width="270" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="445" y="280" font-size="9" font-weight="700" fill="#C0392B">13. INSURED&#x27;S SIGNATURE (pay the doctor)</text>
+<text x="447" y="297" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">SIGNATURE ON FILE</text>
+<text x="10" y="334" font-size="11" font-weight="700" fill="#C0392B" text-anchor="start">PHYSICIAN OR SUPPLIER INFORMATION</text>
+<rect x="10" y="342" width="430" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="15" y="354" font-size="9" font-weight="700" fill="#C0392B">21. DIAGNOSIS (ICD Ind. 0 = ICD-10)</text>
+<text x="17" y="371" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">A. J02.9   (sore throat — acute pharyngitis)</text>
+<rect x="440" y="342" width="270" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="445" y="354" font-size="9" font-weight="700" fill="#C0392B">23. PRIOR AUTHORIZATION NUMBER</text>
+<rect x="10" y="386" width="110" height="22" fill="#C0392B"/>
+<text x="15" y="401" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="start">24A  DATE</text>
+<rect x="10" y="408" width="110" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<rect x="10" y="438" width="110" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<rect x="120" y="386" width="52" height="22" fill="#C0392B"/>
+<text x="125" y="401" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="start">B  PLACE</text>
+<rect x="120" y="408" width="52" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<rect x="120" y="438" width="52" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<rect x="172" y="386" width="168" height="22" fill="#C0392B"/>
+<text x="177" y="401" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="start">D  CPT / HCPCS</text>
+<rect x="172" y="408" width="168" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<rect x="172" y="438" width="168" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<rect x="340" y="386" width="60" height="22" fill="#C0392B"/>
+<text x="345" y="401" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="start">E  DX PTR</text>
+<rect x="340" y="408" width="60" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<rect x="340" y="438" width="60" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<rect x="400" y="386" width="98" height="22" fill="#C0392B"/>
+<text x="405" y="401" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="start">F  CHARGES</text>
+<rect x="400" y="408" width="98" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<rect x="400" y="438" width="98" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<rect x="498" y="386" width="56" height="22" fill="#C0392B"/>
+<text x="503" y="401" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="start">G  UNITS</text>
+<rect x="498" y="408" width="56" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<rect x="498" y="438" width="56" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<rect x="554" y="386" width="156" height="22" fill="#C0392B"/>
+<text x="559" y="401" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="start">J  RENDERING NPI</text>
+<rect x="554" y="408" width="156" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<rect x="554" y="438" width="156" height="30" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="17" y="428" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">10/14/26</text>
+<text x="127" y="428" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">11</text>
+<text x="179" y="428" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">99213  office visit</text>
+<text x="347" y="428" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">A</text>
+<text x="407" y="428" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">120.00</text>
+<text x="505" y="428" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">1</text>
+<text x="561" y="428" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">1234567893</text>
+<text x="17" y="458" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">10/14/26</text>
+<text x="127" y="458" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">11</text>
+<text x="179" y="458" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">87880  strep test</text>
+<text x="347" y="458" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">A</text>
+<text x="407" y="458" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">30.00</text>
+<text x="505" y="458" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">1</text>
+<text x="561" y="458" font-size="12.5" font-family="Consolas, 'Courier New', monospace" fill="#12202E">1234567893</text>
+<rect x="10" y="480" width="170" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="15" y="492" font-size="9" font-weight="700" fill="#C0392B">25. FEDERAL TAX ID</text>
+<text x="17" y="509" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">12-3456789</text>
+<rect x="180" y="480" width="150" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="185" y="492" font-size="9" font-weight="700" fill="#C0392B">26. PATIENT ACCOUNT NO.</text>
+<text x="187" y="509" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">ANN1001</text>
+<rect x="330" y="480" width="110" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="335" y="492" font-size="9" font-weight="700" fill="#C0392B">27. ACCEPT ASSIGN.</text>
+<text x="337" y="509" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">[X] Yes</text>
+<rect x="440" y="480" width="135" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="445" y="492" font-size="9" font-weight="700" fill="#C0392B">28. TOTAL CHARGE</text>
+<text x="447" y="509" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">$150.00</text>
+<rect x="575" y="480" width="135" height="44" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="580" y="492" font-size="9" font-weight="700" fill="#C0392B">29. AMOUNT PAID</text>
+<text x="582" y="509" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">$0.00</text>
+<rect x="10" y="524" width="230" height="76" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="15" y="536" font-size="9" font-weight="700" fill="#C0392B">31. SIGNATURE OF PHYSICIAN</text>
+<text x="17" y="553" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">EMILY LEE MD</text>
+<text x="17" y="569" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">10/14/2026</text>
+<rect x="240" y="524" width="230" height="76" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="245" y="536" font-size="9" font-weight="700" fill="#C0392B">32. SERVICE FACILITY</text>
+<text x="247" y="553" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">LEE FAMILY CLINIC</text>
+<text x="247" y="569" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">40 OAK AVE</text>
+<text x="247" y="585" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">SPRINGFIELD ST 00000</text>
+<rect x="470" y="524" width="240" height="76" fill="#FFF7F5" stroke="#C0392B" stroke-width="1"/>
+<text x="475" y="536" font-size="9" font-weight="700" fill="#C0392B">33. BILLING PROVIDER</text>
+<text x="477" y="553" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">LEE FAMILY CLINIC</text>
+<text x="477" y="569" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">40 OAK AVE, SPRINGFIELD</text>
+<text x="477" y="585" font-size="13" font-family="Consolas, 'Courier New', monospace" fill="#12202E">NPI 1234567893</text>
+<text x="360.0" y="616" font-size="11.5" font-weight="400" fill="#4A5B6B" text-anchor="middle">Simplified for learning — the real form has 33 boxes. All names and numbers are made up.</text>
+</svg>
