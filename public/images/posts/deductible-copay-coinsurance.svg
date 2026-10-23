@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Who pays what across three visits</title>
+<desc id="d">Anna has a 1,000 dollar deductible, a 25 dollar copay for doctor visits and 20 percent coinsurance. Visit 1, an MRI with an allowed amount of 800 dollars: Anna pays all 800 toward her deductible. Visit 2, a doctor visit allowed at 100 dollars: Anna pays her 25 dollar copay and BlueHealth pays 75. Visit 3, a scan allowed at 500 dollars: Anna pays the last 200 of her deductible plus 20 percent of the remaining 300, which is 60, so 260 in total; BlueHealth pays 240.</desc>
+<rect width="720" height="400" fill="#FFFFFF"/>
+<rect x="10" y="14" width="16" height="16" rx="4" fill="#B4462E"/>
+<text x="32" y="27" font-size="13" fill="#12202E">Deductible</text>
+<rect x="118.0" y="14" width="16" height="16" rx="4" fill="#B8860B"/>
+<text x="140.0" y="27" font-size="13" fill="#12202E">Copay</text>
+<rect x="188.0" y="14" width="16" height="16" rx="4" fill="#5B47A8"/>
+<text x="210.0" y="27" font-size="13" fill="#12202E">Coinsurance</text>
+<rect x="303.6" y="14" width="16" height="16" rx="4" fill="#1F5FBF"/>
+<text x="325.6" y="27" font-size="13" fill="#12202E">BlueHealth pays</text>
+<text x="10" y="70" font-size="14.5" font-weight="700" fill="#12202E">Visit 1 · MRI</text>
+<text x="710" y="70" text-anchor="end" font-size="13" fill="#4A5B6B">Allowed $800</text>
+<rect x="10" y="80" width="560.0" height="38" fill="#B4462E"/>
+<text x="290.0" y="104" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">Deductible $800</text>
+<text x="582.0" y="104" font-size="13.5" font-weight="700" fill="#12202E">Anna pays $800</text>
+<text x="10" y="162" font-size="14.5" font-weight="700" fill="#12202E">Visit 2 · Doctor visit</text>
+<text x="710" y="162" text-anchor="end" font-size="13" fill="#4A5B6B">Allowed $100</text>
+<rect x="10" y="172" width="17.5" height="38" fill="#B8860B"/>
+<rect x="27.5" y="172" width="52.5" height="38" fill="#1F5FBF"/>
+<text x="53.75" y="196" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">$75</text>
+<text x="92.0" y="196" font-size="13.5" font-weight="700" fill="#12202E">Anna pays $25</text>
+<text x="10" y="254" font-size="14.5" font-weight="700" fill="#12202E">Visit 3 · Scan</text>
+<text x="710" y="254" text-anchor="end" font-size="13" fill="#4A5B6B">Allowed $500</text>
+<rect x="10" y="264" width="140.0" height="38" fill="#B4462E"/>
+<text x="80.0" y="288" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">Deductible $200</text>
+<rect x="150.0" y="264" width="42.0" height="38" fill="#5B47A8"/>
+<text x="171.0" y="288" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">$60</text>
+<rect x="192.0" y="264" width="168.0" height="38" fill="#1F5FBF"/>
+<text x="276.0" y="288" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">$240</text>
+<text x="372.0" y="288" font-size="13.5" font-weight="700" fill="#12202E">Anna pays $260</text>
+<text x="10" y="336" font-size="12.5" font-weight="700" fill="#4A5B6B" letter-spacing="1">ANNA'S $1,000 DEDUCTIBLE THIS YEAR</text>
+<rect x="10" y="348" width="700" height="22" rx="11" fill="#F5F7FA" stroke="#DCE2E9"/>
+<rect x="10" y="348" width="560" height="22" rx="11" fill="#B4462E" opacity="0.85"/>
+<rect x="570" y="348" width="140" height="22" rx="11" fill="#B4462E"/>
+<rect x="560" y="348" width="20" height="22" fill="#B4462E"/>
+<text x="290" y="364" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">$800 after visit 1</text>
+<text x="640" y="364" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">+$200 visit 3</text>
+<text x="10" y="392" font-size="12.5" fill="#4A5B6B">After visit 3 the deductible is used up — for the rest of the year Anna pays only copays and 20% coinsurance.</text>
+</svg>

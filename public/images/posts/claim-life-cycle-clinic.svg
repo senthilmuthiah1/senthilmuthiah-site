@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Claim life cycle at the clinic</title>
+<desc id="d">The clinic creates the claim. If the patient has insurance, the claim goes to the primary insurer through the clearinghouse and the payment is posted. If a balance remains and the patient has another insurance, the claim goes to the next insurer, and the loop repeats. When no insurance is left, the patient is sent a statement and the patient payment is posted. The claim ends when the balance is zero.</desc>
+<rect width="720" height="560" fill="#FFFFFF"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4A5B6B"/></marker></defs>
+<rect x="80" y="14" width="220" height="46" rx="12" fill="#12202E" stroke="#12202E" stroke-width="1.5"/>
+<text x="190.0" y="42.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#FFFFFF">Create the claim</text>
+<path d="M190 62 V84" stroke="#4A5B6B" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M190 86.0 L295.0 126 L190 166.0 L85.0 126Z" fill="#FFF8E6" stroke="#B8860B" stroke-width="1.5"/>
+<text x="190" y="122" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">Does the patient</text>
+<text x="190" y="138" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">have insurance?</text>
+<text x="198" y="182" font-size="12" font-weight="700" fill="#4A5B6B" text-anchor="start">Yes</text>
+<path d="M190 166 V198" stroke="#4A5B6B" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<rect x="80" y="202" width="220" height="56" rx="12" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
+<text x="190.0" y="226.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">Send the claim to the</text>
+<text x="190.0" y="244.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">primary insurer</text>
+<path d="M190 260 V282" stroke="#4A5B6B" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<rect x="80" y="286" width="220" height="56" rx="12" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
+<text x="190.0" y="310.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">Post the insurance</text>
+<text x="190.0" y="328.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">payment</text>
+<path d="M190 344 V366" stroke="#4A5B6B" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M190 368.0 L295.0 408 L190 448.0 L85.0 408Z" fill="#FFF8E6" stroke="#B8860B" stroke-width="1.5"/>
+<text x="190" y="404" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">Is there a</text>
+<text x="190" y="420" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">balance left?</text>
+<text x="198" y="464" font-size="12" font-weight="700" fill="#4A5B6B" text-anchor="start">No</text>
+<path d="M190 448 V480" stroke="#4A5B6B" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<rect x="110" y="484" width="160" height="44" rx="12" fill="#EEF7F1" stroke="#2E7D4F" stroke-width="1.5"/>
+<text x="190.0" y="511.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#2E7D4F">Claim closed ✓</text>
+<path d="M295 408 H428" stroke="#4A5B6B" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<text x="306" y="400" font-size="12" font-weight="700" fill="#4A5B6B" text-anchor="start">Yes</text>
+<path d="M540 368.0 L650.0 408 L540 448.0 L430.0 408Z" fill="#FFF8E6" stroke="#B8860B" stroke-width="1.5"/>
+<text x="540" y="404" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">Does the patient have</text>
+<text x="540" y="420" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">another insurance?</text>
+<path d="M540 368 V346" stroke="#4A5B6B" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<text x="548" y="360" font-size="12" font-weight="700" fill="#4A5B6B" text-anchor="start">Yes</text>
+<rect x="425" y="286" width="230" height="56" rx="12" fill="#F3F0FA" stroke="#5B47A8" stroke-width="1.5"/>
+<text x="540.0" y="310.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">Send the claim to the</text>
+<text x="540.0" y="328.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">next insurer</text>
+<path d="M425 314 H304" stroke="#4A5B6B" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M295 126 H423" stroke="#4A5B6B" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<text x="306" y="118" font-size="12" font-weight="700" fill="#4A5B6B" text-anchor="start">No</text>
+<rect x="425" y="98" width="230" height="56" rx="12" fill="#FBF0EC" stroke="#B4462E" stroke-width="1.5"/>
+<text x="540.0" y="122.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">Send the patient</text>
+<text x="540.0" y="140.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">a statement</text>
+<path d="M540 156 V198" stroke="#4A5B6B" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<rect x="425" y="202" width="230" height="56" rx="12" fill="#FBF0EC" stroke="#B4462E" stroke-width="1.5"/>
+<text x="540.0" y="226.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">Post the patient&#x27;s</text>
+<text x="540.0" y="244.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#12202E">payment</text>
+<path d="M650 408 H690 V126 H659" stroke="#4A5B6B" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<text x="696" y="270" font-size="12" font-weight="700" fill="#4A5B6B" text-anchor="start">No</text>
+<path d="M540 260 V272 H670 V506 H274" stroke="#4A5B6B" stroke-width="2" fill="none" marker-end="url(#a)"/>
+</svg>

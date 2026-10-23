@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 492" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Sample provider EOB with dummy data</title>
+<desc id="d">A sample BlueHealth remittance for Lee Family Clinic. Patient Anna Smith, claim BH-2026-0001187, three lines. Office visit 99213-25: billed 150, allowed 100, patient copay 25, paid 75, 50 written off. Wart removal 17110: billed 120, allowed 90, coinsurance 18, paid 72, 30 written off. Strep test 87880: billed 40, denied for a missing CLIA number. Claim total billed 310, allowed 190, patient 43, paid 147.</desc>
+<rect width="720" height="492" fill="#FFFFFF"/>
+<rect x="6" y="6" width="708" height="480" rx="14" fill="#FFFFFF" stroke="#DCE2E9" stroke-width="1.5"/>
+<rect x="6" y="6" width="708" height="58" rx="14" fill="#1F5FBF"/><rect x="6" y="46" width="708" height="18" fill="#1F5FBF"/>
+<text x="26" y="33" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="start">BlueHealth</text>
+<text x="26" y="52" font-size="11.5" font-weight="400" fill="#FFFFFF" text-anchor="start">Provider Explanation of Benefits / Remittance Advice</text>
+<text x="694" y="33" font-size="11.5" font-weight="400" fill="#FFFFFF" text-anchor="end">Sample · dummy data</text>
+<text x="26" y="88" font-size="10.5" font-weight="700" fill="#4A5B6B" text-anchor="start">PAYEE</text>
+<text x="26" y="105" font-size="13" font-weight="700" fill="#12202E" text-anchor="start">Lee Family Clinic LLC</text>
+<text x="26" y="121" font-size="11.5" font-weight="400" fill="#4A5B6B" text-anchor="start">NPI 1999999992 · Tax ID 12-3456789</text>
+<text x="380" y="88" font-size="10.5" font-weight="700" fill="#4A5B6B" text-anchor="start">PAYMENT</text>
+<text x="380" y="105" font-size="13" font-weight="700" fill="#12202E" text-anchor="start">EFT no. 7740021588 · 30 Oct 2026</text>
+<text x="380" y="121" font-size="11.5" font-weight="400" fill="#4A5B6B" text-anchor="start">Total paid this payment: $3,482.15 (12 claims)</text>
+<circle cx="360" cy="84" r="10" fill="#B4462E"/>
+<text x="360" y="88" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<rect x="20" y="148" width="680" height="56" rx="10" fill="#F5F7FA" stroke="#DCE2E9"/>
+<text x="36" y="169" font-size="10.5" font-weight="700" fill="#4A5B6B" text-anchor="start">PATIENT</text>
+<text x="36" y="188" font-size="13" font-weight="700" fill="#12202E" text-anchor="start">SMITH, ANNA</text>
+<text x="176" y="169" font-size="10.5" font-weight="700" fill="#4A5B6B" text-anchor="start">MEMBER ID</text>
+<text x="176" y="188" font-size="13" font-weight="700" fill="#12202E" text-anchor="start" font-family="Consolas, 'Courier New', monospace">BHX482913557</text>
+<text x="336" y="169" font-size="10.5" font-weight="700" fill="#4A5B6B" text-anchor="start">PAYER CLAIM NO.</text>
+<text x="336" y="188" font-size="13" font-weight="700" fill="#12202E" text-anchor="start" font-family="Consolas, 'Courier New', monospace">BH-2026-0001187</text>
+<text x="516" y="169" font-size="10.5" font-weight="700" fill="#4A5B6B" text-anchor="start">YOUR ACCOUNT NO.</text>
+<text x="516" y="188" font-size="13" font-weight="700" fill="#12202E" text-anchor="start" font-family="Consolas, 'Courier New', monospace">ANN1001</text>
+<circle cx="24" cy="152" r="10" fill="#B4462E"/>
+<text x="24" y="156" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<rect x="20" y="226" width="680" height="28" rx="6" fill="#12202E"/>
+<text x="36" y="245" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="start">DATE</text>
+<text x="104" y="245" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="start">CODE</text>
+<text x="248" y="245" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="end">BILLED</text>
+<text x="322" y="245" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="end">ALLOWED</text>
+<text x="396" y="245" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="end">PATIENT</text>
+<text x="458" y="245" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="end">PAID</text>
+<text x="476" y="245" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="start">ADJUSTMENT</text>
+<rect x="20" y="254" width="680" height="46" fill="#FFFFFF" stroke="#DCE2E9"/>
+<text x="36" y="274" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="start" font-family="Consolas, 'Courier New', monospace">10/14/26</text>
+<text x="104" y="274" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="start" font-family="Consolas, 'Courier New', monospace">99213-25</text>
+<text x="248" y="274" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">150.00</text>
+<text x="322" y="274" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">100.00</text>
+<text x="396" y="274" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">25.00</text>
+<text x="458" y="274" font-size="12.5" font-weight="700" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">75.00</text>
+<text x="476" y="272" font-size="11.5" font-weight="400" fill="#4A5B6B" text-anchor="start" font-family="Consolas, 'Courier New', monospace">CO-45  50.00</text>
+<text x="476" y="289" font-size="11.5" font-weight="400" fill="#4A5B6B" text-anchor="start" font-family="Consolas, 'Courier New', monospace">PR-3   25.00</text>
+<rect x="20" y="300" width="680" height="46" fill="#FAFBFC" stroke="#DCE2E9"/>
+<text x="36" y="320" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="start" font-family="Consolas, 'Courier New', monospace">10/14/26</text>
+<text x="104" y="320" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="start" font-family="Consolas, 'Courier New', monospace">17110</text>
+<text x="248" y="320" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">120.00</text>
+<text x="322" y="320" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">90.00</text>
+<text x="396" y="320" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">18.00</text>
+<text x="458" y="320" font-size="12.5" font-weight="700" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">72.00</text>
+<text x="476" y="318" font-size="11.5" font-weight="400" fill="#4A5B6B" text-anchor="start" font-family="Consolas, 'Courier New', monospace">CO-45  30.00</text>
+<text x="476" y="335" font-size="11.5" font-weight="400" fill="#4A5B6B" text-anchor="start" font-family="Consolas, 'Courier New', monospace">PR-2   18.00</text>
+<rect x="20" y="346" width="680" height="46" fill="#FBF0EC" stroke="#DCE2E9"/>
+<text x="36" y="366" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="start" font-family="Consolas, 'Courier New', monospace">10/14/26</text>
+<text x="104" y="366" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="start" font-family="Consolas, 'Courier New', monospace">87880</text>
+<text x="248" y="366" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">40.00</text>
+<text x="322" y="366" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">0.00</text>
+<text x="396" y="366" font-size="12.5" font-weight="400" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">0.00</text>
+<text x="458" y="366" font-size="12.5" font-weight="700" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">0.00</text>
+<text x="476" y="364" font-size="11.5" font-weight="400" fill="#B4462E" text-anchor="start" font-family="Consolas, 'Courier New', monospace">CO-16  40.00</text>
+<text x="476" y="381" font-size="11.5" font-weight="400" fill="#B4462E" text-anchor="start" font-family="Consolas, 'Courier New', monospace">MA120  (CLIA no. missing)</text>
+<rect x="20" y="392" width="680" height="34" fill="#EEF3FB" stroke="#1F5FBF"/>
+<text x="36" y="414" font-size="12.5" font-weight="700" fill="#12202E" text-anchor="start">CLAIM TOTAL</text>
+<text x="248" y="414" font-size="12.5" font-weight="700" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">310.00</text>
+<text x="322" y="414" font-size="12.5" font-weight="700" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">190.00</text>
+<text x="396" y="414" font-size="12.5" font-weight="700" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">43.00</text>
+<text x="458" y="414" font-size="12.5" font-weight="700" fill="#12202E" text-anchor="end" font-family="Consolas, 'Courier New', monospace">147.00</text>
+<text x="476" y="414" font-size="11.5" font-weight="700" fill="#4A5B6B" text-anchor="start" font-family="Consolas, 'Courier New', monospace">CO 120.00 · PR 43.00</text>
+<circle cx="190" cy="218" r="10" fill="#B4462E"/>
+<text x="190" y="222" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<circle cx="262" cy="218" r="10" fill="#B4462E"/>
+<text x="262" y="222" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<circle cx="338" cy="218" r="10" fill="#B4462E"/>
+<text x="338" y="222" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+<circle cx="422" cy="218" r="10" fill="#B4462E"/>
+<text x="422" y="222" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+<circle cx="562" cy="218" r="10" fill="#B4462E"/>
+<text x="562" y="222" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">7</text>
+<text x="26" y="446" font-size="12.5" font-weight="700" fill="#2E7D4F" text-anchor="start">Check: billed $310.00 = paid $147.00 + patient $43.00 + written off $120.00</text>
+<text x="26" y="468" font-size="12" font-weight="400" fill="#B4462E" text-anchor="start">Line 3 was denied: the lab test is missing the clinic&#x27;s CLIA number (remark MA120).</text>
+</svg>

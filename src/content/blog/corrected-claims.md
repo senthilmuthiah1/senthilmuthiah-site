@@ -172,6 +172,6 @@ If the claim was **correct** and the insurer denied it anyway, **don't** send a 
 
 - **Previous:** [Rejected vs Denied Claims](/blog/rejection-vs-denial/)
 - **Start of the series:** [US Health Insurance Basics](/blog/health-insurance-basics/)
-- Coming next: the claim life cycle — the whole journey of a claim, from both sides
+- **Next:** [The Claim Life Cycle](/blog/claim-life-cycle/) — a claim's whole journey, from both sides
 
 *Corrections, voids and resubmissions are where billing software either saves time or creates chaos. Need help getting yours right, or training for your team? [Get in touch](/#contact).*
