@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Sending claims without and with a clearinghouse</title>
+<desc id="d">Left: without a clearinghouse, three clinics each connect separately to four insurance companies, making twelve connections. Right: with a clearinghouse, each clinic has one connection to the clearinghouse, which connects to all four insurance companies.</desc>
+<rect width="720" height="380" fill="#FFFFFF"/>
+<rect x="10" y="10" width="345" height="360" rx="14" fill="#F5F7FA" stroke="#DCE2E9"/>
+<text x="182" y="40" text-anchor="middle" font-size="15" font-weight="700" fill="#B4462E">Without a clearinghouse: 12 connections</text>
+<rect x="28" y="77" width="84" height="36" rx="8" fill="#EEF3FB" stroke="#1F5FBF"/>
+<text x="70" y="100" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">Clinic A</text>
+<rect x="28" y="177" width="84" height="36" rx="8" fill="#EEF3FB" stroke="#1F5FBF"/>
+<text x="70" y="200" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">Clinic B</text>
+<rect x="28" y="277" width="84" height="36" rx="8" fill="#EEF3FB" stroke="#1F5FBF"/>
+<text x="70" y="300" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">Clinic C</text>
+<rect x="247" y="62" width="90" height="36" rx="8" fill="#EEF7F1" stroke="#2E7D4F"/>
+<text x="292" y="85" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">BlueHealth</text>
+<rect x="247" y="137" width="90" height="36" rx="8" fill="#EEF7F1" stroke="#2E7D4F"/>
+<text x="292" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">StarCare</text>
+<rect x="247" y="212" width="90" height="36" rx="8" fill="#EEF7F1" stroke="#2E7D4F"/>
+<text x="292" y="235" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">Medicare</text>
+<rect x="247" y="287" width="90" height="36" rx="8" fill="#EEF7F1" stroke="#2E7D4F"/>
+<text x="292" y="310" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">Medicaid</text>
+<line x1="112" y1="95" x2="247" y2="80" stroke="#B4462E" stroke-width="1.4" opacity="0.75"/>
+<line x1="112" y1="95" x2="247" y2="155" stroke="#B4462E" stroke-width="1.4" opacity="0.75"/>
+<line x1="112" y1="95" x2="247" y2="230" stroke="#B4462E" stroke-width="1.4" opacity="0.75"/>
+<line x1="112" y1="95" x2="247" y2="305" stroke="#B4462E" stroke-width="1.4" opacity="0.75"/>
+<line x1="112" y1="195" x2="247" y2="80" stroke="#B4462E" stroke-width="1.4" opacity="0.75"/>
+<line x1="112" y1="195" x2="247" y2="155" stroke="#B4462E" stroke-width="1.4" opacity="0.75"/>
+<line x1="112" y1="195" x2="247" y2="230" stroke="#B4462E" stroke-width="1.4" opacity="0.75"/>
+<line x1="112" y1="195" x2="247" y2="305" stroke="#B4462E" stroke-width="1.4" opacity="0.75"/>
+<line x1="112" y1="295" x2="247" y2="80" stroke="#B4462E" stroke-width="1.4" opacity="0.75"/>
+<line x1="112" y1="295" x2="247" y2="155" stroke="#B4462E" stroke-width="1.4" opacity="0.75"/>
+<line x1="112" y1="295" x2="247" y2="230" stroke="#B4462E" stroke-width="1.4" opacity="0.75"/>
+<line x1="112" y1="295" x2="247" y2="305" stroke="#B4462E" stroke-width="1.4" opacity="0.75"/>
+<rect x="365" y="10" width="345" height="360" rx="14" fill="#F5F7FA" stroke="#DCE2E9"/>
+<text x="537" y="40" text-anchor="middle" font-size="15" font-weight="700" fill="#2E7D4F">With a clearinghouse: 3 + 4 connections</text>
+<rect x="377" y="77" width="84" height="36" rx="8" fill="#EEF3FB" stroke="#1F5FBF"/>
+<text x="419" y="100" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">Clinic A</text>
+<rect x="377" y="177" width="84" height="36" rx="8" fill="#EEF3FB" stroke="#1F5FBF"/>
+<text x="419" y="200" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">Clinic B</text>
+<rect x="377" y="277" width="84" height="36" rx="8" fill="#EEF3FB" stroke="#1F5FBF"/>
+<text x="419" y="300" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">Clinic C</text>
+<rect x="608" y="62" width="90" height="36" rx="8" fill="#EEF7F1" stroke="#2E7D4F"/>
+<text x="653" y="85" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">BlueHealth</text>
+<rect x="608" y="137" width="90" height="36" rx="8" fill="#EEF7F1" stroke="#2E7D4F"/>
+<text x="653" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">StarCare</text>
+<rect x="608" y="212" width="90" height="36" rx="8" fill="#EEF7F1" stroke="#2E7D4F"/>
+<text x="653" y="235" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">Medicare</text>
+<rect x="608" y="287" width="90" height="36" rx="8" fill="#EEF7F1" stroke="#2E7D4F"/>
+<text x="653" y="310" text-anchor="middle" font-size="12.5" font-weight="700" fill="#12202E">Medicaid</text>
+<rect x="493" y="145" width="86" height="100" rx="12" fill="#5B47A8"/>
+<text x="536" y="191" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">Clearing-</text>
+<text x="536" y="209" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">house</text>
+<line x1="461" y1="95" x2="493" y2="195" stroke="#2E7D4F" stroke-width="2"/>
+<line x1="461" y1="195" x2="493" y2="195" stroke="#2E7D4F" stroke-width="2"/>
+<line x1="461" y1="295" x2="493" y2="195" stroke="#2E7D4F" stroke-width="2"/>
+<line x1="579" y1="195" x2="608" y2="80" stroke="#2E7D4F" stroke-width="2"/>
+<line x1="579" y1="195" x2="608" y2="155" stroke="#2E7D4F" stroke-width="2"/>
+<line x1="579" y1="195" x2="608" y2="230" stroke="#2E7D4F" stroke-width="2"/>
+<line x1="579" y1="195" x2="608" y2="305" stroke="#2E7D4F" stroke-width="2"/>
+</svg>

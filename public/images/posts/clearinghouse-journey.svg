@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 590" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">The journey of a claim through a clearinghouse</title>
+<desc id="d">Three columns: the clinic, the clearinghouse and the insurance company. The clinic sends the claim file. The clearinghouse checks the file and replies within minutes, then checks each claim and forwards good claims to the insurer. The insurer confirms it received the claim, decides, and sends payment details back through the clearinghouse to the clinic. The money goes straight to the clinic's bank.</desc>
+<rect width="720" height="590" fill="#FFFFFF"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4A5B6B"/></marker><marker id="g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2E7D4F"/></marker></defs>
+<rect x="15" y="12" width="210" height="54" rx="12" fill="#1F5FBF"/>
+<text x="120" y="36" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">Clinic</text>
+<text x="120" y="55" text-anchor="middle" font-size="12" fill="#FFFFFF" opacity="0.9">Lee Family Clinic</text>
+<line x1="120" y1="70" x2="120" y2="574" stroke="#DCE2E9" stroke-width="2" stroke-dasharray="4 5"/>
+<rect x="255" y="12" width="210" height="54" rx="12" fill="#5B47A8"/>
+<text x="360" y="36" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">Clearinghouse</text>
+<text x="360" y="55" text-anchor="middle" font-size="12" fill="#FFFFFF" opacity="0.9">the &#x27;post office&#x27;</text>
+<line x1="360" y1="70" x2="360" y2="574" stroke="#DCE2E9" stroke-width="2" stroke-dasharray="4 5"/>
+<rect x="495" y="12" width="210" height="54" rx="12" fill="#2E7D4F"/>
+<text x="600" y="36" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">Insurance company</text>
+<text x="600" y="55" text-anchor="middle" font-size="12" fill="#FFFFFF" opacity="0.9">BlueHealth</text>
+<line x1="600" y1="70" x2="600" y2="574" stroke="#DCE2E9" stroke-width="2" stroke-dasharray="4 5"/>
+<line x1="126" y1="100" x2="352" y2="100" stroke="#4A5B6B" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="142" cy="84" r="10" fill="#12202E"/><text x="142" y="88" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">1</text>
+<text x="158" y="89" font-size="12.5" fill="#12202E">Claim file sent</text>
+<text x="352" y="116" text-anchor="end" font-size="11" fill="#4A5B6B">seconds</text>
+<line x1="354" y1="154" x2="128" y2="154" stroke="#4A5B6B" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="142" cy="138" r="10" fill="#12202E"/><text x="142" y="142" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">2</text>
+<text x="158" y="143" font-size="12.5" fill="#12202E">&quot;File received and readable&quot;</text>
+<text x="352" y="170" text-anchor="end" font-size="11" fill="#4A5B6B">minutes</text>
+<line x1="354" y1="208" x2="128" y2="208" stroke="#4A5B6B" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="142" cy="192" r="10" fill="#12202E"/><text x="142" y="196" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">3</text>
+<text x="158" y="197" font-size="12.5" fill="#12202E">&quot;Claim accepted&quot; — or rejected</text>
+<text x="352" y="224" text-anchor="end" font-size="11" fill="#4A5B6B">minutes–hours</text>
+<line x1="366" y1="262" x2="592" y2="262" stroke="#4A5B6B" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="382" cy="246" r="10" fill="#12202E"/><text x="382" y="250" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">4</text>
+<text x="398" y="251" font-size="12.5" fill="#12202E">Good claims forwarded</text>
+<text x="592" y="278" text-anchor="end" font-size="11" fill="#4A5B6B">same day</text>
+<line x1="594" y1="316" x2="368" y2="316" stroke="#4A5B6B" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="382" cy="300" r="10" fill="#12202E"/><text x="382" y="304" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">5</text>
+<text x="398" y="305" font-size="12.5" fill="#12202E">&quot;Claim received&quot; — or rejected</text>
+<text x="592" y="332" text-anchor="end" font-size="11" fill="#4A5B6B">1–2 days</text>
+<line x1="354" y1="370" x2="128" y2="370" stroke="#4A5B6B" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="142" cy="354" r="10" fill="#12202E"/><text x="142" y="358" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">6</text>
+<text x="158" y="359" font-size="12.5" fill="#12202E">Passed on to the clinic</text>
+<line x1="594" y1="424" x2="368" y2="424" stroke="#4A5B6B" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="382" cy="408" r="10" fill="#12202E"/><text x="382" y="412" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">7</text>
+<text x="398" y="413" font-size="12.5" fill="#12202E">Decision + payment details</text>
+<text x="592" y="440" text-anchor="end" font-size="11" fill="#4A5B6B">2–4 weeks</text>
+<line x1="354" y1="478" x2="128" y2="478" stroke="#4A5B6B" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="142" cy="462" r="10" fill="#12202E"/><text x="142" y="466" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">8</text>
+<text x="158" y="467" font-size="12.5" fill="#12202E">Payment details passed on</text>
+<path d="M600 508 V540 H120 V514" stroke="#2E7D4F" stroke-width="2.4" fill="none" marker-end="url(#g)"/>
+<rect x="230" y="527" width="260" height="26" rx="13" fill="#EEF7F1" stroke="#2E7D4F"/>
+<text x="360" y="545" text-anchor="middle" font-size="12.5" font-weight="700" fill="#2E7D4F">9 · Money goes straight to the bank</text>
+</svg>

@@ -140,6 +140,6 @@ Having an NPI doesn't mean an insurance company will pay. Before billing an insu
 
 - **Previous:** [Prior Authorization, Referrals and Pre-Certification](/blog/prior-authorization-and-referrals/)
 - **Start of the series:** [US Health Insurance Basics](/blog/health-insurance-basics/)
-- Coming next: clearinghouses and corrected claims
+- **Next:** [What Is a Clearinghouse?](/blog/what-is-a-clearinghouse/) — the post office for medical claims
 
 *Setting up providers, NPIs and payer-specific IDs correctly is the foundation of clean claims. Need help with yours, or training for your team? [Get in touch](/#contact).*
