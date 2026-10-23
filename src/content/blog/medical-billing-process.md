@@ -1,85 +1,133 @@
 ---
 title: "What Is the Medical Billing Process?"
 date: 2026-10-23
-summary: "The six steps of US medical billing — from the eligibility check to denial management — with the forms and EDI transactions used at each step."
+summary: "A plain-English guide to how a US doctor's office gets paid by insurance — six simple steps, explained for complete beginners."
 tags: [Billing, RCM, EDI]
 draft: false
 ---
 
-*First published on my old blog in March 2013, and updated for how billing works today.*
+*First published on my old blog in March 2013. Rewritten for beginners — no healthcare background needed.*
 
-Medical billing is the process of sending a claim to the patient's insurance company for the services a provider gave, and getting paid for them.
+## The simple idea
 
-Why bill the insurance company and not the patient? Because most patients in the US have insurance, and they share their coverage details before the visit. So the provider's office sends the claim to the payer, and the patient pays only their share — copay, deductible or coinsurance.
+In the US, most people have **health insurance**. When a patient visits a doctor, the patient usually doesn't pay the full bill. Instead, the doctor's office sends a bill to the patient's **insurance company**, and the insurance company pays most of it.
 
-Here is the whole process on one page. Later posts in this series go into each step in detail.
+That bill is called a **claim**. **Medical billing** is everything the doctor's office does to send the claim and get paid for it.
 
-![The six steps of the medical billing process, with the form or EDI transaction used at each step](/images/posts/medical-billing-process.svg)
+Think of it like a company expense claim. You spend money for work, fill in a form saying what you spent and why, send it to the finance team, and they check it and pay you back. Medical billing works the same way: the doctor gives the treatment, fills in a claim, sends it to the insurance company, and the insurance company checks it and pays.
 
-## 1. Eligibility check
+## Meet our example
 
-Billing starts at the front desk, before the patient is seen. The goal is to confirm that the patient's insurance is **active** and to know what the patient will owe.
+To keep things simple, we'll follow one visit:
 
-- **Then:** staff called the payer or checked the payer's website.
-- **Now:** the practice software sends an electronic eligibility request (**EDI 270**) and gets a response in seconds (**EDI 271**) showing coverage, copay, deductible and coinsurance.
+> **Anna** has a sore throat and visits **Dr. Lee**. Anna has insurance with **BlueHealth** (a made-up insurance company). The visit costs **$150**.
 
-If the insurance is not active, there is no point sending a claim. The office collects from the patient instead — a **self-pay** or **patient responsibility** account.
+Here is the whole journey on one page. We'll walk through each step below.
 
-## 2. Charge entry and coding
+![The six steps of the medical billing process](/images/posts/medical-billing-process.svg)
 
-After the visit, the provider documents the diagnosis and the services given. These are turned into codes:
+## Step 1 — Check the insurance
 
-- **ICD-10-CM** codes for the diagnosis
-- **CPT / HCPCS** codes, with modifiers where needed, for the services
+**When:** before or when Anna arrives.
 
-The billing team then builds the claim from the patient's demographics, the provider details, the insurance coverage and the coded charges. A physician or clinic uses the **CMS-1500** format; a hospital or facility uses the **UB-04**.
+The front desk staff check that Anna's insurance is **active** — that she is still covered by BlueHealth today — and how much Anna will have to pay herself.
 
-## 3. Claim submission
+Why bother? If Anna's insurance has ended, BlueHealth won't pay anything. It's better to find that out now, while Anna is still in the office, than weeks later.
 
-Claims are sent electronically:
+If Anna has no active insurance, she pays the office directly. This is called **self-pay**.
 
-- **837P** — professional claim (electronic CMS-1500)
-- **837I** — institutional claim (electronic UB-04)
+> **Technical name:** this is called an *eligibility check*. Computers do it in seconds using a standard electronic message called **270** (the question) and **271** (the answer).
 
-Most practices send them through a **clearinghouse**, which checks each claim and forwards it to the right payer. Two acknowledgements come back:
+## Step 2 — Record what was done
 
-- **999** — the file was readable and structurally valid
-- **277CA** — each claim was accepted or rejected for processing
+**When:** after the visit.
 
-A rejected claim never reached adjudication. It has to be fixed and sent again — it is not a denial.
+Dr. Lee writes down what was wrong with Anna and what she did. The billing staff then turn this into **codes** — short standard numbers that every insurance company understands:
 
-## 4. Payer adjudication
+- a **diagnosis code** — *what was wrong* (for example, sore throat)
+- a **procedure code** — *what the doctor did* (for example, an office visit and a strep test)
 
-The payer now decides what to pay. It checks eligibility again, coding rules, medical necessity, authorizations, duplicates and its fee schedule. The practice can ask for the status of a claim with **EDI 276** and gets the answer in **EDI 277**.
+Codes are like product barcodes. Instead of writing a long description, everyone uses the same short code, so computers can read it.
 
-## 5. Payment posting
+> **Technical name:** this step is called *charge entry and coding*. Diagnosis codes are **ICD-10** codes; procedure codes are **CPT** or **HCPCS** codes.
 
-The payer sends the payment with an **Explanation of Benefits (EOB)**. It shows the billed amount, the allowed amount, what the payer paid, and what the patient owes.
+## Step 3 — Send the claim
 
-- **Then:** a paper check and paper EOB, posted by hand.
-- **Now:** usually an electronic payment (EFT) with an electronic remittance (**EDI 835**) that the system can post automatically.
+**When:** usually within a few days of the visit.
 
-After posting, any remaining balance goes either to the patient's **secondary insurance** or to the **patient** as a statement.
+The office puts everything into a claim — Anna's details, her insurance details, Dr. Lee's details, the codes and the $150 charge — and sends it to BlueHealth.
 
-## 6. Denial management
+Claims are sent electronically, usually through a middleman called a **clearinghouse**. Think of the clearinghouse as a **post office**: it checks that the "letter" is filled in correctly, then delivers it to the right insurance company. If something is missing, it sends the claim back straight away so the office can fix it.
 
-Payers deny claims for many reasons: inactive coverage, missing authorization, coding errors, duplicate claims, missed filing deadlines. The 835 explains each one with **claim adjustment reason codes (CARC)** and **remittance advice remark codes (RARC)**.
+> **Technical name:** a doctor's claim is sent as an **837P** file (a hospital's as an **837I**). The paper versions are the **CMS-1500** and **UB-04** forms. The "received" and "rejected" notes that come back are called **999** and **277CA**.
 
-The billing team works each denial: fix the problem and send a **corrected claim**, or file an **appeal** if the denial is wrong.
+## Step 4 — The insurance company decides
 
-## What matters most in practice
+**When:** usually within a few weeks.
 
-- **Most denials start at the front desk.** Wrong member ID, wrong payer, expired coverage — all of these can be caught by a 270/271 check at check-in, for free. Fixing them after a denial costs days and staff time.
-- **Re-check eligibility on every visit,** not only the first one. Patients change jobs and plans; the card on file from last year is often wrong.
-- **A rejection and a denial are not the same.** A rejection (999 or 277CA) means the payer never processed the claim. A denial (835) means it did, and said no. They are worked differently, and your software should show them separately.
-- **Watch timely filing limits.** Every payer sets a deadline for claims and corrections. A claim stuck in a rejection queue can quietly run out of time.
-- **Clean claims before they leave.** Checks inside the billing software — required fields, valid code combinations, payer-specific rules — are far cheaper than any denial.
+BlueHealth reviews the claim. It checks things like:
 
-<!-- Senthil: add one real story here, e.g. a payer or clearinghouse quirk you've hit, or a denial pattern you solved in software. That's what makes this post yours. -->
+- Was Anna covered on the day of the visit?
+- Is the treatment covered by her plan?
+- Is the price within what BlueHealth has agreed to pay Dr. Lee?
+- Was this claim already paid once before?
+
+Then it decides how much to pay. This review is called **adjudication** — a formal word for "deciding".
+
+## Step 5 — Record the payment
+
+**When:** when the money arrives.
+
+BlueHealth sends the payment along with a statement called an **Explanation of Benefits (EOB)**. It explains the money, line by line. For Anna's visit it might say:
+
+| | Amount |
+|---|---|
+| Dr. Lee charged | $150 |
+| BlueHealth allows (its agreed price) | $100 |
+| BlueHealth pays | $80 |
+| Anna owes (her share) | $20 |
+
+The office records this payment against Anna's claim. This is called **payment posting**. Then the office sends Anna a bill for her **$20** share.
+
+Why only $100 and not $150? Insurance companies agree lower prices with doctors in advance. The $50 difference is simply written off.
+
+> **Technical name:** the electronic version of the EOB is called an **835** file. Most payments now arrive by bank transfer, and the software posts them automatically.
+
+## Step 6 — Fix problems
+
+Sometimes the insurance company says **no**. This is called a **denial**. Common reasons:
+
+- the insurance had ended
+- a code was wrong or missing
+- the treatment needed approval in advance, and nobody asked
+- the claim was sent too late (every insurer has a deadline)
+
+The billing staff find out why, fix the problem, and send a **corrected claim** — or, if they believe the insurer is wrong, they **appeal**. That's the dotted line at the bottom of the diagram, going back to Step 3.
+
+## The one thing to remember
+
+**Most billing problems start at Step 1.** A wrong insurance card or expired coverage, caught at the front desk, takes two minutes to fix. Caught weeks later as a denial, it can take hours of phone calls — or the money is never collected at all.
+
+That's why good billing software checks the insurance automatically, before the patient is even seen.
+
+## Words you'll hear
+
+| Word | Meaning |
+|---|---|
+| **Claim** | The bill sent to the insurance company |
+| **Payer** | The insurance company (the one who pays) |
+| **Provider** | The doctor, clinic or hospital |
+| **Clearinghouse** | The middleman that checks and delivers claims |
+| **EOB** | The insurer's statement explaining what it paid and why |
+| **Copay / coinsurance / deductible** | Different ways the patient pays their share |
+| **Denial** | The insurer refused to pay a claim |
+| **RCM** | Revenue cycle management — the whole process of getting paid |
+
+<!-- Senthil: optional — add one short real-life story here (e.g. a denial you've seen and how it was solved). Keep it simple for beginners. -->
 
 ## Next in this series
 
-- [Different formats of medical forms](http://emrpms.blogspot.com/2013/03/different-format-of-medical-forms.html) (CMS-1500 and UB-04)
-- [Patient insurance](http://emrpms.blogspot.com/2013/03/medical-billingpatient-insurance.html)
+- [Different formats of medical forms](http://emrpms.blogspot.com/2013/03/different-format-of-medical-forms.html) — the CMS-1500 and UB-04 claim forms
+- [Patient insurance](http://emrpms.blogspot.com/2013/03/medical-billingpatient-insurance.html) — how insurance details are stored
 
-*Building or fixing billing in your EMR or PMS? I help software teams and billing companies with claims, EDI and revenue-cycle workflows. [Get in touch](/#contact).*
+*New to US healthcare and want to learn medical billing or EDI properly? Or building billing into your own software? [Get in touch](/#contact) — I offer beginner-friendly training and consulting.*

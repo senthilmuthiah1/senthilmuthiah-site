@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 640" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
   <title id="t">Medical billing process</title>
-  <desc id="d">Six steps: eligibility check, charge entry and coding, claim submission, payer adjudication, payment posting, and denial management, which loops back to claim submission.</desc>
+  <desc id="d">Six steps: check the insurance, record what was done, send the claim, insurance company decides, record the payment, and fix problems, which loops back to claim submission.</desc>
   <defs>
     <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M0 0L10 5L0 10z" fill="#1F5FBF"/>
@@ -13,56 +13,56 @@
 
   <!-- column headings -->
   <text x="270" y="20" text-anchor="middle" font-size="13" font-weight="700" fill="#4A5B6B" letter-spacing="1">STEP</text>
-  <text x="595" y="20" text-anchor="middle" font-size="13" font-weight="700" fill="#4A5B6B" letter-spacing="1">FORM / EDI</text>
+  <text x="595" y="20" text-anchor="middle" font-size="13" font-weight="700" fill="#4A5B6B" letter-spacing="1">TECHNICAL NAME</text>
 
   <!-- steps -->
   <g>
     <rect x="70" y="35" width="400" height="70" rx="10" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
     <circle cx="100" cy="70" r="15" fill="#1F5FBF"/><text x="100" y="75" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
-    <text x="128" y="64" font-size="17" font-weight="700" fill="#12202E">Eligibility check</text>
-    <text x="128" y="86" font-size="13.5" fill="#4A5B6B">Front desk confirms coverage before the visit</text>
+    <text x="128" y="64" font-size="17" font-weight="700" fill="#12202E">Check the insurance</text>
+    <text x="128" y="86" font-size="13.5" fill="#4A5B6B">Is the patient covered? What will they pay?</text>
     <rect x="500" y="50" width="190" height="40" rx="20" fill="#FFFFFF" stroke="#DCE2E9"/>
-    <text x="595" y="75" text-anchor="middle" font-size="14" font-weight="600" fill="#12202E">270 / 271</text>
+    <text x="595" y="75" text-anchor="middle" font-size="14" font-weight="600" fill="#12202E">Eligibility (270/271)</text>
   </g>
   <g>
     <rect x="70" y="135" width="400" height="70" rx="10" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
     <circle cx="100" cy="170" r="15" fill="#1F5FBF"/><text x="100" y="175" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
-    <text x="128" y="164" font-size="17" font-weight="700" fill="#12202E">Charge entry &amp; coding</text>
-    <text x="128" y="186" font-size="13.5" fill="#4A5B6B">ICD-10 diagnosis, CPT/HCPCS services, modifiers</text>
+    <text x="128" y="164" font-size="17" font-weight="700" fill="#12202E">Record what was done</text>
+    <text x="128" y="186" font-size="13.5" fill="#4A5B6B">Turn the visit into standard codes</text>
     <rect x="500" y="150" width="190" height="40" rx="20" fill="#FFFFFF" stroke="#DCE2E9"/>
-    <text x="595" y="175" text-anchor="middle" font-size="14" font-weight="600" fill="#12202E">CMS-1500 / UB-04</text>
+    <text x="595" y="175" text-anchor="middle" font-size="14" font-weight="600" fill="#12202E">ICD-10 / CPT codes</text>
   </g>
   <g>
     <rect x="70" y="235" width="400" height="70" rx="10" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
     <circle cx="100" cy="270" r="15" fill="#1F5FBF"/><text x="100" y="275" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
-    <text x="128" y="264" font-size="17" font-weight="700" fill="#12202E">Claim submission</text>
-    <text x="128" y="286" font-size="13.5" fill="#4A5B6B">Sent through a clearinghouse to the payer</text>
+    <text x="128" y="264" font-size="17" font-weight="700" fill="#12202E">Send the claim</text>
+    <text x="128" y="286" font-size="13.5" fill="#4A5B6B">Through a clearinghouse to the insurer</text>
     <rect x="500" y="250" width="190" height="40" rx="20" fill="#FFFFFF" stroke="#DCE2E9"/>
-    <text x="595" y="275" text-anchor="middle" font-size="14" font-weight="600" fill="#12202E">837 → 999 / 277CA</text>
+    <text x="595" y="275" text-anchor="middle" font-size="14" font-weight="600" fill="#12202E">837 claim file</text>
   </g>
   <g>
     <rect x="70" y="335" width="400" height="70" rx="10" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
     <circle cx="100" cy="370" r="15" fill="#1F5FBF"/><text x="100" y="375" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
-    <text x="128" y="364" font-size="17" font-weight="700" fill="#12202E">Payer adjudication</text>
-    <text x="128" y="386" font-size="13.5" fill="#4A5B6B">Payer checks coverage, rules and pricing</text>
+    <text x="128" y="364" font-size="17" font-weight="700" fill="#12202E">Insurance company decides</text>
+    <text x="128" y="386" font-size="13.5" fill="#4A5B6B">Checks the claim and decides what to pay</text>
     <rect x="500" y="350" width="190" height="40" rx="20" fill="#FFFFFF" stroke="#DCE2E9"/>
-    <text x="595" y="375" text-anchor="middle" font-size="14" font-weight="600" fill="#12202E">276 / 277 status</text>
+    <text x="595" y="375" text-anchor="middle" font-size="14" font-weight="600" fill="#12202E">Adjudication</text>
   </g>
   <g>
     <rect x="70" y="435" width="400" height="70" rx="10" fill="#EEF3FB" stroke="#1F5FBF" stroke-width="1.5"/>
     <circle cx="100" cy="470" r="15" fill="#1F5FBF"/><text x="100" y="475" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">5</text>
-    <text x="128" y="464" font-size="17" font-weight="700" fill="#12202E">Payment posting</text>
-    <text x="128" y="486" font-size="13.5" fill="#4A5B6B">Post payer payment, bill patient balance</text>
+    <text x="128" y="464" font-size="17" font-weight="700" fill="#12202E">Record the payment</text>
+    <text x="128" y="486" font-size="13.5" fill="#4A5B6B">Then bill the patient for their share</text>
     <rect x="500" y="450" width="190" height="40" rx="20" fill="#FFFFFF" stroke="#DCE2E9"/>
-    <text x="595" y="475" text-anchor="middle" font-size="14" font-weight="600" fill="#12202E">835 / EOB</text>
+    <text x="595" y="475" text-anchor="middle" font-size="14" font-weight="600" fill="#12202E">EOB / 835</text>
   </g>
   <g>
     <rect x="70" y="535" width="400" height="70" rx="10" fill="#FBF0EC" stroke="#B4462E" stroke-width="1.5"/>
     <circle cx="100" cy="570" r="15" fill="#B4462E"/><text x="100" y="575" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">6</text>
-    <text x="128" y="564" font-size="17" font-weight="700" fill="#12202E">Denial management</text>
-    <text x="128" y="586" font-size="13.5" fill="#4A5B6B">Fix and resubmit, or appeal</text>
+    <text x="128" y="564" font-size="17" font-weight="700" fill="#12202E">Fix problems</text>
+    <text x="128" y="586" font-size="13.5" fill="#4A5B6B">If denied: correct and resend, or appeal</text>
     <rect x="500" y="550" width="190" height="40" rx="20" fill="#FFFFFF" stroke="#DCE2E9"/>
-    <text x="595" y="575" text-anchor="middle" font-size="14" font-weight="600" fill="#12202E">CARC / RARC codes</text>
+    <text x="595" y="575" text-anchor="middle" font-size="14" font-weight="600" fill="#12202E">Denial / appeal</text>
   </g>
 
   <!-- forward arrows -->
