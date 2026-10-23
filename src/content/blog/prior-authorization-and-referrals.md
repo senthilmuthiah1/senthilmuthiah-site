@@ -123,7 +123,7 @@ Sometimes a patient needs **both**: a referral to see the specialist, and a prio
 - **More visits than approved.** Therapy approved for 12 sessions; the patient has 15. The last 3 aren't paid.
 - **Number missing from the claim.** The approval existed, but nobody put the number on the claim.
 
-> **How software helps:** billing software can put a claim **on hold** until a missing detail — like an authorization number — is added, so it isn't sent and denied. [eClaimPilot](https://eclaimpilot.com/features) supports claim holds and tracks every change to a claim.
+> **How software helps:** billing software can put a claim **on hold** until a missing detail — like an authorization number — is added, so it isn't sent and denied. [eClaimPilot](https://eclaimpilot.com/features) records each authorization with its limits, tracks how much has been used, and can hold a claim until the details are right. Step-by-step guides: [patient authorizations](https://help.eclaimpilot.com/billing/patients/authorizations.html), [patient referrals](https://help.eclaimpilot.com/billing/patients/referrals.html) and [putting a claim on hold](https://help.eclaimpilot.com/billing/claims/put-claim-on-hold.html).
 
 ## The one thing to remember
 

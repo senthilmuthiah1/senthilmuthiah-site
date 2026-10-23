@@ -127,7 +127,7 @@ A code can have **more than one modifier**. The claim form has room for up to **
 - **Left and right mixed up.** The claim says left knee; the notes say right knee. Denied.
 - **Modifiers that conflict.** RT and LT on the same line, or 26 and TC together.
 
-> **How software helps:** missing or conflicting modifiers are exactly the kind of mistake software can catch before a claim is sent, through **claim scrubbing**. [eClaimPilot](https://eclaimpilot.com/features) checks claims before submission, so fewer come back denied.
+> **How software helps:** missing or conflicting modifiers are exactly the kind of mistake software can catch before a claim is sent, through **claim scrubbing**. [eClaimPilot](https://eclaimpilot.com/features) checks claims before submission, so fewer come back denied. Step-by-step guide: [claim scrubbing settings](https://help.eclaimpilot.com/billing/practice/claim-scrubbing.html).
 
 ## The one thing to remember
 

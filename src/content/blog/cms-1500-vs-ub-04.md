@@ -109,7 +109,7 @@ Today, almost all claims are sent **electronically** as 837 files, not on paper.
 
 But the paper forms still matter. They're how most people **learn** billing, because each box on the paper form matches a piece of the electronic file. Some small offices and some insurers also still use paper.
 
-> **How software helps:** billing teams rarely fill in these forms by hand today. Billing software takes the patient, insurance and charge details and creates the electronic claim automatically. For example, [eClaimPilot](https://eclaimpilot.com/features) generates 837P claims and sends them to the clearinghouse.
+> **How software helps:** billing teams rarely fill in these forms by hand today. Billing software takes the patient, insurance and charge details and creates the electronic claim automatically. For example, [eClaimPilot](https://eclaimpilot.com/features) generates 837P claims and sends them to the clearinghouse. See what goes in each box: [CMS-1500 boxes, explained](https://help.eclaimpilot.com/billing/transmission/cms1500/index.html), and how claims are sent: [EDI transmission queue](https://help.eclaimpilot.com/billing/transmission/edi-queue.html).
 
 ## Quick check
 

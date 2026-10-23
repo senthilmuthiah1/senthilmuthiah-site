@@ -102,7 +102,7 @@ The secondary insurer needs this to work out its own payment. For a tertiary ins
 - **Skipping the primary when a service isn't covered.** Even if the primary plan won't pay for something, it usually has to be billed first. The secondary insurer wants to see the primary's denial before it pays.
 - **Not asking at check-in.** A simple question — "Do you have any other insurance?" — prevents most of these problems. Medicare patients are asked a standard set of questions for this.
 
-> **How software helps:** good billing software stores each patient's insurances in the right order and keeps the full history of every claim, so the team always knows which payer has been billed and what is still owed. See how [eClaimPilot](https://eclaimpilot.com/features) handles insurance records and claims.
+> **How software helps:** good billing software stores each patient's insurances in the right order and keeps the full history of every claim, so the team always knows which payer has been billed and what is still owed. See how [eClaimPilot](https://eclaimpilot.com/features) handles insurance records and claims. Step-by-step guide: [adding a patient's insurances](https://help.eclaimpilot.com/billing/patients/manage-patient.html).
 
 ## The one thing to remember
 

@@ -131,6 +131,8 @@ Each entity has its own place on the claim form, and each needs the provider's *
 - **Missing referring provider.** A specialist bills an HMO without the referring doctor. Denied.
 - **Wrong location.** A doctor works at two clinics, and the claim shows the wrong one. Some insurers pay differently by location — or only cover one of them.
 
+> **How software helps:** in billing software, each provider, clinic and company is set up once, with its NPI — and then picked for each claim, so nobody types it by hand. See how this is done in eClaimPilot: [billing provider](https://help.eclaimpilot.com/billing/master/billing-provider.html), [rendering provider](https://help.eclaimpilot.com/billing/master/rendering-provider.html), [referring provider](https://help.eclaimpilot.com/billing/master/referring-provider.html) and [facilities](https://help.eclaimpilot.com/billing/master/facilities.html).
+
 ## The one thing to remember
 
 **Every claim tells a story: who treated whom, who sent them, where, and who should be paid.** Each part of that story must be correct and match what the insurance company has on file.

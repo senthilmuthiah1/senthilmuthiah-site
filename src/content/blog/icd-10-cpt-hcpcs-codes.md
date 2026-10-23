@@ -121,7 +121,7 @@ When a patient is **admitted to a hospital** and has surgery, the hospital's cla
 - **Too vague.** Using an "unspecified" code when the notes say exactly what's wrong. Some insurers pay less, or ask for more detail.
 - **Missing characters.** Many ICD-10 codes need all their characters — leaving one off makes the code invalid.
 
-> **How software helps:** billing software can check claims before they are sent — for example, a procedure without a matching diagnosis, or a code that's missing characters. This is called **claim scrubbing**. [eClaimPilot](https://eclaimpilot.com/features) scrubs every claim before it leaves.
+> **How software helps:** billing software can check claims before they are sent — for example, a procedure without a matching diagnosis, or a code that's missing characters. This is called **claim scrubbing**. [eClaimPilot](https://eclaimpilot.com/features) scrubs every claim before it leaves. Step-by-step guides: [setting up procedure codes](https://help.eclaimpilot.com/billing/master/procedure-codes.html) and [claim scrubbing](https://help.eclaimpilot.com/billing/practice/claim-scrubbing.html).
 
 ## The one thing to remember
 
