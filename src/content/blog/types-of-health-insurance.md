@@ -110,7 +110,7 @@ If someone is hurt in a **car accident**, the **car insurance** may pay the medi
 
 ## When a patient has more than one insurance
 
-Many patients have **two or even three** insurances — for example, Medicare plus a supplement, or their own employer plan plus their spouse's. One is billed first (**primary**), and whatever is left goes to the next (**secondary**, then **tertiary**). Deciding the order is called **coordination of benefits**, and getting it wrong leads to denials. It's a big topic, so it gets its own post later in this series.
+Many patients have **two or even three** insurances — for example, Medicare plus a supplement, or their own employer plan plus their spouse's. One is billed first (**primary**), and whatever is left goes to the next (**secondary**, then **tertiary**). Deciding the order is called **coordination of benefits**, and getting it wrong leads to denials. It's a big topic, so it gets [its own post](/blog/primary-secondary-tertiary-insurance/).
 
 ## The one thing to remember
 
@@ -135,6 +135,6 @@ Many patients have **two or even three** insurances — for example, Medicare pl
 
 - **Previous:** [CMS-1500 vs UB-04](/blog/cms-1500-vs-ub-04/) — the two claim forms
 - **Start of the series:** [US Health Insurance Basics](/blog/health-insurance-basics/)
-- Coming next: primary, secondary and tertiary insurance
+- **Next:** [Primary, Secondary and Tertiary Insurance](/blog/primary-secondary-tertiary-insurance/) — who pays first
 
 *Starting a career in US medical billing, or building insurance rules into your software? [Get in touch](/#contact) — I offer beginner-friendly training and consulting.*
