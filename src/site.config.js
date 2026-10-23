@@ -8,6 +8,7 @@ export const SITE = {
   linkedin: 'https://www.linkedin.com/in/senthil-muthiah-16693857/',
   youtube: 'https://www.youtube.com/c/SenthilMuthiah',
   oldBlog: 'https://emrpms.blogspot.com/',
+  product: 'https://eclaimpilot.com/',
   location: 'Bengaluru, India',
   years: '20', // healthcare IT since 2005
   photo: '/images/senthil.jpg', // e.g. '/images/senthil.jpg' — leave empty to show a placeholder

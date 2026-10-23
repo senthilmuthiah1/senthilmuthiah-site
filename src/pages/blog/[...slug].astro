@@ -11,6 +11,8 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+const words = (post.body ?? '').replace(/<!--[\s\S]*?-->/g, '').split(/\s+/).filter(Boolean).length;
+const minutes = Math.max(1, Math.round(words / 200));
 ---
 <BaseLayout title={`${post.data.title} — ${SITE.name}`} description={post.data.summary ?? SITE.description} image={post.data.cover}>
   <article class="wrap">
@@ -18,8 +20,15 @@ const { Content } = await render(post);
       <a href="/blog/" style="font-weight: 700; color: var(--accent);">Blog</a>
       <h1 class="display">{post.data.title}</h1>
       {post.data.summary && <p class="lede">{post.data.summary}</p>}
+      <div class="byline">
+        {SITE.photo && <img class="byline-photo" src={SITE.photo} alt="" width="36" height="36" />}
+        <span>By <a href="/#about">{SITE.name}</a></span>
+        <span aria-hidden="true">·</span>
+        <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+        <span aria-hidden="true">·</span>
+        <span>{minutes} min read</span>
+      </div>
       <div class="tag-row">
-        <time class="card-meta" datetime={post.data.date.toISOString()} style="margin-right: 8px; align-self: center;">{formatDate(post.data.date)}</time>
         {post.data.tags.map((t) => <a class="tag" href={`/tags/${tagSlug(t)}/`}>{t}</a>)}
       </div>
     </header>
@@ -31,11 +40,12 @@ const { Content } = await render(post);
       {SITE.photo && <img class="author-photo" src={SITE.photo} alt={SITE.name} width="96" height="96" loading="lazy" />}
       <div>
         <p class="author-name">{SITE.name}</p>
-        <p class="author-bio">{SITE.years}+ years building EMR, PMS and billing systems for US healthcare. I write about medical billing, X12 EDI and EMR in plain English.</p>
+        <p class="author-bio">{SITE.years}+ years building EMR, PMS and billing systems for US healthcare. Creator of eClaimPilot. I write about medical billing, X12 EDI and EMR in plain English.</p>
         <p class="author-links">
           <a href={SITE.oldBlog}>My older blog</a>
           <a href={SITE.youtube}>YouTube</a>
           <a href={SITE.linkedin}>LinkedIn</a>
+          <a href={SITE.product}>eClaimPilot</a>
         </p>
       </div>
     </aside>

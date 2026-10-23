@@ -6,7 +6,7 @@ export async function getPublishedPosts() {
 }
 
 export function formatDate(date) {
-  return date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+  return date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 }
 
 export function tagSlug(tag) {

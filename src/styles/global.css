@@ -223,3 +223,7 @@ h1, h2, h3 { margin: 0; }
 .author-links { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0; font-weight: 700; }
 .author-links a { color: var(--accent); }
 @media (max-width: 560px) { .author-box { flex-direction: column; align-items: center; text-align: center; } .author-links { justify-content: center; } }
+.byline { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; font-size: 15px; color: var(--muted); margin: 4px 0 14px; }
+.byline a { color: var(--ink); font-weight: 700; text-decoration: none; }
+.byline a:hover { color: var(--accent); }
+.byline-photo { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; }
