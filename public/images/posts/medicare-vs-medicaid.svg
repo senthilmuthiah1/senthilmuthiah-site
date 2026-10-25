@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" font-family="Manrope, 'Segoe UI', system-ui, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Medicare vs Medicaid</title>
+  <desc id="d">Medicare: federal, based on age 65 and over or disability, same rules nationwide, with Part A hospital, Part B doctors, Part C Medicare Advantage private plans and Part D medicines. Medicaid: federal plus state, based on low income, each state runs its own program, often through managed care plans, and pays last. A patient with both is dual eligible: Medicare pays first, then Medicaid.</desc>
+  <rect width="720" height="470" fill="#FFFFFF"/>
+  <text x="360" y="38" text-anchor="middle" font-size="22" font-weight="800" fill="#12202E">Medicare vs Medicaid</text>
+  <text x="360" y="62" text-anchor="middle" font-size="13.5" fill="#4A5B6B">Two government programs with similar names and very different rules</text>
+
+  <!-- Medicare -->
+  <rect x="20" y="84" width="330" height="270" rx="14" fill="#EAF1FB" stroke="#1F5FBF" stroke-width="1.5"/>
+  <text x="185" y="114" text-anchor="middle" font-size="19" font-weight="800" fill="#1F5FBF">Medicare</text>
+  <text x="185" y="136" text-anchor="middle" font-size="13" fill="#4A5B6B">"care" for the elderly</text>
+  <text x="40" y="164" font-size="13" fill="#12202E">Based on: age 65+ or disability</text>
+  <text x="40" y="184" font-size="13" fill="#12202E">Run by: the federal government</text>
+  <text x="40" y="204" font-size="13" fill="#12202E">Rules: the same in every state</text>
+  <rect x="36" y="218" width="146" height="58" rx="9" fill="#FFFFFF" stroke="#DCE2E9"/>
+  <text x="48" y="241" font-size="13.5" font-weight="700" fill="#1F5FBF">Part A</text>
+  <text x="48" y="262" font-size="12.5" fill="#12202E">Hospital stays</text>
+  <rect x="188" y="218" width="146" height="58" rx="9" fill="#FFFFFF" stroke="#DCE2E9"/>
+  <text x="200" y="241" font-size="13.5" font-weight="700" fill="#1F5FBF">Part B</text>
+  <text x="200" y="262" font-size="12.5" fill="#12202E">Doctors and tests</text>
+  <rect x="36" y="282" width="146" height="58" rx="9" fill="#FFFFFF" stroke="#DCE2E9"/>
+  <text x="48" y="305" font-size="13.5" font-weight="700" fill="#1F5FBF">Part C</text>
+  <text x="48" y="326" font-size="12.5" fill="#12202E">Medicare Advantage</text>
+  <rect x="188" y="282" width="146" height="58" rx="9" fill="#FFFFFF" stroke="#DCE2E9"/>
+  <text x="200" y="305" font-size="13.5" font-weight="700" fill="#1F5FBF">Part D</text>
+  <text x="200" y="326" font-size="12.5" fill="#12202E">Medicines</text>
+
+  <!-- Medicaid -->
+  <rect x="370" y="84" width="330" height="270" rx="14" fill="#EAF5EE" stroke="#2E7D4F" stroke-width="1.5"/>
+  <text x="535" y="114" text-anchor="middle" font-size="19" font-weight="800" fill="#2E7D4F">Medicaid</text>
+  <text x="535" y="136" text-anchor="middle" font-size="13" fill="#4A5B6B">"aid" for low income</text>
+  <text x="390" y="164" font-size="13" fill="#12202E">Based on: income</text>
+  <text x="390" y="184" font-size="13" fill="#12202E">Run by: each state (federal + state money)</text>
+  <text x="390" y="204" font-size="13" fill="#12202E">Rules: different in every state</text>
+  <rect x="386" y="218" width="298" height="58" rx="9" fill="#FFFFFF" stroke="#DCE2E9"/>
+  <text x="398" y="241" font-size="13.5" font-weight="700" fill="#2E7D4F">Covers</text>
+  <text x="398" y="262" font-size="12.5" fill="#12202E">Low-income families and nursing homes</text>
+  <rect x="386" y="282" width="298" height="58" rx="9" fill="#FFFFFF" stroke="#DCE2E9"/>
+  <text x="398" y="305" font-size="13.5" font-weight="700" fill="#2E7D4F">Often through managed care</text>
+  <text x="398" y="326" font-size="12.5" fill="#12202E">Bill the plan · always pays last</text>
+
+  <!-- Dual -->
+  <rect x="20" y="372" width="680" height="80" rx="14" fill="#F1EEFA" stroke="#5B47A8" stroke-width="1.5"/>
+  <text x="360" y="402" text-anchor="middle" font-size="16" font-weight="800" fill="#5B47A8">Has both? "Dual eligible"</text>
+  <rect x="190" y="414" width="140" height="28" rx="7" fill="#1F5FBF"/>
+  <text x="260" y="433" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">1. Medicare pays</text>
+  <path d="M338 428 L376 428" stroke="#5B47A8" stroke-width="2"/>
+  <path d="M370 422 L380 428 L370 434 Z" fill="#5B47A8"/>
+  <rect x="388" y="414" width="140" height="28" rx="7" fill="#2E7D4F"/>
+  <text x="458" y="433" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">2. Medicaid pays</text>
+</svg>

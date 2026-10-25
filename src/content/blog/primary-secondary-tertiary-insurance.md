@@ -136,7 +136,7 @@ The secondary insurer needs this to work out its own payment. For a tertiary ins
 
 ## Next in this series
 
-- **Previous:** [Types of US Health Insurance](/blog/types-of-health-insurance/)
+- **Previous:** [Medicare vs Medicaid](/blog/medicare-vs-medicaid/)
 - **Start of the series:** [US Health Insurance Basics](/blog/health-insurance-basics/)
 - **Next:** [Insurance Verification](/blog/insurance-verification/) — the checklist every front desk needs
 

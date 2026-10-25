@@ -102,6 +102,8 @@ Things a beginner should know:
 - In most states, many Medicaid patients are in **Medicaid managed care plans** run by private companies — again, two cards, and you bill the plan.
 - Medicaid is usually the **payer of last resort**: if the patient has any other insurance, that is billed first.
 
+For a full beginner's comparison of the two, read [Medicare vs Medicaid](/blog/medicare-vs-medicaid/).
+
 ### TRICARE and VA — for the military
 
 - **TRICARE** covers active-duty military members, retirees and their families.
@@ -148,6 +150,6 @@ Many patients have **two or even three** insurances — for example, Medicare pl
 
 - **Previous:** [CMS-1500 vs UB-04](/blog/cms-1500-vs-ub-04/) — the two claim forms
 - **Start of the series:** [US Health Insurance Basics](/blog/health-insurance-basics/)
-- **Next:** [Primary, Secondary and Tertiary Insurance](/blog/primary-secondary-tertiary-insurance/) — who pays first
+- **Next:** [Medicare vs Medicaid](/blog/medicare-vs-medicaid/) — Parts A, B, C and D, and patients with both
 
 *Starting a career in US medical billing, or building insurance rules into your software? [Get in touch](/#contact) — I offer beginner-friendly training and consulting.*
