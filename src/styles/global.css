@@ -235,3 +235,20 @@ h1, h2, h3 { margin: 0; }
 .faq summary::after { content: '+'; position: absolute; right: 20px; top: 50%; transform: translateY(-50%); font-size: 22px; color: var(--accent); font-weight: 400; }
 .faq details[open] summary::after { content: '−'; }
 .faq details p { margin: 0; padding: 0 20px 18px; color: var(--muted); font-size: 17px; line-height: 1.7; }
+
+/* eClaimPilot promo */
+.product {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 18px;
+  padding: 32px; display: flex; flex-wrap: wrap; gap: 24px 48px; align-items: center;
+}
+.product-text { flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+.product-text p { margin: 0; color: var(--muted); }
+.product-text .product-status { color: var(--accent); font-weight: 700; font-size: 15px; padding-top: 4px; }
+.product-actions { flex: 0 0 auto; }
+@media (max-width: 600px) { .product { padding: 24px; } }
+.post-promo {
+  max-width: 42rem; margin: 0 auto 32px; padding: 20px 24px;
+  background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 12px;
+  color: var(--muted); font-size: 16px;
+}
+.post-promo a { color: var(--accent); font-weight: 700; }

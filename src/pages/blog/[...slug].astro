@@ -1,7 +1,7 @@
 ---
 import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { SITE } from '../../site.config.js';
+import { SITE, PRODUCT } from '../../site.config.js';
 import { getPublishedPosts, formatDate, tagSlug } from '../../lib/posts.js';
 
 export async function getStaticPaths() {
@@ -71,6 +71,10 @@ const faqLd = post.data.faq.length ? {
         ))}
       </section>
     )}
+    <aside class="post-promo">
+      {PRODUCT.blogFooter} <a href={`mailto:${SITE.email}?subject=${encodeURIComponent(`${PRODUCT.name} — ${post.data.title}`)}`}>{PRODUCT.blogFooterLink}</a>
+      {PRODUCT.url && <> <a href={PRODUCT.url} target="_blank" rel="noopener">See {PRODUCT.name} →</a></>}
+    </aside>
     <aside class="author-box" aria-label="About the author">
       {SITE.photo && <img class="author-photo" src={SITE.photo} alt={SITE.name} width="96" height="96" loading="lazy" />}
       <div>

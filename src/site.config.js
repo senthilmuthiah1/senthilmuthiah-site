@@ -13,3 +13,15 @@ export const SITE = {
   years: '20', // healthcare IT since 2005
   photo: '/images/senthil.jpg', // e.g. '/images/senthil.jpg' — leave empty to show a placeholder
 };
+
+// eClaimPilot — shown on the home page ("What I'm building") and under every blog post.
+export const PRODUCT = {
+  name: 'eClaimPilot',
+  url: SITE.product, // leave empty to hide the "Learn more" button
+  summary:
+    'A revenue cycle management platform for US medical billing companies — claim submission (837), payment posting (835), real-time eligibility and denial management in one place.',
+  status: 'Now onboarding early billing companies.',
+  blogFooter:
+    "I'm building eClaimPilot, an RCM platform for medical billing companies. If the problems in this post sound familiar,",
+  blogFooterLink: "let's talk.",
+};
