@@ -68,9 +68,7 @@ The clinic (or a credentialing specialist) gathers:
 
 ### Step 2 — Fill in her CAQH profile
 
-Most commercial insurers don't want a separate paper form from every doctor. Instead, Dr. Khan fills in one online profile, **CAQH ProView**, and gives each insurer permission to read it.
-
-It's like a **passport**: you show the same document at every border, instead of proving who you are from scratch each time.
+Most commercial insurers don't want a separate paper form from every doctor. Instead, Dr. Khan fills in one online profile, **CAQH ProView**, and gives each insurer permission to read it. (See [What is CAQH ProView?](#what-is-caqh-proview) below.)
 
 ### Step 3 — Apply to each insurer
 
@@ -89,6 +87,35 @@ The insurer adds Dr. Khan to the clinic's contract, or signs a new one, and give
 ### Step 6 — The effective date
 
 The insurer tells the clinic the **effective date** — the first date of service it will pay for. This is the most important date in the whole process.
+
+## What is CAQH ProView?
+
+Imagine Dr. Khan applying to five insurers the old way. Five long forms, each asking for the same things — her license, her training, her malpractice insurance, every job she's had. Five sets of copies. And every time something changes, five updates.
+
+**CAQH ProView** solves this. It's a free website where a doctor fills in her professional details **once**, and every insurer she allows can read them.
+
+It's like a **passport**: you show the same document at every border, instead of proving who you are from scratch each time.
+
+**Who runs it?** **CAQH** — the *Council for Affordable Quality Healthcare* — a non-profit group set up by health insurers to cut paperwork. ProView is its provider profile service. The insurers pay for it, so it's **free for doctors**.
+
+**How it works, in four steps:**
+
+1. **Get a CAQH ID.** Often an insurer adds the doctor to CAQH when she applies, and she receives an email with her **CAQH ID** — a number that identifies her profile. She can also register herself.
+2. **Fill in the profile.** License, NPI, education, board certification, malpractice insurance, work history, practice locations, and uploaded copies of the documents.
+3. **Give permission.** She chooses which insurers may read her profile — specific ones, or all participating plans. An insurer can't see it until she allows it.
+4. **Attest.** She confirms the information is true and complete. Only then can the insurers use it.
+
+When the clinic applies to BlueHealth, the application just says *"Dr. Khan's CAQH ID is …"*. BlueHealth reads the profile instead of asking for a pile of paper.
+
+**The 120-day rule.** CAQH asks every provider to **re-attest** — log in and confirm everything is still correct — at least every **120 days**, even if nothing changed. Miss it, and insurers can't use the profile. Applications in progress can stall without anyone telling the clinic. Many clinics put this in a shared calendar, because the doctor usually forgets.
+
+**What CAQH is not:**
+
+- It's **not the credentialing itself.** CAQH holds the information. Each insurer still does its own checks and makes its own decision.
+- It's **not used by Medicare.** Medicare has its own enrollment system, **PECOS**. A doctor needs both — CAQH for commercial insurers, PECOS for Medicare.
+- **Medicaid varies by state.** Some states and Medicaid plans use CAQH; others have their own forms.
+
+> **Technical name:** the profile used to be called the **Universal Provider Datasource (UPD)**; CAQH ProView replaced it. The CAQH ID is sometimes called the **CAQH number**.
 
 ## Why the effective date matters so much
 
@@ -179,6 +206,7 @@ And any **change** — a new address, a new location, joining a different group 
 | **Payer enrollment** | Setting the provider up in the insurer's system so claims can be paid |
 | **Effective date** | The first date of service the insurer will pay the provider for |
 | **CAQH ProView** | An online profile insurers read for credentialing information |
+| **CAQH ID** | The number that identifies a provider's CAQH ProView profile |
 | **Attestation** | The provider confirming their CAQH profile is still correct |
 | **Re-credentialing** | The insurer checking the provider again, usually every 36 months |
 | **Revalidation** | Medicare's version of re-checking enrollment, about every 5 years |
