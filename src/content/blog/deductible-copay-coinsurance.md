@@ -17,11 +17,13 @@ faq:
     a: "They show the patient's share. PR means patient responsibility; reason code 1 is deductible, 2 is coinsurance and 3 is copay. The billing team bills that amount to the secondary insurance or to the patient."
   - q: "When does the deductible reset?"
     a: "Usually at the start of each plan year, often on 1 January. Patients typically pay more early in the year, before the deductible is met."
+  - q: "Why does the EOB show a different deductible amount than the eligibility check?"
+    a: "The deductible is shared by every provider the patient sees, and the insurer applies it in the order it processes claims. If another provider's claim was processed after you checked, less deductible was left by the time your claim arrived."
   - q: "Can a doctor waive the copay or coinsurance?"
     a: "Not routinely. Regularly waiving the patient's share can break insurance contracts and, for government plans like Medicare, may be treated as abuse. Exceptions such as genuine financial hardship should be documented."
 ---
 
-*Part of my beginner series on US medical billing. No healthcare background needed.*
+*First published on my old blog in January 2014, as a note on posting copay, coinsurance and deductible amounts. Rewritten and expanded for beginners — no healthcare background needed.*
 
 In [US Health Insurance Basics](/blog/health-insurance-basics/), we met three words: **deductible**, **copay** and **coinsurance**. They're the three ways a patient **shares the cost** of their care with their insurance company.
 
@@ -74,6 +76,43 @@ Deductibles usually **reset** at the start of the plan year — often **1 Januar
 - By **autumn**, many have met their deductible. They owe **less**.
 
 For a clinic, this means patient balances are usually **highest early in the year**. Good offices collect what they can at the visit, rather than waiting to send a bill.
+
+## The deductible is shared with every doctor the patient sees
+
+This is the part that surprises new billing staff most.
+
+Anna's $1,000 deductible isn't kept separately for Dr. Lee. It's **one meter** for the whole year, and **every provider** Anna visits — the lab, the imaging center, the hospital — adds to it.
+
+And the insurer fills the meter in the order it **processes claims**, not the order of the visits. So:
+
+1. Suppose that early one January, the front desk checks Anna's benefits. The insurer says **$1,000 deductible left**.
+2. That week, Anna has a scan at **City Imaging** on Monday and sees **Dr. Lee** on Tuesday.
+3. If City Imaging's claim is processed **first**, the scan uses up most of the deductible — and Dr. Lee's claim has much less left to apply.
+4. If Dr. Lee's claim is processed first, his claim takes more of the deductible instead — even though his visit came second.
+
+It's like a **shared phone data plan** for the family: whoever uses the data first uses up the allowance, and the balance you checked this morning may be wrong by tonight.
+
+What this means in practice:
+
+- The **remaining deductible** from a benefits check is a **snapshot**, not a promise. Treat any amount you collect against it as an **estimate**.
+- Don't argue with the EOB because "the eligibility check said the deductible was still open." Another provider's claim probably got there first.
+- If you collected **more** than the EOB says the patient owes, the extra is a **credit** — refund it or apply it to another balance. (See [Payment Posting](/blog/payment-posting/).)
+
+## Copays at the front desk: collect now, or wait?
+
+A copay is the easiest amount to collect, because it's a **fixed amount** printed on most insurance cards. A typical check-in looks like this:
+
+1. **Check the card and run a benefits check** to confirm the copay for this type of visit — a specialist copay is often higher than a family-doctor copay.
+2. **Decide** what to do:
+   - **Collect it now** — the usual case.
+   - **Wait for the EOB** — when the right amount isn't clear yet. For example, the visit includes other services that may fall under the deductible or coinsurance, or the plan has both a copay and a deductible.
+   - **Don't collect** — when the patient has a **secondary insurance** that pays the primary's copay. Bill the secondary instead.
+3. **Send the claim.** The insurer's EOB confirms the patient's share as **PR-3**.
+4. **Match it up.** If the copay was collected, apply it to the claim. If not, send the PR-3 amount to the secondary or the patient's statement.
+
+When you send the balance to a secondary insurance, **include the primary's payment details** — what it allowed, paid, and the PR amounts. The secondary needs them to work out its own share. (See [Primary, Secondary and Tertiary Insurance](/blog/primary-secondary-tertiary-insurance/).)
+
+> **Technical name:** on an electronic secondary claim (837), the primary's payment and adjustments go in the **other payer** loops — **2320** for the claim and **2430** for each service line.
 
 ## How the patient's share appears on the EOB
 
@@ -148,6 +187,8 @@ There are proper exceptions — for example, genuine **financial hardship**. The
 - **Forgetting the secondary insurance** before billing the patient.
 - **Not collecting at the visit** — especially early in the year, when deductibles are high.
 - **Using last year's benefits.** Deductibles reset; check again in January.
+- **Treating the benefits check as final.** Other providers' claims change the remaining deductible after you check.
+- **Collecting a copay the secondary insurance would have paid** — and then having to refund the patient.
 
 > **How software helps:** billing software reads the adjustment codes from each payment file, writes off the CO amounts automatically, and moves the PR amounts to the secondary insurer or to a patient statement. [eClaimPilot](https://eclaimpilot.com/features) posts ERA payments and adjustments this way. Step-by-step guides: [ERA payments](https://help.eclaimpilot.com/billing/payments/era-payments.html), [patient payments](https://help.eclaimpilot.com/billing/payments/patient-payments.html) and [patient statements](https://help.eclaimpilot.com/billing/statements/patient-statements.html).
 
@@ -169,7 +210,9 @@ There are proper exceptions — for example, genuine **financial hardship**. The
 | **Contractual obligation (CO)** | The part the provider writes off under its contract |
 | **Allowed amount** | The price the insurer agreed to pay |
 
-<!-- Senthil: optional — add a short real story, e.g. January deductible surprises, or a team that appealed PR-1 lines as if they were denials. -->
+<!-- Senthil: optional — add a short real story, e.g. January deductible surprises, a team that appealed PR-1 lines as if they were denials, or a patient refund caused by another provider's claim using up the deductible first. -->
+
+<!-- Migrated from https://emrpms.blogspot.com/2014/01/how-to-handle-co-pay-co-insurance-and.html — old Medicare figures (2014 Part B deductible) dropped rather than updated. -->
 
 ## Next in this series
 
