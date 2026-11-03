@@ -136,6 +136,6 @@ For patients, this means faster access to their own results and notes. For devel
 
 - **Previous:** [HIPAA Basics for Billing Staff](/blog/hipaa-basics-for-billing/)
 - **Start of the series:** [US Health Insurance Basics](/blog/health-insurance-basics/)
-- That's the end of the beginner series — thank you for reading. More posts on EDI, EMR and billing software are coming.
+- **Next:** [Credentialing and Payer Enrollment](/blog/credentialing-and-payer-enrollment/)
 
 *I've built EMR, PMS, LIS and billing systems — including HL7 lab interfaces and ePrescribing. Need help connecting your systems, or training for your team? [Get in touch](/#contact).*

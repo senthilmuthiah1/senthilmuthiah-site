@@ -1,7 +1,7 @@
 ---
 title: "Medical Billing for Beginners: Start Here"
 date: 2026-10-23T23:59:40
-summary: "A free, step-by-step course in US medical billing for complete beginners — 27 short lessons, in order, from health insurance basics to EDI, denials and HIPAA."
+summary: "A free, step-by-step course in US medical billing for complete beginners — 28 short lessons, in order, from health insurance basics to EDI, denials and HIPAA."
 tags: [Billing, RCM, EDI, Start Here]
 draft: false
 faq:
@@ -67,6 +67,7 @@ Start at lesson 1, and go at your own pace.
 
 26. [HIPAA Basics for Billing Staff](/blog/hipaa-basics-for-billing/) — keeping patient data safe
 27. [EHR, ePrescribing and Health Data Exchange Today](/blog/ehr-eprescribing-health-data-exchange/) — how healthcare shares information
+28. [Credentialing and Payer Enrollment](/blog/credentialing-and-payer-enrollment/) — why a new doctor can't bill insurance on day one
 
 ## Who is this for?
 

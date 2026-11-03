@@ -116,7 +116,7 @@ These usually **don't** go on the claim, but billing people hear about them:
 
 Having an NPI doesn't mean an insurance company will pay. Before billing an insurer, each provider must **enroll** with it — send their NPI, Tax ID, license and other details, and sign a contract. This is called **credentialing** or **provider enrollment**, and it can take weeks or months.
 
-**Until a doctor is enrolled, her claims can be denied** — even with every number correct. New doctors joining a clinic are a common cause of denials for exactly this reason.
+**Until a doctor is enrolled, her claims can be denied** — even with every number correct. New doctors joining a clinic are a common cause of denials for exactly this reason. (See [Credentialing and Payer Enrollment](/blog/credentialing-and-payer-enrollment/).)
 
 ## Common mistakes
 
