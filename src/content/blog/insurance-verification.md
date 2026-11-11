@@ -145,6 +145,8 @@ If the insurance is **not active**, tell the patient before the visit. They can 
 
 > **How software helps:** instead of checking patients one by one, billing software can check eligibility for a whole day's appointments in one go, the evening before. [eClaimPilot](https://eclaimpilot.com/features) includes batch eligibility checks for this. Step-by-step guide: [checking eligibility in eClaimPilot](https://help.eclaimpilot.com/billing/eligibility/index.html).
 
+> **Try it yourself:** electronic eligibility checks use the 270 (question) and 271 (answer) files. You can open a sample 271 in the [Nagata EDI Engine](https://app.nagataediservice.com/) and see the coverage details it carries, live in your browser.
+
 ## The one thing to remember
 
 **Check before the visit, every visit.** Most unpaid claims can be traced back to a question nobody asked at the front desk.

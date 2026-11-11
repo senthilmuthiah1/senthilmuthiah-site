@@ -147,6 +147,8 @@ The user rarely sees the raw files — but when something goes wrong, someone wh
 
 > **How software helps:** billing software should create every 837 correctly and read every reply automatically. [eClaimPilot](https://eclaimpilot.com/features) generates 837P claims, sends them to the clearinghouse, reads 999 and 277CA acknowledgements, and auto-posts 835 ERAs. Step-by-step guides: [EDI transmission queue](https://help.eclaimpilot.com/billing/transmission/edi-queue.html), [acknowledgements](https://help.eclaimpilot.com/billing/transmission/acknowledgements.html), [eligibility](https://help.eclaimpilot.com/billing/eligibility/index.html) and [ERA payments](https://help.eclaimpilot.com/billing/payments/era-payments.html).
 
+> **Try it yourself:** want to see what a real EDI file looks like inside? The [Nagata EDI Engine](https://app.nagataediservice.com/) reads and creates 837P, 837I, 837D, 835, 270/271, 276/277, 999 and 834 files. You can paste a sample file and see it turned into readable data, live in your browser.
+
 ## The one thing to remember
 
 **270/271 before the visit; 837 to send the claim; 999 and 277CA to confirm it arrived; 835 for the payment.** Each number is simply a standard electronic form with one job.

@@ -208,6 +208,8 @@ Other well-known clearinghouses include **Availity**, **Office Ally** and **Clai
 
 > **How software helps:** good billing software sends claims to the clearinghouse automatically, reads every reply, and puts rejected claims in a list to fix — so nothing is missed. [eClaimPilot](https://eclaimpilot.com/features) does this, including 999 and 277CA acknowledgements. Step-by-step guides: [clearinghouse setup](https://help.eclaimpilot.com/billing/clearinghouse/clearing-house-setup.html), [sending claims](https://help.eclaimpilot.com/billing/transmission/edi-queue.html), [acknowledgements](https://help.eclaimpilot.com/billing/transmission/acknowledgements.html) and [rejection follow-up](https://help.eclaimpilot.com/billing/followup/rejection-followup.html).
 
+> **Try it yourself:** to see the files a clearinghouse handles, such as the 837 claim, the 999 acknowledgement and the 277 status reply, paste a sample into the [Nagata EDI Engine](https://app.nagataediservice.com/) and see it parsed live in your browser.
+
 ## The one thing to remember
 
 **A clearinghouse is the post office for claims — it checks them, delivers them, and brings back the replies.** It doesn't decide or pay. Watch its replies every day: a rejected claim must be fixed and sent again quickly.

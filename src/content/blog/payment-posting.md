@@ -133,6 +133,8 @@ Sometimes a clinic is paid **too much**: the insurer paid twice, or both the ins
 
 > **How software helps:** billing software auto-posts ERAs line by line, sends patient balances to statements and secondary claims, and puts denials and mismatches into work lists. [eClaimPilot](https://eclaimpilot.com/features) includes ERA/835 auto-posting, manual posting, adjustments and write-offs. Step-by-step guides: [ERA payments](https://help.eclaimpilot.com/billing/payments/era-payments.html), [insurance payments](https://help.eclaimpilot.com/billing/payments/insurance-payments.html), [patient payments](https://help.eclaimpilot.com/billing/payments/patient-payments.html) and [payment imports](https://help.eclaimpilot.com/billing/import/types-payments.html).
 
+> **Try it yourself:** an 835 ERA is hard to read as raw text. Paste a sample 835 into the [Nagata EDI Engine](https://app.nagataediservice.com/) and see the payments, adjustments and reason codes laid out line by line, live in your browser.
+
 ## The one thing to remember
 
 **Match the money first, then post every line — paid, written off, patient's share.** Send each balance where it belongs, and never close a batch until it matches what reached the bank.

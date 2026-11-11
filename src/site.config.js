@@ -9,6 +9,7 @@ export const SITE = {
   youtube: 'https://www.youtube.com/c/SenthilMuthiah',
   oldBlog: 'https://emrpms.blogspot.com/',
   product: 'https://eclaimpilot.com/',
+  ediEngine: 'https://app.nagataediservice.com/', // HIPAA X12 EDI parser & generator — top nav link
   location: 'Bengaluru, India',
   years: '20', // healthcare IT since 2005
   photo: '/images/senthil.jpg', // e.g. '/images/senthil.jpg' — leave empty to show a placeholder
