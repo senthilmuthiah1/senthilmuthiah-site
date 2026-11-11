@@ -40,6 +40,7 @@ const isBlog = path.startsWith('/blog') || path.startsWith('/tags');
         <a href="/#about">About</a>
         <a href="/#services">Services</a>
         <a href="/recommendations/" aria-current={path.startsWith('/recommendations') ? 'page' : undefined}>Recommendations</a>
+        {SITE.product && <a href={SITE.product} target="_blank" rel="noopener" title="Revenue cycle management platform for medical billing companies">eClaimPilot</a>}
         {SITE.ediEngine && <a href={SITE.ediEngine} target="_blank" rel="noopener" title="HIPAA X12 EDI Parser & Generator — test live">EDI Engine</a>}
         <a href="/blog/" aria-current={isBlog ? 'page' : undefined}>Blog</a>
         <a class="nav-cta" href="/#contact">Get in touch</a>
